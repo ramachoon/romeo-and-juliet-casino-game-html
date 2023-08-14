@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Noto Sans';
+  font-weight: 700;
+  font-style: normal;
+  src: url('Noto-Sans-700/Noto-Sans-700.eot');
+  src: url('Noto-Sans-700/Noto-Sans-700.eot?#iefix') format('embedded-opentype'),
+       local('Noto Sans Bold'),
+       local('Noto-Sans-700'),
+       url('Noto-Sans-700/Noto-Sans-700.woff2') format('woff2'),
+       url('Noto-Sans-700/Noto-Sans-700.woff') format('woff'),
+       url('Noto-Sans-700/Noto-Sans-700.ttf') format('truetype'),
+       url('Noto-Sans-700/Noto-Sans-700.svg#NotoSans') format('svg');
+}
+

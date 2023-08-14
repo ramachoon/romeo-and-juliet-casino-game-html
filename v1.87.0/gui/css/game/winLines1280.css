@@ -1,0 +1,180 @@
+@CHARSET "UTF-8";
+
+/* backgrounds */
+._wlid_darkening	{ background-image: url('../../picts/game/1280/winlines/darkening.png'); }
+
+.wGloss1a	{ background-image: url('../../picts/game/1280/winlines/Winframe_gloss_01a.png') !important; }
+.wGloss1b	{ background-image: url('../../picts/game/1280/winlines/Winframe_gloss_01b.png') !important; }
+.wGloss2a	{ background-image: url('../../picts/game/1280/winlines/Winframe_gloss_02a.png') !important; }
+.wGloss2b	{ background-image: url('../../picts/game/1280/winlines/Winframe_gloss_02b.png') !important; }
+.wGloss3a	{ background-image: url('../../picts/game/1280/winlines/Winframe_gloss_03a.png') !important; }
+.wGloss3b	{ background-image: url('../../picts/game/1280/winlines/Winframe_gloss_03b.png') !important; }
+.wGloss4a	{ background-image: url('../../picts/game/1280/winlines/Winframe_gloss_04a.png') !important; }
+.wGloss4b	{ background-image: url('../../picts/game/1280/winlines/Winframe_gloss_04b.png') !important; }
+
+#winlines_container .boxSparkle1	{ background-image: url('../../picts/game/1280/winlines/sparkels/sparkels_01.png'); }
+#winlines_container .boxSparkle2	{ background-image: url('../../picts/game/1280/winlines/sparkels/sparkels_02.png'); }
+#winlines_container .boxSparkle3	{ background-image: url('../../picts/game/1280/winlines/sparkels/sparkels_03.png'); }
+#winlines_container .boxSparkle4	{ background-image: url('../../picts/game/1280/winlines/sparkels/sparkels_04.png'); }
+#winlines_container .boxSparkle5	{ background-image: url('../../picts/game/1280/winlines/sparkels/sparkels_05.png'); }
+
+#winlines_container .big .boxSparkle1	{ background-image: url('../../picts/game/1280/winlines/sparkels/sparkels_01-large.png'); }
+#winlines_container .big .boxSparkle2	{ background-image: url('../../picts/game/1280/winlines/sparkels/sparkels_02-large.png'); }
+#winlines_container .big .boxSparkle3	{ background-image: url('../../picts/game/1280/winlines/sparkels/sparkels_03-large.png'); }
+#winlines_container .big .boxSparkle4	{ background-image: url('../../picts/game/1280/winlines/sparkels/sparkels_04-large.png'); }
+#winlines_container .big .boxSparkle5	{ background-image: url('../../picts/game/1280/winlines/sparkels/sparkels_05-large.png'); }
+
+#winlines_container .bigTop .boxSparkle1, #winlines_container .bigBottom .boxSparkle1	{ background-image: url('../../picts/game/1280/winlines/sparkels/sparkels_01-middle.png'); }
+#winlines_container .bigTop .boxSparkle2, #winlines_container .bigBottom .boxSparkle2	{ background-image: url('../../picts/game/1280/winlines/sparkels/sparkels_02-middle.png'); }
+#winlines_container .bigTop .boxSparkle3, #winlines_container .bigBottom .boxSparkle3	{ background-image: url('../../picts/game/1280/winlines/sparkels/sparkels_03-middle.png'); }
+#winlines_container .bigTop .boxSparkle4, #winlines_container .bigBottom .boxSparkle4	{ background-image: url('../../picts/game/1280/winlines/sparkels/sparkels_04-middle.png'); }
+#winlines_container .bigTop .boxSparkle5, #winlines_container .bigBottom .boxSparkle5	{ background-image: url('../../picts/game/1280/winlines/sparkels/sparkels_05-middle.png'); }
+
+/* attention spin */
+._wlid_attention .wAtt1	{ background-image: url('../../picts/game/1280/winlines/attention/att_gloss_02.png'); }
+._wlid_attention .wAtt2	{ background-image: url('../../picts/game/1280/winlines/attention/att_gloss_01.png'); }
+._wlid_attention .wAtt3	{ background-image: url('../../picts/game/1280/winlines/attention/att_gloss_02.png'); }
+._wlid_attention .wAtt4	{ background-image: url('../../picts/game/1280/winlines/attention/att_gloss_01.png'); }
+
+#winlines_container ._wlid_attentions .boxSparkle1	{ background-image: url('../../picts/game/1280/winlines/attention/att_sparkel_01.png'); }
+#winlines_container ._wlid_attentions .boxSparkle2	{ background-image: url('../../picts/game/1280/winlines/attention/att_sparkel_02.png'); }
+#winlines_container ._wlid_attentions .boxSparkle3	{ background-image: url('../../picts/game/1280/winlines/attention/att_sparkel_03.png'); }
+#winlines_container ._wlid_attentions .boxSparkle4	{ background-image: url('../../picts/game/1280/winlines/attention/att_sparkel_04.png'); }
+
+/* special attention spin */
+._wlid_specialattentions .wSpAtt1 	.inner { background-image: url('../../picts/game/1280/winlines/specattention/gloss-top.png'); }
+._wlid_specialattentions .wSpAtt2	.inner { background-image: url('../../picts/game/1280/winlines/specattention/gloss-right.png'); }
+._wlid_specialattentions .wSpAtt3	.inner { background-image: url('../../picts/game/1280/winlines/specattention/gloss-bot.png'); }
+._wlid_specialattentions .wSpAtt4	.inner { background-image: url('../../picts/game/1280/winlines/specattention/gloss-left.png'); }
+._wlid_specialattentions2 .wSpAtt1 	.inner { background-image: url('../../picts/game/1280/winlines/specattention2/gloss-top.png'); }
+._wlid_specialattentions2 .wSpAtt2	.inner { background-image: url('../../picts/game/1280/winlines/specattention2/gloss-right.png'); }
+._wlid_specialattentions2 .wSpAtt3	.inner { background-image: url('../../picts/game/1280/winlines/specattention2/gloss-bot.png'); }
+._wlid_specialattentions2 .wSpAtt4	.inner { background-image: url('../../picts/game/1280/winlines/specattention2/gloss-left.png'); }
+
+#winlines_container ._wlid_specialattentions .boxSparkle1	{ background-image: url('../../picts/game/1280/winlines/specattention/sparkels-1.png'); }
+#winlines_container ._wlid_specialattentions .boxSparkle2	{ background-image: url('../../picts/game/1280/winlines/specattention/sparkels-2.png'); }
+#winlines_container ._wlid_specialattentions .boxSparkle3	{ background-image: url('../../picts/game/1280/winlines/specattention/sparkels-3.png'); }
+#winlines_container ._wlid_specialattentions .boxSparkle4	{ background-image: url('../../picts/game/1280/winlines/specattention/sparkels-4.png'); }
+#winlines_container ._wlid_specialattentions2 .boxSparkle1	{ background-image: url('../../picts/game/1280/winlines/specattention2/sparkels-1.png'); }
+#winlines_container ._wlid_specialattentions2 .boxSparkle2	{ background-image: url('../../picts/game/1280/winlines/specattention2/sparkels-2.png'); }
+#winlines_container ._wlid_specialattentions2 .boxSparkle3	{ background-image: url('../../picts/game/1280/winlines/specattention2/sparkels-3.png'); }
+#winlines_container ._wlid_specialattentions2 .boxSparkle4	{ background-image: url('../../picts/game/1280/winlines/specattention2/sparkels-4.png'); }
+
+/* fire attention spin */
+._wlid_fireattention .wFiAtt1	.inner { background-image: url('../../picts/game/1280/winlines/fire/gloss-top.png'); }
+._wlid_fireattention .wFiAtt2	.inner { background-image: url('../../picts/game/1280/winlines/fire/gloss-right.png'); }
+._wlid_fireattention .wFiAtt3	.inner { background-image: url('../../picts/game/1280/winlines/fire/gloss-bot.png'); }
+._wlid_fireattention .wFiAtt4	.inner { background-image: url('../../picts/game/1280/winlines/fire/gloss-left.png'); }
+
+#winlines_container ._wlid_fireattention .boxSparkle1	{ background-image: url('../../picts/game/1280/winlines/fire/sparkels-1.png'); }
+#winlines_container ._wlid_fireattention .boxSparkle2	{ background-image: url('../../picts/game/1280/winlines/fire/sparkels-2.png'); }
+
+/* main stuff */
+#winlines_container	{ 
+	position:absolute; 
+	top:14px; 
+	left:103px; 
+	width:1074px; 
+	height:576px; 
+	z-index:12; 
+}
+._wlid_darkening, ._wlid_winsymbols, ._wlid_frames, ._wlid_animBox, ._wlid_gloss, ._wlid_attentions, ._wlid_specialattentions, ._wlid_fireattentions
+						{ position:absolute; top:0; left:4px; width:1066px; height:576px; }
+._wlid_winline			{ position:absolute; width:1074px; height:576px; }
+
+._wlid_darkening, ._wlid_attentions, ._wlid_specialattentions, ._wlid_fireattentions		{ opacity:0; }
+._wlid_animBox { overflow:hidden; }
+
+
+
+._wl_symbol							{ position:absolute; top:192px; width:210px; height:192px; }
+._wl_symbol.big						{ height:336px; margin-top:-72px; }
+._wl_symbol.bigTop					{ height:264px; }
+._wl_symbol.bigBottom				{ height:264px; margin-top:-72px; }
+._wlid_winsymbol1, ._wlid_frame1, ._wlid_gloss1	{ left:0px; }
+._wlid_winsymbol2, ._wlid_frame2, ._wlid_gloss2	{ left:214px; }
+._wlid_winsymbol3, ._wlid_frame3, ._wlid_gloss3	{ left:428px; }
+._wlid_winsymbol4, ._wlid_frame4, ._wlid_gloss4	{ left:642px; }
+._wlid_winsymbol5, ._wlid_frame5, ._wlid_gloss5	{ left:856px; }
+
+ 
+/* winframes */
+.wGloss		{ 
+	position:absolute;
+}
+.wGloss1a	{ width:201px; height:29px; top:-10px; left:110px; }
+.wGloss1b	{ width:118px; height:29px; top:-10px; left:-59px; }
+.wGloss2a	{ height:201px; width:29px; left:-10px; top:92px; }
+.wGloss2b	{ height:118px; width:29px; left:-10px; top:-59px; }
+.wGloss3a	{ width:201px; height:29px; top:170px; left:-101px; }
+.wGloss3b	{ width:118px; height:29px; top:170px; left:151px; }
+.wGloss4a	{ height:201px; width:29px; left:190px; top:-101px; }
+.wGloss4b	{ height:118px; width:29px; left:190px; top:133px; }
+
+.big .wGloss3a, .big .wGloss3b { top:314px; }
+.bigTop .wGloss3a, .bigTop .wGloss3b, .bigBottom .wGloss3a, .bigBottom .wGloss3b { top:242px; }
+
+
+.boxGloss 	{ position:absolute; overflow: hidden; width:210px; height:192px; }
+.big .boxGloss	{ height:336px; }
+.bigTop .boxGloss, .bigBottom .boxGloss	{ height:264px; }
+._wlid_gloss .boxSparkle	{ position:absolute; width:230px; height:212px; top:-10px; left:-10px; opacity:0; }
+._wlid_gloss .big .boxSparkle { height:360px; width:234px; top:-12px; left:-12px; }
+._wlid_gloss .bigTop .boxSparkle, ._wlid_gloss .bigBottom .boxSparkle { height:290px; width:236px; top:-13px; left:-13px; }
+
+/* attention spin */
+._wlid_attention	{ position:absolute; width:226px; height:592px; margin-left:-8px; margin-top:-8px; }
+
+._wlid_attention .hide { position:absolute; left:4px; top:4px; width:218px; height:584px;  overflow:hidden; }
+._wlid_attentions .wAtt  { 
+	position:absolute;
+}
+._wlid_attentions .wAtt1 { width:576px; height: 30px; top:-9px; left:-576px; }
+._wlid_attentions .wAtt2 { width: 30px; height:576px; top:8px; left:196px; }
+._wlid_attentions .wAtt3 { width:576px; height: 30px; top:563px; left:218px; }
+._wlid_attentions .wAtt4 { width: 30px; height:576px; top:0; left:-9px; }
+._wlid_attentions .wAtt2b, ._wlid_attentions .wAtt4b { top:584px; }
+#winlines_container ._wlid_attentions .boxSparkle	{ position:absolute; width:226px; height:592px; opacity:0; }
+
+
+/* special attention spin */
+._wlid_specialattention	{ position:absolute; width:258px; height:624px; margin-left:-24px; margin-top:-24px; }
+._wlid_specialattention ._wl_specatts { position:absolute; width:258px; height:240px; } 
+#_wl_specatts1			{ top:0; }
+#_wl_specatts2			{ top:192px; }
+#_wl_specatts3			{ top:384px; }
+
+._wlid_specialattention .hide { position:absolute; width:258px; height:240px; overflow:hidden; }
+._wlid_specialattentions .wSpAtt  { 
+	position:absolute;
+	overflow:hidden;
+}
+._wlid_specialattentions .wSpAtt .inner { position:absolute; }
+._wlid_specialattentions .wSpAtt1 { left:24px; width:210px; height:48px; top:0; }
+._wlid_specialattentions .wSpAtt1 .inner { width:210px; height: 48px; left:-214px; }
+._wlid_specialattentions .wSpAtt2 { width: 48px; height:192px; top:24px; left:210px; }
+._wlid_specialattentions .wSpAtt2 .inner { width: 48px; height:210px; top:-11px; }
+._wlid_specialattentions .wSpAtt3 { left:24px; width:210px; height: 48px; top:192px; }
+._wlid_specialattentions .wSpAtt3 .inner { width:210px; height: 48px; left:203px; }
+._wlid_specialattentions .wSpAtt4 { width: 48px; height:192px; top:24px; left:0; }
+._wlid_specialattentions .wSpAtt4 .inner { width: 48px; height:210px; top:-3px; }
+#winlines_container ._wlid_specialattentions .boxSparkle	{ position:absolute; width:258px; height:240px; opacity:0; }
+
+/* fire attention spin */
+._wlid_fireattention		{ position:absolute; width:238px; height:608px; margin-left:-16px; margin-top:-14px; }
+
+._wlid_fireattention .hide { position:absolute; width:238px; height:608px; overflow:hidden; }
+._wlid_fireattentions .wFiAtt  { 
+	position:absolute;
+	overflow:hidden;
+}
+._wlid_fireattentions .wFiAtt .inner { position:absolute; }
+._wlid_fireattentions .wFiAtt1 { left:16px; width:210px; height:40px; top:0; }
+._wlid_fireattentions .wFiAtt1 .inner { width:604px; height: 40px; left:-214px; }
+._wlid_fireattentions .wFiAtt2 { width: 40px; height:576px; top:14px; left:202px; }
+._wlid_fireattentions .wFiAtt2 .inner { width: 40px; height:604px; top:-11px; }
+._wlid_fireattentions .wFiAtt3 { left:16px; width:210px; height: 40px; top:568px; }
+._wlid_fireattentions .wFiAtt3 .inner { width:604px; height: 40px; left:203px; }
+._wlid_fireattentions .wFiAtt4 { width: 40px; height:576px; top:14px; left:0; }
+._wlid_fireattentions .wFiAtt4 .inner { width: 40px; height:604px; top:-3px; }
+._wlid_fireattentions .boxSparkle	{ position:absolute; width:238px; height:608px; opacity:0; }

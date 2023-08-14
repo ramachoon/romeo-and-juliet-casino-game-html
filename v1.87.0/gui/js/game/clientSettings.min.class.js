@@ -1,0 +1,4 @@
+/**
+ * class for storing settings on client
+ * @copyright LoCoNET GmbH 2015-08-06
+ */function ClientSettings(e){function n(e,t,n){var r;if(n){var i=new Date;i.setTime(i.getTime()+n*24*60*60*1e3),r="; expires="+i.toGMTString()}else r="";document.cookie=encodeURIComponent(e)+"="+encodeURIComponent(t)+r+"; path=/"}function r(e){var t=encodeURIComponent(e)+"=",n=document.cookie.split(";");for(var r=0;r<n.length;r++){var i=n[r];while(i.charAt(0)===" ")i=i.substring(1,i.length);if(i.indexOf(t)===0)return decodeURIComponent(i.substring(t.length,i.length))}return null}function i(e,r){typeof r=="undefined"&&(r=!1),n((r?t:"")+"_"+e,"",-1)}var t="";this.get=function(e,n){return typeof n=="undefined"&&(n=!1),r((n?t:"")+"_"+e)},this.set=function(e,r,i,s){typeof i=="undefined"&&(i=!1),typeof s=="undefined"&&(s=365),n((i?t:"")+"_"+e,r,s)},function(e){typeof e=="undefined"&&(e={}),typeof e.slotmachine!="undefined"&&(t=e.slotmachine)}(e)};

@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/* common */
+* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+body { 
+	background-color:#010100; 
+	-webkit-font-smoothing: antialiased;
+}
+
+body.accel3D * {
+	-webkit-transform: translateZ(0);
+}
+
+.container * {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.container input[type="text"] {
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	-o-user-select: text;
+	user-select: text;
+}
+
+body.accel3D .gambleContainer { /* needed to correct webkit issues when using body.accel3D */ 
+	position: absolute;
+	top: 0px;
+	z-index: 15;	/* needed so that it is over the christmas edition overlay */
+}
+
+body.accel3D .linesChoiceBox,
+body.accel3D .linesChoiceBoxX { /* needed to correct webkit issues when using body.accel3D */ 
+	z-index: -1;
+}
+body.accel3D .starContainer { /* needed to correct webkit issues when using body.accel3D */ 
+	z-index: 1; 
+}
+
+div.noScatter { z-index:1 !important; }
+div.topScatter { z-index:1001 !important; }
+div.bonusSymbol0 { z-index:1010 !important; }
+div.bonusSymbol1 { z-index:1009 !important; }
+div.bonusSymbol2 { z-index:1008 !important; }
+div.bonusSymbol3 { z-index:1007 !important; }
+div.bonusSymbol4 { z-index:1006 !important; }
+div.bonusSymbol5 { z-index:1005 !important; }
+
+/* preload fonts */
+#loading div.preloadFont { 
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	color: red; /* black */
+	background-color: white; /* remove */
+	opacity: 0;
+}
+
+#loading div.preloadFont .font1 { font-family: 'Roboto Condensed', Arial, Sans-serif; }
+#loading div.preloadFont .font2 { font-family: 'Roboto Condensed', Arial, Sans-serif; font-weight: bold; }
+
+/* hype container */
+#winanimopt_hype_container { 
+	position:absolute;
+	top:0px; 
+	left:0px; 
+	overflow:hidden;
+	width:640px;
+	height:302px;
+	z-index:15;
+}
+
+
+/* fps debugging */
+.mainControlBox .fps {
+	position:absolute;
+	background-color:white;
+	font-size:16px;
+	top:0;
+	z-index:100;
+}
+

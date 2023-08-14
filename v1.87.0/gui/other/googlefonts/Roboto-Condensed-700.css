@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-weight: 700;
+  font-style: normal;
+  src: url('Roboto-Condensed-700/Roboto-Condensed-700.eot');
+  src: url('Roboto-Condensed-700/Roboto-Condensed-700.eot?#iefix') format('embedded-opentype'),
+       local('Roboto Condensed Bold'),
+       local('Roboto-Condensed-700'),
+       url('Roboto-Condensed-700/Roboto-Condensed-700.woff2') format('woff2'),
+       url('Roboto-Condensed-700/Roboto-Condensed-700.woff') format('woff'),
+       url('Roboto-Condensed-700/Roboto-Condensed-700.ttf') format('truetype'),
+       url('Roboto-Condensed-700/Roboto-Condensed-700.svg#RobotoCondensed') format('svg');
+}

@@ -1,0 +1,2472 @@
+@charset "UTF-8";
+
+/* background images for web mode */
+.webConsole .userInfoContainer.userInfo										{ background-image: url('../../picts/game/1280/console/web/infobox-standard.png'); }
+.webConsole .userInfoContainer.userInfo.freegameMode						{ background-image: url('../../picts/game/1280/console/web/infobox-red.png'); }					
+.inJackpotMode .webConsole .userInfoContainer.userInfo.freegameMode			{ background-image: url('../../picts/game/1280/console/web/infobox-red-inactive.png'); }	
+.webConsole.freeRoundMode .userInfoContainer .value_actWin					{ background-image: url('../../picts/game/1280/console/web/infobox-actwin-standard.png'); }
+.webConsole .userInfoContainer.freegameMode .value_actWin					{ background-image: url('../../picts/game/1280/console/web/infobox-actwin-red.png'); }
+.inJackpotMode .webConsole .userInfoContainer.freegameMode .value_actWin	{ background-image: url('../../picts/game/1280/console/web/infobox-actwin-red-inactive.png'); }
+
+/* background images for mobile mode */
+.landscapeConsole .userInfoContainer.moneyInfo								{ background-image: url('../../picts/game/1280/console/mobile/infobox-medium.png'); }	
+.landscapeConsole .userInfoContainer.userInfo								{ background-image: url('../../picts/game/1280/console/mobile/infobox-big.png'); }
+.landscapeConsole .userInfoContainer.userInfo.freegameMode					{ background-image: url('../../picts/game/1280/console/mobile/infobox-big-red.png'); }
+.inJackpotMode .landscapeConsole .userInfoContainer.userInfo.freegameMode	{ background-image: url('../../picts/game/1280/console/mobile/infobox-big-red-inactive.png'); }
+
+/* background images for portrait mode */
+.portraitConsole .userInfoContainer.moneyInfo,	
+.portraitConsole .userInfoContainer.userInfo								{ background-image: url('../../picts/game/1280/console/portrait/infobox-big.png'); }
+.portraitConsole .userInfoContainer.userInfo.freegameMode					{ background-image: url('../../picts/game/1280/console/portrait/infobox-big-red.png'); }
+.inJackpotMode .portraitConsole .userInfoContainer.userInfo.freegameMode	{ background-image: url('../../picts/game/1280/console/portrait/infobox-big-red-inactive.png'); }	
+
+
+/* background images for buttons for web mode */
+.webConsole .controlButtonFeatureCountdown										{ background-image: url('../../picts/game/1280/console/web/button-fgcountdown.png'); }
+.inJackpotMode .webConsole .controlButtonFeatureCountdown						{ background-image: url('../../picts/game/1280/console/web/button-firepotcountdown.png'); }
+.inJackpotMode.goldennights .webConsole .controlButtonFeatureCountdown			{ background-image: url('../../picts/game/1280/console/web/button-goldennightscountdown.png'); }
+
+.webConsole .controlButton_black												{ background-image: url('../../picts/game/1280/console/web/button-cardblack.png'); }
+.webConsole .controlButton_black:hover											{ background-image: url('../../picts/game/1280/console/web/button-cardblack-mo.png'); }
+.webConsole .controlButton_black:active											{ background-image: url('../../picts/game/1280/console/web/button-cardblack-press.png'); }
+.webConsole .controlButton_black.inactive										{ background-image: url('../../picts/game/1280/console/web/button-cardblack-inactive.png'); }
+.webConsole .controlButton_black.isPulsing.pulse								{ background-image: url('../../picts/game/1280/console/web/button-cardblack-pulse.png'); }
+.webConsole .controlButton_black.isPulsing.pulse:hover							{ background-image: url('../../picts/game/1280/console/web/button-cardblack-mo.png'); }
+.webConsole .controlButton_black.isPulsing.pulse:active							{ background-image: url('../../picts/game/1280/console/web/button-cardblack-press.png'); }
+
+.webConsole .controlButton_red													{ background-image: url('../../picts/game/1280/console/web/button-cardred.png'); }
+.webConsole .controlButton_red:hover											{ background-image: url('../../picts/game/1280/console/web/button-cardred-mo.png'); }
+.webConsole .controlButton_red:active											{ background-image: url('../../picts/game/1280/console/web/button-cardred-press.png'); }
+.webConsole .controlButton_red.inactive											{ background-image: url('../../picts/game/1280/console/web/button-cardred-inactive.png'); }
+.webConsole .controlButton_red.isPulsing.pulse									{ background-image: url('../../picts/game/1280/console/web/button-cardred-pulse.png'); }
+.webConsole .controlButton_red.isPulsing.pulse:hover							{ background-image: url('../../picts/game/1280/console/web/button-cardred-mo.png'); }
+.webConsole .controlButton_red.isPulsing.pulse:active							{ background-image: url('../../picts/game/1280/console/web/button-cardred-press.png'); }
+
+.webConsole .controlButton_ladderstep											{ background-image: url('../../picts/game/1280/console/web/button-ladderbig.png'); }
+.webConsole .controlButton_ladderstep:hover										{ background-image: url('../../picts/game/1280/console/web/button-ladderbig-mo.png'); }
+.webConsole .controlButton_ladderstep:active									{ background-image: url('../../picts/game/1280/console/web/button-ladderbig-press.png'); }
+.webConsole .controlButton_ladderstep.inactive									{ background-image: url('../../picts/game/1280/console/web/button-ladderbig-inactive.png'); }
+.webConsole .controlButton_ladderstep.isPulsing.pulse							{ background-image: url('../../picts/game/1280/console/web/button-ladderbig-pulse.png'); }
+.webConsole .controlButton_ladderstep.isPulsing.pulse:hover						{ background-image: url('../../picts/game/1280/console/web/button-ladderbig-mo.png'); }
+.webConsole .controlButton_ladderstep.isPulsing.pulse:active					{ background-image: url('../../picts/game/1280/console/web/button-ladderbig-press.png'); }
+
+.webConsole .controlButton_paytable 											{ background-image: url('../../picts/game/1280/console/web/button-paytable.png'); }
+.webConsole .controlButton_paytable:hover										{ background-image: url('../../picts/game/1280/console/web/button-paytable-mo.png'); }
+.webConsole .controlButton_paytable:active										{ background-image: url('../../picts/game/1280/console/web/button-paytable-press.png'); }
+.webConsole .controlButton_paytable.inactive									{ background-image: url('../../picts/game/1280/console/web/button-paytable-inactive.png'); }
+
+.webConsole .controlButton_gamblecard											{ background-image: url('../../picts/game/1280/console/web/button-card.png'); }
+.webConsole .controlButton_gamblecard:hover										{ background-image: url('../../picts/game/1280/console/web/button-card-mo.png'); }
+.webConsole .controlButton_gamblecard:active									{ background-image: url('../../picts/game/1280/console/web/button-card-press.png'); }
+.webConsole .controlButton_gamblecard.inactive									{ background-image: url('../../picts/game/1280/console/web/button-card-inactive.png'); }
+.webConsole .controlButton_gamblecard.isPulsing.pulse							{ background-image: url('../../picts/game/1280/console/web/button-card-pulse.png'); }
+.webConsole .controlButton_gamblecard.isPulsing.pulse:hover						{ background-image: url('../../picts/game/1280/console/web/button-card-mo.png'); }
+.webConsole .controlButton_gamblecard.isPulsing.pulse:active					{ background-image: url('../../picts/game/1280/console/web/button-card-press.png'); }
+.webConsole .controlButton_gamblecard.small										{ background-image: url('../../picts/game/1280/console/web/button-cardsmall.png'); }
+.webConsole .controlButton_gamblecard.small:hover								{ background-image: url('../../picts/game/1280/console/web/button-cardsmall-mo.png'); }
+.webConsole .controlButton_gamblecard.small:active								{ background-image: url('../../picts/game/1280/console/web/button-cardsmall-press.png'); }
+.webConsole .controlButton_gamblecard.small.inactive							{ background-image: url('../../picts/game/1280/console/web/button-cardsmall-inactive.png'); }
+.webConsole .controlButton_gamblecard.small.isPulsing.pulse						{ background-image: url('../../picts/game/1280/console/web/button-cardsmall-pulse.png'); }
+.webConsole .controlButton_gamblecard.small.isPulsing.pulse:hover				{ background-image: url('../../picts/game/1280/console/web/button-cardsmall-mo.png'); }
+.webConsole .controlButton_gamblecard.small.isPulsing.pulse:active				{ background-image: url('../../picts/game/1280/console/web/button-cardsmall-press.png'); }
+
+.webConsole .controlButton_gambleladder											{ background-image: url('../../picts/game/1280/console/web/button-ladder.png'); }
+.webConsole .controlButton_gambleladder:hover									{ background-image: url('../../picts/game/1280/console/web/button-ladder-mo.png'); }
+.webConsole .controlButton_gambleladder:active									{ background-image: url('../../picts/game/1280/console/web/button-ladder-press.png'); }
+.webConsole .controlButton_gambleladder.inactive								{ background-image: url('../../picts/game/1280/console/web/button-ladder-inactive.png'); }
+.webConsole .controlButton_gambleladder.isPulsing.pulse							{ background-image: url('../../picts/game/1280/console/web/button-ladder-pulse.png'); }
+.webConsole .controlButton_gambleladder.isPulsing.pulse:hover					{ background-image: url('../../picts/game/1280/console/web/button-ladder-mo.png'); }
+.webConsole .controlButton_gambleladder.isPulsing.pulse:active					{ background-image: url('../../picts/game/1280/console/web/button-ladder-press.png'); }
+.webConsole .controlButton_gambleladder.small									{ background-image: url('../../picts/game/1280/console/web/button-laddersmall.png'); }
+.webConsole .controlButton_gambleladder.small:hover								{ background-image: url('../../picts/game/1280/console/web/button-laddersmall-mo.png'); }
+.webConsole .controlButton_gambleladder.small:active							{ background-image: url('../../picts/game/1280/console/web/button-laddersmall-press.png'); }
+.webConsole .controlButton_gambleladder.small.inactive							{ background-image: url('../../picts/game/1280/console/web/button-laddersmall-inactive.png'); }
+.webConsole .controlButton_gambleladder.small.isPulsing.pulse					{ background-image: url('../../picts/game/1280/console/web/button-laddersmall-pulse.png'); }
+.webConsole .controlButton_gambleladder.small.isPulsing.pulse:hover				{ background-image: url('../../picts/game/1280/console/web/button-laddersmall-mo.png'); }
+.webConsole .controlButton_gambleladder.small.isPulsing.pulse:active			{ background-image: url('../../picts/game/1280/console/web/button-laddersmall-press.png'); }
+
+.webConsole .controlButtonGreen 												{ background-image: url('../../picts/game/1280/console/web/button-green.png'); }
+.webConsole .controlButtonGreen:hover											{ background-image: url('../../picts/game/1280/console/web/button-green-mo.png'); }
+.webConsole .controlButtonGreen:active											{ background-image: url('../../picts/game/1280/console/web/button-green-press.png'); }
+.webConsole .controlButtonGreen.inactive										{ background-image: url('../../picts/game/1280/console/web/button-green-inactive.png'); }
+.webConsole .controlButtonGreen.isPulsing.pulse									{ background-image: url('../../picts/game/1280/console/web/button-green-pulse.png'); }
+.webConsole .controlButtonGreen.isPulsing.pulse:hover							{ background-image: url('../../picts/game/1280/console/web/button-green-mo.png'); }
+.webConsole .controlButtonGreen.isPulsing.pulse:active							{ background-image: url('../../picts/game/1280/console/web/button-green-press.png'); }
+
+.webConsole .spinButton 														{ background-image: url('../../picts/game/1280/console/web/button-spin2.png'); }
+.webConsole .spinButton:hover													{ background-image: url('../../picts/game/1280/console/web/button-spin2-mo.png'); }
+.webConsole .spinButton:active													{ background-image: url('../../picts/game/1280/console/web/button-spin2-press.png'); }
+.webConsole .spinButton.inactive												{ background-image: url('../../picts/game/1280/console/web/button-spin2-inactive.png'); }
+.webConsole .spinButton.isPulsing.pulse											{ background-image: url('../../picts/game/1280/console/web/button-spin2-pulse.png'); }
+.webConsole .spinButton.isPulsing.pulse:hover									{ background-image: url('../../picts/game/1280/console/web/button-spin2-mo.png'); }
+.webConsole .spinButton.isPulsing.pulse:active									{ background-image: url('../../picts/game/1280/console/web/button-spin2-press.png'); }
+.webConsole .spinButton.huge 													{ background-image: url('../../picts/game/1280/console/web/button-spinbig.png'); }
+.webConsole .spinButton.huge:hover												{ background-image: url('../../picts/game/1280/console/web/button-spinbig-mo.png'); }
+.webConsole .spinButton.huge:active												{ background-image: url('../../picts/game/1280/console/web/button-spinbig-press.png'); }
+.webConsole .spinButton.huge.inactive											{ background-image: url('../../picts/game/1280/console/web/button-spinbig-inactive.png'); }
+.webConsole .spinButton.huge.isPulsing.pulse									{ background-image: url('../../picts/game/1280/console/web/button-spinbig-pulse.png'); }
+.webConsole .spinButton.huge.isPulsing.pulse:hover								{ background-image: url('../../picts/game/1280/console/web/button-spinbig-mo.png'); }
+.webConsole .spinButton.huge.isPulsing.pulse:active								{ background-image: url('../../picts/game/1280/console/web/button-spinbig-press.png'); }
+
+.webConsole .controlButton_stopspin.uniqueLayout								{ background-image: url('../../picts/game/1280/console/web/button-stopspin.png'); }
+.webConsole .controlButton_stopspin.uniqueLayout:hover							{ background-image: url('../../picts/game/1280/console/web/button-stopspin-mo.png'); }
+.webConsole .controlButton_stopspin.uniqueLayout:active							{ background-image: url('../../picts/game/1280/console/web/button-stopspin-press.png'); }
+.webConsole .controlButton_stopspin.uniqueLayout.inactive						{ background-image: url('../../picts/game/1280/console/web/button-stopspin-inactive.png'); }
+.webConsole .controlButton_stopspin.uniqueLayout.isPulsing.pulse				{ background-image: url('../../picts/game/1280/console/web/button-stopspin-pulse.png'); }
+.webConsole .controlButton_stopspin.uniqueLayout.isPulsing.pulse:hover			{ background-image: url('../../picts/game/1280/console/web/button-stopspin-mo.png'); }
+.webConsole .controlButton_stopspin.uniqueLayout.isPulsing.pulse:active			{ background-image: url('../../picts/game/1280/console/web/button-stopspin-press.png'); }
+.webConsole .controlButton_stopspin.uniqueLayout.huge 							{ background-image: url('../../picts/game/1280/console/web/button-stopspinbig.png'); }
+.webConsole .controlButton_stopspin.uniqueLayout.huge:hover						{ background-image: url('../../picts/game/1280/console/web/button-stopspinbig-mo.png'); }
+.webConsole .controlButton_stopspin.uniqueLayout.huge:active					{ background-image: url('../../picts/game/1280/console/web/button-stopspinbig-press.png'); }
+.webConsole .controlButton_stopspin.uniqueLayout.huge.inactive					{ background-image: url('../../picts/game/1280/console/web/button-stopspinbig-inactive.png'); }
+.webConsole .controlButton_stopspin.uniqueLayout.huge.isPulsing.pulse			{ background-image: url('../../picts/game/1280/console/web/button-stopspinbig-pulse.png'); }
+.webConsole .controlButton_stopspin.uniqueLayout.huge.isPulsing.pulse:hover		{ background-image: url('../../picts/game/1280/console/web/button-stopspinbig-mo.png'); }
+.webConsole .controlButton_stopspin.uniqueLayout.huge.isPulsing.pulse:active	{ background-image: url('../../picts/game/1280/console/web/button-stopspinbig-press.png'); }
+
+.webConsole .controlButton_nogamble-wait 										{ background-image: url('../../picts/game/1280/console/web/button-takewin.png'); }
+.webConsole .controlButton_nogamble-wait:hover									{ background-image: url('../../picts/game/1280/console/web/button-takewin-mo.png'); }
+.webConsole .controlButton_nogamble-wait:active									{ background-image: url('../../picts/game/1280/console/web/button-takewin-press.png'); }
+.webConsole .controlButton_nogamble-wait.inactive								{ background-image: url('../../picts/game/1280/console/web/button-takewin-inactive.png'); }
+.webConsole .controlButton_nogamble-wait.isPulsing.pulse						{ background-image: url('../../picts/game/1280/console/web/button-takewin-pulse.png'); }
+.webConsole .controlButton_nogamble-wait.isPulsing.pulse:hover					{ background-image: url('../../picts/game/1280/console/web/button-takewin-mo.png'); }
+.webConsole .controlButton_nogamble-wait.isPulsing.pulse:active					{ background-image: url('../../picts/game/1280/console/web/button-takewin-press.png'); }
+.webConsole .controlButton_nogamble-wait.tiny  									{ background-image: url('../../picts/game/1280/console/web/button-takewinsmall.png'); }
+.webConsole .controlButton_nogamble-wait.tiny:hover								{ background-image: url('../../picts/game/1280/console/web/button-takewinsmall-mo.png'); }
+.webConsole .controlButton_nogamble-wait.tiny:active							{ background-image: url('../../picts/game/1280/console/web/button-takewinsmall-press.png'); }
+.webConsole .controlButton_nogamble-wait.tiny.inactive							{ background-image: url('../../picts/game/1280/console/web/button-takewinsmall-inactive.png'); }
+.webConsole .controlButton_nogamble-wait.tiny.isPulsing.pulse					{ background-image: url('../../picts/game/1280/console/web/button-takewinsmall-pulse.png'); }
+.webConsole .controlButton_nogamble-wait.tiny.isPulsing.pulse:hover				{ background-image: url('../../picts/game/1280/console/web/button-takewinsmall-mo.png'); }
+.webConsole .controlButton_nogamble-wait.tiny.isPulsing.pulse:active			{ background-image: url('../../picts/game/1280/console/web/button-takewinsmall-press.png'); }
+
+.webConsole .controlButton_takewin 												{ background-image: url('../../picts/game/1280/console/web/button-takewinbig.png'); }
+.webConsole .controlButton_takewin:hover										{ background-image: url('../../picts/game/1280/console/web/button-takewinbig-mo.png'); }
+.webConsole .controlButton_takewin:active										{ background-image: url('../../picts/game/1280/console/web/button-takewinbig-press.png'); }
+.webConsole .controlButton_takewin.inactive										{ background-image: url('../../picts/game/1280/console/web/button-takewinbig-inactive.png'); }
+.webConsole .controlButton_takewin.isPulsing.pulse								{ background-image: url('../../picts/game/1280/console/web/button-takewinbig-pulse.png'); }
+.webConsole .controlButton_takewin.isPulsing.pulse:hover						{ background-image: url('../../picts/game/1280/console/web/button-takewinbig-mo.png'); }
+.webConsole .controlButton_takewin.isPulsing.pulse:active						{ background-image: url('../../picts/game/1280/console/web/button-takewinbig-press.png'); }
+
+.webConsole .controlButton_splitwin 											{ background-image: url('../../picts/game/1280/console/web/button-splitwinsmall.png'); }
+.webConsole .controlButton_splitwin:hover										{ background-image: url('../../picts/game/1280/console/web/button-splitwinsmall-mo.png'); }
+.webConsole .controlButton_splitwin:active										{ background-image: url('../../picts/game/1280/console/web/button-splitwinsmall-press.png'); }
+.webConsole .controlButton_splitwin.inactive									{ background-image: url('../../picts/game/1280/console/web/button-splitwinsmall-inactive.png'); }
+.webConsole .controlButton_splitwin.isPulsing.pulse								{ background-image: url('../../picts/game/1280/console/web/button-splitwinsmall-pulse.png'); }
+.webConsole .controlButton_splitwin.isPulsing.pulse:hover						{ background-image: url('../../picts/game/1280/console/web/button-splitwinsmall-mo.png'); }
+.webConsole .controlButton_splitwin.isPulsing.pulse:active						{ background-image: url('../../picts/game/1280/console/web/button-splitwinsmall-press.png'); }
+
+.webConsole .controlButtonOrange												{ background-image: url('../../picts/game/1280/console/web/button-orange.png'); }
+.webConsole .controlButtonOrange.inactive										{ background-image: url('../../picts/game/1280/console/web/button-orange-inactive.png'); }
+.webConsole .controlButtonOrange .clickArea.plus								{ background-image: url('../../picts/game/1280/console/web/button-orange-plus.png'); }
+.webConsole .controlButtonOrange .clickArea.plus:hover,
+.webConsole .controlButtonOrange .clickArea.plus:active							{ background-image: url('../../picts/game/1280/console/web/button-orange-plus-mo.png'); }
+.webConsole .controlButtonOrange.inactive .clickArea.plus						{ background-image: url('../../picts/game/1280/console/web/button-orange-plus-inactive.png'); }
+.webConsole .controlButtonOrange .clickArea.minus								{ background-image: url('../../picts/game/1280/console/web/button-orange-minus.png'); }
+.webConsole .controlButtonOrange .clickArea.minus:hover,
+.webConsole .controlButtonOrange .clickArea.minus:active						{ background-image: url('../../picts/game/1280/console/web/button-orange-minus-mo.png'); }
+.webConsole .controlButtonOrange.inactive .clickArea.minus						{ background-image: url('../../picts/game/1280/console/web/button-orange-minus-inactive.png'); }
+
+.webConsole .controlButtonViolet												{ background-image: url('../../picts/game/1280/console/web/button-violet.png'); }
+.webConsole .controlButtonViolet:hover											{ background-image: url('../../picts/game/1280/console/web/button-violet-mo.png'); }
+.webConsole .controlButtonViolet:active											{ background-image: url('../../picts/game/1280/console/web/button-violet-press.png'); }
+.webConsole .controlButtonViolet.inactive										{ background-image: url('../../picts/game/1280/console/web/button-violet-inactive.png'); }
+.webConsole .controlButtonViolet.isPulsing.pulse								{ background-image: url('../../picts/game/1280/console/web/button-violet-pulse.png'); }
+.webConsole .controlButtonViolet.isPulsing.pulse:hover							{ background-image: url('../../picts/game/1280/console/web/button-violet-mo.png'); }
+.webConsole .controlButtonViolet.isPulsing.pulse:active							{ background-image: url('../../picts/game/1280/console/web/button-violet-press.png'); }
+
+.webConsole .controlButton_home													{ background-image: url('../../picts/game/1280/console/web/buttons-home.png'); }
+.webConsole .controlButton_home:hover,											
+.webConsole .controlButton_home:active											{ background-position:bottom; }
+
+/* .webConsole .controlButton_rules												{ background-image: url('../../picts/game/1280/console/web/buttons-rules.png'); } */
+/* .webConsole .controlButton_rules:active 										{ background-position:bottom; } */
+.webConsole .controlButton_rules 												{ background-image: url('../../picts/game/1280/console/web/button-rules.png'); }
+.webConsole .controlButton_rules:active 										{ background-image: url('../../picts/game/1280/console/web/button-rules-press.png'); }
+.webConsole .controlButton_history 												{ background-image: url('../../picts/game/1280/console/web/button-history.png'); }
+.webConsole .controlButton_history:active 										{ background-image: url('../../picts/game/1280/console/web/button-history-press.png'); }
+
+.webConsole .controlButton_sound.soundOn										{ background-image: url('../../picts/game/1280/console/web/buttons-soundon.png'); }
+.webConsole .controlButton_sound.soundOn:hover,
+.webConsole .controlButton_sound.soundOn:active									{ background-position:bottom; }
+.webConsole .controlButton_sound.soundOff										{ background-image: url('../../picts/game/1280/console/web/buttons-soundoff.png'); }
+.webConsole .controlButton_sound.soundOff:hover,
+.webConsole .controlButton_sound.soundOff:active								{ background-position:bottom; }
+
+.webConsole .controlButton_settings												{ background-image: url('../../picts/game/1280/console/web/buttons-settings.png'); }
+.webConsole .controlButton_settings:hover,
+.webConsole .controlButton_settings:active										{ background-position:bottom; }
+.webConsole .controlButton_settings.inactive									{ background-position:top; }
+
+.webConsole .controlButton_fullscreen											{ background-image: url('../../picts/game/1280/console/web/buttons-fullscreen.png'); }
+.webConsole .controlButton_fullscreen:hover,
+.webConsole .controlButton_fullscreen:active									{ background-position:bottom; }
+
+.webConsole .controlButton_maxiplay												{ background-image: url('../../picts/game/1280/console/web/button-maxiplay-inactive.png'); }
+.webConsole .controlButton_maxiplay.active										{ background-image: url('../../picts/game/1280/console/web/button-maxiplay-active.png'); }
+.webConsole .controlButton_maxiplay.deactivating								{ background-image: url('../../picts/game/1280/console/web/button-maxiplay-deactivating.png'); }
+
+.webConsole .controlButton_jackpot.firepot										{ background-image: url('../../picts/game/1280/console/web/button-firepot-0.png'); }
+.webConsole .controlButton_jackpot.firepot:hover								{ background-image: url('../../picts/game/1280/console/web/button-firepot-0-mo.png'); }
+.webConsole .controlButton_jackpot.firepot:active								{ background-image: url('../../picts/game/1280/console/web/button-firepot-0-press.png'); }
+.webConsole .controlButton_jackpot.firepot.inactive								{ background-image: url('../../picts/game/1280/console/web/button-firepot-0-inactive.png'); }
+.webConsole .controlButton_jackpot.firepot.level-1								{ background-image: url('../../picts/game/1280/console/web/button-firepot-1.png'); }
+.webConsole .controlButton_jackpot.firepot.level-1:hover						{ background-image: url('../../picts/game/1280/console/web/button-firepot-1-mo.png'); }
+.webConsole .controlButton_jackpot.firepot.level-1:active						{ background-image: url('../../picts/game/1280/console/web/button-firepot-1-press.png'); }
+.webConsole .controlButton_jackpot.firepot.level-1.inactive						{ background-image: url('../../picts/game/1280/console/web/button-firepot-1-inactive.png'); }
+.webConsole .controlButton_jackpot.firepot.level-2								{ background-image: url('../../picts/game/1280/console/web/button-firepot-2.png'); }
+.webConsole .controlButton_jackpot.firepot.level-2:hover						{ background-image: url('../../picts/game/1280/console/web/button-firepot-2-mo.png'); }
+.webConsole .controlButton_jackpot.firepot.level-2:active						{ background-image: url('../../picts/game/1280/console/web/button-firepot-2-press.png'); }
+.webConsole .controlButton_jackpot.firepot.level-2.inactive						{ background-image: url('../../picts/game/1280/console/web/button-firepot-2-inactive.png'); }
+.webConsole .controlButton_jackpot.firepot.level-3								{ background-image: url('../../picts/game/1280/console/web/button-firepot-3.png'); }
+.webConsole .controlButton_jackpot.firepot.level-3:hover						{ background-image: url('../../picts/game/1280/console/web/button-firepot-3-mo.png'); }
+.webConsole .controlButton_jackpot.firepot.level-3:active						{ background-image: url('../../picts/game/1280/console/web/button-firepot-3-press.png'); }
+.webConsole .controlButton_jackpot.firepot.level-3.inactive						{ background-image: url('../../picts/game/1280/console/web/button-firepot-3-inactive.png'); }
+.webConsole .controlButton_jackpot.firepot.deactivating							{ background-image: url('../../picts/game/1280/console/web/button-firepot-deactivating.png'); }
+
+.webConsole .controlButton_jackpot.goldennights:hover .buttonImage				{ background-image: url('../../picts/game/1280/console/web/button-goldennights-0-mo.png'); }
+.webConsole .controlButton_jackpot.goldennights:active .buttonImage				{ background-image: url('../../picts/game/1280/console/web/button-goldennights-0-press.png'); }
+.webConsole .controlButton_jackpot.goldennights.inactive .buttonImage			{ background-image: url('../../picts/game/1280/console/web/button-goldennights-0-inactive.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-1 .buttonImage			{ background-image: url('../../picts/game/1280/console/web/button-goldennights-1.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-1:hover .buttonImage		{ background-image: url('../../picts/game/1280/console/web/button-goldennights-1-mo.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-1:active .buttonImage		{ background-image: url('../../picts/game/1280/console/web/button-goldennights-1-press.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-1.inactive .buttonImage	{ background-image: url('../../picts/game/1280/console/web/button-goldennights-1-inactive.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-2 .buttonImage			{ background-image: url('../../picts/game/1280/console/web/button-goldennights-2.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-2:hover .buttonImage		{ background-image: url('../../picts/game/1280/console/web/button-goldennights-2-mo.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-2:active .buttonImage		{ background-image: url('../../picts/game/1280/console/web/button-goldennights-2-press.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-2.inactive .buttonImage	{ background-image: url('../../picts/game/1280/console/web/button-goldennights-2-inactive.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-3 .buttonImage			{ background-image: url('../../picts/game/1280/console/web/button-goldennights-3.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-3:hover .buttonImage		{ background-image: url('../../picts/game/1280/console/web/button-goldennights-3-mo.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-3:active .buttonImage		{ background-image: url('../../picts/game/1280/console/web/button-goldennights-3-press.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-3.inactive .buttonImage	{ background-image: url('../../picts/game/1280/console/web/button-goldennights-3-inactive.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-4 .buttonImage			{ background-image: url('../../picts/game/1280/console/web/button-goldennights-4.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-4:hover .buttonImage		{ background-image: url('../../picts/game/1280/console/web/button-goldennights-4-mo.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-4:active .buttonImage		{ background-image: url('../../picts/game/1280/console/web/button-goldennights-4-press.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-4.inactive .buttonImage	{ background-image: url('../../picts/game/1280/console/web/button-goldennights-4-inactive.png'); }
+.webConsole .controlButton_jackpot.goldennights.deactivating .buttonImage		{ background-image: url('../../picts/game/1280/console/web/button-goldennights-deactivating.png'); }
+
+.webConsole .controlButton_jackpot.goldennights .buttonAnim						{ background-image: url('../../picts/game/1280/console/web/button-goldennights-anim-1-0.png'); }
+.webConsole .controlButton_jackpot.goldennights .buttonAnim .animFrame-1		{ background-image: url('../../picts/game/1280/console/web/button-goldennights-anim-1-1.png'); }
+.webConsole .controlButton_jackpot.goldennights .buttonAnim .animFrame-2		{ background-image: url('../../picts/game/1280/console/web/button-goldennights-anim-1-2.png'); }
+.webConsole .controlButton_jackpot.goldennights .buttonAnim .animFrame-3		{ background-image: url('../../picts/game/1280/console/web/button-goldennights-anim-1-3.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-0 .buttonAnim				{ background-image: url('../../picts/game/1280/console/web/button-goldennights-anim-0-0.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-0 .buttonAnim .animFrame-1	{ background-image: url('../../picts/game/1280/console/web/button-goldennights-anim-0-1.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-0 .buttonAnim .animFrame-2	{ background-image: url('../../picts/game/1280/console/web/button-goldennights-anim-0-2.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-0 .buttonAnim .animFrame-3	{ background-image: url('../../picts/game/1280/console/web/button-goldennights-anim-0-3.png'); }
+.webConsole .controlButton_jackpot.goldennights.level-0 .buttonAnim .animFrame-4	{ background-image: url('../../picts/game/1280/console/web/button-goldennights-anim-0-4.png'); }
+
+.webConsole .autospinPopup .basic 												{ background-image: url('../../picts/game/1280/console/web/autospin-popup-basic.png'); }
+.webConsole .autospinPopup .basic .prevEntry									{ background-image: url('../../picts/game/1280/console/web/autospin-popup-up.png'); }
+.webConsole .autospinPopup .basic .nextEntry									{ background-image: url('../../picts/game/1280/console/web/autospin-popup-down.png'); }
+.webConsole .autospinPopup .advanced 											{ background-image: url('../../picts/game/1280/console/web/autospin-popup-full.png'); }
+.webConsole .autospinPopup .toggleOptions .showAdvanced							{ background-image: url('../../picts/game/1280/console/web/autospin-popup-toggleplus.png'); }
+.webConsole .autospinPopup .toggleOptions .hideAdvanced							{ background-image: url('../../picts/game/1280/console/web/autospin-popup-toggleminus.png'); }
+.webConsole .autospinPopup .checkmark											{ background-image: url('../../picts/game/1280/console/web/autospin-popup-check.png'); }
+
+
+/* background images for buttons for mobile landscape mode */
+.landscapeConsole div:active											{ background-position:bottom; }
+.landscapeConsole div.inactive											{ background-position:center; }
+.landscapeConsole .spinButton.pressed									{ background-position:bottom; }
+
+.landscapeConsole .controlButtonFeatureCountdown								{ background-image: url('../../picts/game/1280/console/mobile/buttons-featurecountdown.png'); }
+.inJackpotMode .landscapeConsole .controlButtonFeatureCountdown					{ background-image: url('../../picts/game/1280/console/mobile/buttons-firepotcountdown.png'); }
+.inJackpotMode.goldennights .landscapeConsole .controlButtonFeatureCountdown	{ background-image: url('../../picts/game/1280/console/mobile/buttons-goldennightscountdown.png'); }
+.landscapeConsole .controlButton_menu									{ background-image: url('../../picts/game/1280/console/mobile/buttons-menu.png'); }
+.landscapeConsole .controlButton_splitwin								{ background-image: url('../../picts/game/1280/console/mobile/buttons-splitwin.png'); }
+.landscapeConsole .controlButton_nogamble-wait							{ background-image: url('../../picts/game/1280/console/mobile/buttons-takewin.png'); }
+
+.landscapeConsole .spinButton											{ background-image: url('../../picts/game/1280/console/mobile/buttons-spin2.png'); }
+.landscapeConsole .controlButton_stopspin.uniqueLayout					{ background-image: url('../../picts/game/1280/console/mobile/buttons-stopspin.png'); }
+.landscapeConsole .controlButton_stopautospin							{ background-image: url('../../picts/game/1280/console/mobile/buttons-stopautospin2.png'); }
+.landscapeConsole .controlButton_takewin								{ background-image: url('../../picts/game/1280/console/mobile/buttons-takewin.png'); }
+
+.landscapeConsole .controlButton_gamblecard								{ background-image: url('../../picts/game/1280/console/mobile/buttons-card.png'); }
+.landscapeConsole .controlButton_gambleladder							{ background-image: url('../../picts/game/1280/console/mobile/buttons-ladder.png'); }
+.landscapeConsole .controlButton_red									{ background-image: url('../../picts/game/1280/console/mobile/buttons-red.png'); }
+.landscapeConsole .controlButton_black									{ background-image: url('../../picts/game/1280/console/mobile/buttons-black.png'); }
+.landscapeConsole .controlButton_ladderstep								{ background-image: url('../../picts/game/1280/console/mobile/buttons-ladderstep.png'); }
+
+.landscapeConsole .controlButton_home,									
+.landscapeConsole .controlButton_home:active							{ background-image: url('../../picts/game/1280/console/mobile/button-home.png'); background-position:center; }
+
+.landscapeConsole .controlButton_sound.soundOn,
+.landscapeConsole .controlButton_sound.soundOff							{ background-image: url('../../picts/game/1280/console/mobile/buttons-sound.png'); }
+.landscapeConsole .controlButton_sound.soundOn:active					{ background-position:top; }
+.landscapeConsole .controlButton_sound.soundOff							{ background-position:bottom; }
+
+.landscapeConsole .controlButton_closeinfosite,
+.landscapeConsole .controlButton_closeinfosite:active					{ background-image: url('../../picts/game/1280/console/mobile/button-close.png'); background-position:center; }
+
+.landscapeConsole .controlButton_paytable								{ background-image: url('../../picts/game/1280/console/mobile/buttons-paytable.png'); }
+.landscapeConsole .controlButton_paytable.inactive						{ background-position:bottom; }
+.landscapeConsole .controlButton_rules									{ background-image: url('../../picts/game/1280/console/mobile/buttons-info.png'); }
+.landscapeConsole .controlButton_history								{ background-image: url('../../picts/game/1280/console/mobile/buttons-history.png'); }
+.landscapeConsole .controlButton_history.inactive						{ background-position:bottom; }
+.landscapeConsole .controlButton_settings								{ background-image: url('../../picts/game/1280/console/mobile/buttons-settings.png'); }
+.landscapeConsole .controlButton_settings.inactive						{ background-position:bottom; }
+
+.landscapeConsole .controlButton_maxbet									{ background-image: url('../../picts/game/1280/console/mobile/buttons-violet.png'); }
+
+.landscapeConsole .orangeButtons .controlButton							{ background-image: url('../../picts/game/1280/console/mobile/buttons-orange.png'); }
+.landscapeConsole .orangeButtons .infoBox								{ background-image: url('../../picts/game/1280/console/mobile/infobox-small.png'); }
+.landscapeConsole .orangeButtons.full									{ background-image: url('../../picts/game/1280/console/mobile/buttons-orangefull2.png');
+																		  background-position: top left; }
+.landscapeConsole .orangeButtons.full:active							{ background-position: top right; }
+.landscapeConsole .orangeButtons.full.inactive							{ background-position: top center; }
+.landscapeConsole .orangeButtons.full.extension							{ background-image: url('../../picts/game/1280/console/mobile/buttons-orangeextension2.png'); background-repeat: no-repeat; }
+.landscapeConsole .orangeButtons.full .controlButton					{ background-image: none; }
+
+.landscapeConsole .controlButton_maxiplay								{ background-image: url('../../picts/game/1280/console/mobile/buttons-maxiplay.png'); background-position:center; }
+.landscapeConsole .controlButton_maxiplay:active						{ background-position:center; }
+.landscapeConsole .controlButton_maxiplay.active						{ background-position:top; }
+.landscapeConsole .controlButton_maxiplay.deactivating					{ background-position:bottom; }
+
+.landscapeConsole .controlButton_jackpot.firepot								{ background-image: url('../../picts/game/1280/console/mobile/buttons-firepot-0-1-2.png'); }
+.landscapeConsole .controlButton_jackpot.firepot.level-0						{ background-position: top left; }
+.landscapeConsole .controlButton_jackpot.firepot.level-0:active					{ background-position: center left; }
+.landscapeConsole .controlButton_jackpot.firepot.level-0.inactive				{ background-position: top center; }
+.landscapeConsole .controlButton_jackpot.firepot.level-1						{ background-position: center center; }
+.landscapeConsole .controlButton_jackpot.firepot.level-1:active					{ background-position: bottom center; }
+.landscapeConsole .controlButton_jackpot.firepot.level-1.inactive				{ background-position: bottom left; }
+.landscapeConsole .controlButton_jackpot.firepot.level-2						{ background-position: top right; }
+.landscapeConsole .controlButton_jackpot.firepot.level-2:active					{ background-position: bottom right; }
+.landscapeConsole .controlButton_jackpot.firepot.level-2.inactive				{ background-position: center right; }
+.landscapeConsole .controlButton_jackpot.firepot.level-3						{ background-image: url('../../picts/game/1280/console/mobile/buttons-firepot-3.png'); background-position: top left; }
+.landscapeConsole .controlButton_jackpot.firepot.level-3:active					{ background-position: top right; }
+.landscapeConsole .controlButton_jackpot.firepot.level-3.inactive				{ background-position: bottom left; }
+.landscapeConsole .controlButton_jackpot.firepot.deactivating					{ background-image: url('../../picts/game/1280/console/mobile/buttons-firepot-3.png'); background-position: bottom right; }
+
+.landscapeConsole .controlButton_jackpot.goldennights .buttonImage						{ background-image: url('../../picts/game/1280/console/mobile/buttons-goldennights-0-1-2.png'); }
+.landscapeConsole .controlButton_jackpot.goldennights.level-0 .buttonImage				{ background-position: bottom right; }
+.landscapeConsole .controlButton_jackpot.goldennights.level-0:active .buttonImage		{ background-position: top center; }
+.landscapeConsole .controlButton_jackpot.goldennights.level-0.inactive .buttonImage		{ background-position: top left; }
+.landscapeConsole .controlButton_jackpot.goldennights.level-1 .buttonImage				{ background-position: top right; }
+.landscapeConsole .controlButton_jackpot.goldennights.level-1:active .buttonImage		{ background-position: center center; }
+.landscapeConsole .controlButton_jackpot.goldennights.level-1.inactive .buttonImage		{ background-position: center left; }
+.landscapeConsole .controlButton_jackpot.goldennights.level-2 .buttonImage				{ background-position: bottom center; }
+.landscapeConsole .controlButton_jackpot.goldennights.level-2:active .buttonImage		{ background-position: bottom left; }
+.landscapeConsole .controlButton_jackpot.goldennights.level-2.inactive .buttonImage		{ background-position: center right; }
+.landscapeConsole .controlButton_jackpot.goldennights.level-3 .buttonImage,
+.landscapeConsole .controlButton_jackpot.goldennights.level-4 .buttonImage,
+.landscapeConsole .controlButton_jackpot.goldennights.deactivating .buttonImage			{ background-image: url('../../picts/game/1280/console/mobile/buttons-goldennights-3-4.png'); }
+.landscapeConsole .controlButton_jackpot.goldennights.level-3 .buttonImage				{ background-position: center left; }
+.landscapeConsole .controlButton_jackpot.goldennights.level-3:active .buttonImage		{ background-position: top center; }
+.landscapeConsole .controlButton_jackpot.goldennights.level-3.inactive .buttonImage		{ background-position: top left; }
+.landscapeConsole .controlButton_jackpot.goldennights.level-4 .buttonImage				{ background-position: center right; }
+.landscapeConsole .controlButton_jackpot.goldennights.level-4:active .buttonImage		{ background-position: top right; }
+.landscapeConsole .controlButton_jackpot.goldennights.level-4.inactive .buttonImage		{ background-position: center center; }
+.landscapeConsole .controlButton_jackpot.goldennights.deactivating .buttonImage			{ background-position: bottom left; }
+
+.landscapeConsole .controlButton_jackpot.goldennights .buttonAnim						{ background-image: url('../../picts/game/1280/console/mobile/button-goldennights-anim-1-0.png'); }
+.landscapeConsole .controlButton_jackpot.goldennights .buttonAnim .animFrame-1			{ background-image: url('../../picts/game/1280/console/mobile/button-goldennights-anim-1-1.png'); }
+.landscapeConsole .controlButton_jackpot.goldennights .buttonAnim .animFrame-2			{ background-image: url('../../picts/game/1280/console/mobile/button-goldennights-anim-1-2.png'); }
+.landscapeConsole .controlButton_jackpot.goldennights .buttonAnim .animFrame-3			{ background-image: url('../../picts/game/1280/console/mobile/button-goldennights-anim-1-3.png'); }
+.landscapeConsole .controlButton_jackpot.goldennights.level-0 .buttonAnim				{ background-image: url('../../picts/game/1280/console/mobile/button-goldennights-anim-0-0.png'); }
+.landscapeConsole .controlButton_jackpot.goldennights.level-0 .buttonAnim .animFrame-1	{ background-image: url('../../picts/game/1280/console/mobile/button-goldennights-anim-0-1.png'); }
+.landscapeConsole .controlButton_jackpot.goldennights.level-0 .buttonAnim .animFrame-2	{ background-image: url('../../picts/game/1280/console/mobile/button-goldennights-anim-0-2.png'); }
+.landscapeConsole .controlButton_jackpot.goldennights.level-0 .buttonAnim .animFrame-3	{ background-image: url('../../picts/game/1280/console/mobile/button-goldennights-anim-0-3.png'); }
+.landscapeConsole .controlButton_jackpot.goldennights.level-0 .buttonAnim .animFrame-4	{ background-image: url('../../picts/game/1280/console/mobile/button-goldennights-anim-0-4.png'); }
+
+.landscapeConsole .autospinPopup .basic 								{ background-image: url('../../picts/game/1280/console/mobile/autospin-popup-basic.png'); }
+.landscapeConsole .autospinPopup .basic .prevEntry						{ background-image: url('../../picts/game/1280/console/mobile/autospin-popup-down.png'); }
+.landscapeConsole .autospinPopup .basic .nextEntry						{ background-image: url('../../picts/game/1280/console/mobile/autospin-popup-up.png'); }
+.landscapeConsole .autospinPopup.leftSide .basic 						{ background-image: url('../../picts/game/1280/console/mobile/autospin-popup-basic-mirrored.png'); }
+.landscapeConsole .autospinPopup .advanced 								{ background-image: url('../../picts/game/1280/console/mobile/autospin-popup-full.png'); }
+.landscapeConsole .autospinPopup.leftSide .advanced 					{ background-image: url('../../picts/game/1280/console/mobile/autospin-popup-full-mirrored.png'); }
+.landscapeConsole .autospinPopup .toggleOptions .showAdvanced			{ background-image: url('../../picts/game/1280/console/mobile/autospin-popup-toggleplus.png'); }
+.landscapeConsole .autospinPopup.leftSide .toggleOptions .showAdvanced	{ background-image: url('../../picts/game/1280/console/mobile/autospin-popup-toggleplus-mirrored.png'); }
+.landscapeConsole .autospinPopup .toggleOptions .hideAdvanced			{ background-image: url('../../picts/game/1280/console/mobile/autospin-popup-toggleminus.png'); }
+.landscapeConsole .autospinPopup.leftSide .toggleOptions .hideAdvanced	{ background-image: url('../../picts/game/1280/console/mobile/autospin-popup-toggleminus-mirrored.png'); }
+.landscapeConsole .autospinPopup .checkmark								{ background-image: url('../../picts/game/1280/console/mobile/autospin-popup-check.png'); }
+
+.landscapeConsole .autospinHint .switchOn								{ background-image: url('../../picts/game/1280/console/mobile/display-startautospin.png'); }
+.landscapeConsole .autospinHint .switchOff								{ background-image: url('../../picts/game/1280/console/mobile/display-stopautospin.png'); }
+
+
+/* background images for buttons for mobile portrait mode */
+.portraitConsole div:active												{ background-position:bottom; }
+.portraitConsole div.inactive											{ background-position:center; }
+.portraitConsole .spinButton.pressed									{ background-position:bottom; }
+
+.portraitConsole .controlButtonFeatureCountdown									{ background-image: url('../../picts/game/1280/console/portrait/buttons-featurecountdown.png'); }
+.inJackpotMode .portraitConsole .controlButtonFeatureCountdown					{ background-image: url('../../picts/game/1280/console/portrait/buttons-firepotcountdown.png'); }
+.inJackpotMode.goldennights .portraitConsole .controlButtonFeatureCountdown		{ background-image: url('../../picts/game/1280/console/portrait/buttons-goldennightscountdown.png'); }
+.portraitConsole .controlButton_menu									{ background-image: url('../../picts/game/1280/console/portrait/buttons-menu.png'); }
+
+.portraitConsole .controlButton_menu.menuIsOpen,
+.portraitConsole .controlButton_menu.menuIsOpen:active,
+.portraitConsole .controlButton_closeinfosite,
+.portraitConsole .controlButton_closeinfosite:active					{ background-image: url('../../picts/game/1280/console/portrait/button-close.png'); background-position:center; }
+
+.portraitConsole .controlButton_splitwin.ladder							{ background-image: url('../../picts/game/1280/console/portrait/buttons-splitwin.png'); }
+.portraitConsole .controlButton_splitwin.card							{ background-image: url('../../picts/game/1280/console/portrait/buttons-splitwinsmall.png'); }
+.portraitConsole .controlButton_nogamble-wait							{ background-image: url('../../picts/game/1280/console/portrait/buttons-takewin.png'); }
+
+.portraitConsole .spinButton											{ background-image: url('../../picts/game/1280/console/portrait/buttons-spin.png'); }
+.portraitConsole .controlButton_stopspin.uniqueLayout					{ background-image: url('../../picts/game/1280/console/portrait/buttons-stopspin.png'); }
+.portraitConsole .controlButton_stopautospin							{ background-image: url('../../picts/game/1280/console/portrait/buttons-stopautospin2.png'); }
+
+.portraitConsole .controlButton_takewin.ladder							{ background-image: url('../../picts/game/1280/console/portrait/buttons-takewin.png'); }
+.portraitConsole .controlButton_takewin.card							{ background-image: url('../../picts/game/1280/console/portrait/buttons-takewinsmall.png'); }
+.portraitConsole .controlButton_splitwin.ladder							{ background-image: url('../../picts/game/1280/console/portrait/buttons-splitwin.png'); }
+.portraitConsole .controlButton_splitwin.card							{ background-image: url('../../picts/game/1280/console/portrait/buttons-splitwinsmall.png'); }
+
+.portraitConsole .controlButton_gamblecard								{ background-image: url('../../picts/game/1280/console/portrait/buttons-card.png'); }
+.portraitConsole .controlButton_gamblecard.small						{ background-image: url('../../picts/game/1280/console/portrait/buttons-cardsmall.png'); }
+.portraitConsole .controlButton_gambleladder							{ background-image: url('../../picts/game/1280/console/portrait/buttons-ladder.png'); }
+.portraitConsole .controlButton_gambleladder.small						{ background-image: url('../../picts/game/1280/console/portrait/buttons-laddersmall.png'); }
+
+.portraitConsole .controlButton_red										{ background-image: url('../../picts/game/1280/console/portrait/buttons-red.png'); }
+.portraitConsole .controlButton_black									{ background-image: url('../../picts/game/1280/console/portrait/buttons-black.png'); }
+.portraitConsole .controlButton_ladderstep								{ background-image: url('../../picts/game/1280/console/portrait/buttons-ladderstep.png'); }
+
+.portraitConsole .controlButton_home,
+.portraitConsole .controlButton_home:active								{ background-image: url('../../picts/game/1280/console/portrait/button-home.png'); background-position:center; }
+
+.portraitConsole .controlButton_paytable								{ background-image: url('../../picts/game/1280/console/portrait/buttons-paytable.png'); }
+.portraitConsole .controlButton_paytable.inactive						{ background-position:bottom; }
+.portraitConsole .controlButton_rules									{ background-image: url('../../picts/game/1280/console/portrait/buttons-info.png'); }
+.portraitConsole .controlButton_history									{ background-image: url('../../picts/game/1280/console/portrait/buttons-history.png'); }
+.portraitConsole .controlButton_history.inactive						{ background-position:bottom; }
+.portraitConsole .controlButton_settings								{ background-image: url('../../picts/game/1280/console/portrait/buttons-settings.png'); }
+.portraitConsole .controlButton_settings.inactive						{ background-position:bottom; }
+
+.portraitConsole .controlButton_sound.soundOn,
+.portraitConsole .controlButton_sound.soundOff							{ background-image: url('../../picts/game/1280/console/portrait/buttons-sound.png'); }
+.portraitConsole .controlButton_sound.soundOn:active					{ background-position:top; }
+.portraitConsole .controlButton_sound.soundOff							{ background-position:bottom; }
+
+.portraitConsole .controlButton_maxbet									{ background-image: url('../../picts/game/1280/console/portrait/buttons-violet.png'); }
+.portraitConsole .orangeButton											{ background-image: url('../../picts/game/1280/console/portrait/buttons-orange.png'); }
+.portraitConsole .orangeButton.justShow									{ background-position: top; }
+.portraitConsole .orangeButton.justShow.inactive						{ background-position: center; }
+.portraitConsole .orangeButton.small									{ background-image: url('../../picts/game/1280/console/portrait/buttons-orangesmall.png'); }
+
+.portraitConsole .controlButton_maxiplay								{ background-image: url('../../picts/game/1280/console/portrait/buttons-maxiplay.png'); background-position:center; }
+.portraitConsole .controlButton_maxiplay:active							{ background-position:center; }
+.portraitConsole .controlButton_maxiplay.active							{ background-position:top; }
+.portraitConsole .controlButton_maxiplay.deactivating					{ background-position:bottom; }
+
+.portraitConsole .controlButton_jackpot.firepot									{ background-image: url('../../picts/game/1280/console/portrait/buttons-firepot-0-1-2.png'); }
+.portraitConsole .controlButton_jackpot.firepot.level-0							{ background-position: top left; }
+.portraitConsole .controlButton_jackpot.firepot.level-0:active					{ background-position: center left; }
+.portraitConsole .controlButton_jackpot.firepot.level-0.inactive				{ background-position: top center; }
+.portraitConsole .controlButton_jackpot.firepot.level-1							{ background-position: center center; }
+.portraitConsole .controlButton_jackpot.firepot.level-1:active					{ background-position: bottom center; }
+.portraitConsole .controlButton_jackpot.firepot.level-1.inactive				{ background-position: bottom left; }
+.portraitConsole .controlButton_jackpot.firepot.level-2							{ background-position: top right; }
+.portraitConsole .controlButton_jackpot.firepot.level-2:active					{ background-position: bottom right; }
+.portraitConsole .controlButton_jackpot.firepot.level-2.inactive				{ background-position: center right; }
+.portraitConsole .controlButton_jackpot.firepot.level-3							{ background-image: url('../../picts/game/1280/console/portrait/buttons-firepot-3.png'); background-position: top left; }
+.portraitConsole .controlButton_jackpot.firepot.level-3:active					{ background-position: top right; }
+.portraitConsole .controlButton_jackpot.firepot.level-3.inactive				{ background-position: bottom left; }
+.portraitConsole .controlButton_jackpot.firepot.deactivating					{ background-image: url('../../picts/game/1280/console/portrait/buttons-firepot-3.png'); background-position: bottom right; }
+
+.portraitConsole .controlButton_jackpot.goldennights .buttonImage						{ background-image: url('../../picts/game/1280/console/portrait/buttons-goldennights-0-1-2.png'); }
+.portraitConsole .controlButton_jackpot.goldennights.level-0 .buttonImage				{ background-position: bottom right; }
+.portraitConsole .controlButton_jackpot.goldennights.level-0:active .buttonImage		{ background-position: center left; }
+.portraitConsole .controlButton_jackpot.goldennights.level-0.inactive .buttonImage		{ background-position: top left; }
+.portraitConsole .controlButton_jackpot.goldennights.level-1 .buttonImage				{ background-position: bottom left; }
+.portraitConsole .controlButton_jackpot.goldennights.level-1:active .buttonImage		{ background-position: center center; }
+.portraitConsole .controlButton_jackpot.goldennights.level-1.inactive .buttonImage		{ background-position: top center; }
+.portraitConsole .controlButton_jackpot.goldennights.level-2 .buttonImage				{ background-position: center right; }
+.portraitConsole .controlButton_jackpot.goldennights.level-2:active .buttonImage		{ background-position: top right; }
+.portraitConsole .controlButton_jackpot.goldennights.level-2.inactive .buttonImage		{ background-position: bottom center; }
+.portraitConsole .controlButton_jackpot.goldennights.level-3 .buttonImage,
+.portraitConsole .controlButton_jackpot.goldennights.level-4 .buttonImage,
+.portraitConsole .controlButton_jackpot.goldennights.deactivating .buttonImage			{ background-image: url('../../picts/game/1280/console/portrait/buttons-goldennights-3-4.png'); }
+.portraitConsole .controlButton_jackpot.goldennights.level-3 .buttonImage				{ background-position: top center; }
+.portraitConsole .controlButton_jackpot.goldennights.level-3:active .buttonImage		{ background-position: center left; }
+.portraitConsole .controlButton_jackpot.goldennights.level-3.inactive .buttonImage		{ background-position: top left; }
+.portraitConsole .controlButton_jackpot.goldennights.level-4 .buttonImage				{ background-position: bottom center; }
+.portraitConsole .controlButton_jackpot.goldennights.level-4:active .buttonImage		{ background-position: bottom left; }
+.portraitConsole .controlButton_jackpot.goldennights.level-4.inactive .buttonImage		{ background-position: center center; }
+.portraitConsole .controlButton_jackpot.goldennights.deactivating .buttonImage			{ background-position: top right; }
+
+.portraitConsole .controlButton_jackpot.goldennights .buttonAnim						{ background-image: url('../../picts/game/1280/console/portrait/button-goldennights-anim-1-0.png'); }
+.portraitConsole .controlButton_jackpot.goldennights .buttonAnim .animFrame-1			{ background-image: url('../../picts/game/1280/console/portrait/button-goldennights-anim-1-1.png'); }
+.portraitConsole .controlButton_jackpot.goldennights .buttonAnim .animFrame-2			{ background-image: url('../../picts/game/1280/console/portrait/button-goldennights-anim-1-2.png'); }
+.portraitConsole .controlButton_jackpot.goldennights .buttonAnim .animFrame-3			{ background-image: url('../../picts/game/1280/console/portrait/button-goldennights-anim-1-3.png'); }
+.portraitConsole .controlButton_jackpot.goldennights.level-0 .buttonAnim				{ background-image: url('../../picts/game/1280/console/portrait/button-goldennights-anim-0-0.png'); }
+.portraitConsole .controlButton_jackpot.goldennights.level-0 .buttonAnim .animFrame-1	{ background-image: url('../../picts/game/1280/console/portrait/button-goldennights-anim-0-1.png'); }
+.portraitConsole .controlButton_jackpot.goldennights.level-0 .buttonAnim .animFrame-2	{ background-image: url('../../picts/game/1280/console/portrait/button-goldennights-anim-0-2.png'); }
+.portraitConsole .controlButton_jackpot.goldennights.level-0 .buttonAnim .animFrame-3	{ background-image: url('../../picts/game/1280/console/portrait/button-goldennights-anim-0-3.png'); }
+.portraitConsole .controlButton_jackpot.goldennights.level-0 .buttonAnim .animFrame-4	{ background-image: url('../../picts/game/1280/console/portrait/button-goldennights-anim-0-4.png'); }
+
+.portraitConsole .autospinPopup .basic 									{ background-image: url('../../picts/game/1280/console/portrait/autospin-popup-basic.png'); }
+.portraitConsole .autospinPopup .basic .prevEntry						{ background-image: url('../../picts/game/1280/console/portrait/autospin-popup-left.png'); }
+.portraitConsole .autospinPopup .basic .nextEntry						{ background-image: url('../../picts/game/1280/console/portrait/autospin-popup-right.png'); }
+.portraitConsole .autospinPopup .advanced 								{ background-image: url('../../picts/game/1280/console/portrait/autospin-popup-full.png'); }
+.portraitConsole .autospinPopup .toggleOptions .showAdvanced			{ background-image: url('../../picts/game/1280/console/portrait/autospin-popup-toggleplus.png'); }
+.portraitConsole .autospinPopup .toggleOptions .hideAdvanced			{ background-image: url('../../picts/game/1280/console/portrait/autospin-popup-toggleminus.png'); }
+.portraitConsole .autospinPopup .checkmark								{ background-image: url('../../picts/game/1280/console/portrait/autospin-popup-check.png'); }
+
+.portraitConsole .autospinHint .switchOn								{ background-image: url('../../picts/game/1280/console/portrait/display-startautospin.png'); }
+.portraitConsole .autospinHint .switchOff								{ background-image: url('../../picts/game/1280/console/portrait/display-stopautospin.png'); }
+
+
+.console .controlButton		{ background-repeat: no-repeat; }
+
+
+/* css animation definitions */
+.console .controlButton_jackpot.goldennights .buttonLayer,
+.console .controlButton_jackpot.goldennights .buttonLayer .animFrame {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+.console .controlButton_jackpot.goldennights .buttonLayer .animFrame {
+	opacity: 0;
+}
+
+@keyframes anim-goldennights-button-0-1 {
+	0%, 41%, 100%	{ opacity: 0; }
+	20%, 40%		{ opacity: 1; }
+}
+@keyframes anim-goldennights-button-0-2 {
+	0%, 20%, 61%, 100%	{ opacity: 0; }
+	40%, 60%			{ opacity: 1; }
+}
+@keyframes anim-goldennights-button-0-3 {
+	0%, 40%, 81%, 100%	{ opacity: 0; }
+	60%, 80%			{ opacity: 1; }
+}
+@keyframes anim-goldennights-button-0-4 {
+	0%, 60%, 100%		{ opacity: 0; }
+	80%					{ opacity: 1; }
+}
+.console .controlButton_jackpot.goldennights.level-0.animating .animFrame-1 {
+	-webkit-animation: anim-goldennights-button-0-1 2300ms linear 1;
+	animation: anim-goldennights-button-0-1 2300ms linear 1;
+}
+.console .controlButton_jackpot.goldennights.level-0.animating .animFrame-2 {
+	-webkit-animation: anim-goldennights-button-0-2 2300ms linear 1;
+	animation: anim-goldennights-button-0-2 2300ms linear 1;
+}
+.console .controlButton_jackpot.goldennights.level-0.animating .animFrame-3 {
+	-webkit-animation: anim-goldennights-button-0-3 2300ms linear 1;
+	animation: anim-goldennights-button-0-3 2300ms linear 1;
+}
+.console .controlButton_jackpot.goldennights.level-0.animating .animFrame-4 {
+	-webkit-animation: anim-goldennights-button-0-4 2300ms linear 1;
+	animation: anim-goldennights-button-0-4 2300ms linear 1;
+}
+
+@keyframes anim-goldennights-button-1-1 {
+	0%, 48%, 100%		{ opacity: 0; }
+	21%, 47%			{ opacity: 1; }
+}
+@keyframes anim-goldennights-button-1-2 {
+	0%, 26%, 75%, 100%	{ opacity: 0; }
+	47%, 74%			{ opacity: 1; }
+}
+@keyframes anim-goldennights-button-1-3 {
+	0%, 53%, 100%		{ opacity: 0; }
+	74%, 79%			{ opacity: 1; }
+}
+.console .controlButton_jackpot.goldennights.level-1.animating .animFrame-1,
+.console .controlButton_jackpot.goldennights.level-2.animating .animFrame-1,
+.console .controlButton_jackpot.goldennights.level-3.animating .animFrame-1,
+.console .controlButton_jackpot.goldennights.level-4.animating .animFrame-1 {
+	-webkit-animation: anim-goldennights-button-1-1 1800ms linear 1;
+	animation: anim-goldennights-button-1-1 1800ms linear 1;
+}
+.console .controlButton_jackpot.goldennights.level-1.animating .animFrame-2,
+.console .controlButton_jackpot.goldennights.level-2.animating .animFrame-2,
+.console .controlButton_jackpot.goldennights.level-3.animating .animFrame-2,
+.console .controlButton_jackpot.goldennights.level-4.animating .animFrame-2 {
+	-webkit-animation: anim-goldennights-button-1-2 1800ms linear 1;
+	animation: anim-goldennights-button-1-2 1800ms linear 1;
+}
+.console .controlButton_jackpot.goldennights.level-1.animating .animFrame-3,
+.console .controlButton_jackpot.goldennights.level-2.animating .animFrame-3,
+.console .controlButton_jackpot.goldennights.level-3.animating .animFrame-3,
+.console .controlButton_jackpot.goldennights.level-4.animating .animFrame-3 {
+	-webkit-animation: anim-goldennights-button-1-3 1800ms linear 1;
+	animation: anim-goldennights-button-1-3 1800ms linear 1;
+}
+
+
+
+/* other properties */
+
+.console {
+	position: absolute;
+	z-index: 200;
+	font-family: 'Roboto Condensed', Arial;
+	font-weight: bold;
+	padding-top: 6px;
+}
+.webConsole			{ left:  50px; width: 1180px; height: 110px; }
+.landscapeConsole	{ left:   0px; width: 1280px; height: 110px; }
+.portraitConsole	{ left: 100px; width: 1080px; height: 526px; }
+
+.console .autospinPopup .autospinChoiceEntry.infinity {
+	font-family: Verdana, sans-serif;
+}
+
+.console .versionDisplay,
+.console .clockDisplay {
+	position: absolute;
+	top: -604px;
+	padding: 0px 8px;
+	background-color: rgba(0,0,0,.7);
+	font-size: 16px;
+	color: white;
+}
+.portraitConsole .versionDisplay	{ font-size: 22px; }
+.console .clockDisplay 				{ font-size: 20px; }
+.landscapeConsole .clockDisplay 	{ font-size: 22px; }
+.portraitConsole .clockDisplay 		{ font-size: 31px; }
+
+.l23 .console .versionDisplay,
+.l23 .console .clockDisplay														{ top: -737px; }
+.l169 .console .versionDisplay,
+.l169 .console .clockDisplay													{ top: -604px; }
+.l23 .portraitConsole .versionDisplay, .l169 .portraitConsole .versionDisplay,
+.l23 .portraitConsole .clockDisplay, .l169 .portraitConsole .clockDisplay		{ top:  526px; }
+.webConsole .versionDisplay					{ left:  -50px; }
+.webConsole .clockDisplay					{ right: -50px; }
+.mobileConsole .versionDisplay				{ left:    0px; }
+.mobileConsole .clockDisplay				{ right:   0px; }
+
+.console .versionDisplay .slotSessionStats				{ padding-left: 26px; }
+.console .versionDisplay .slotSessionStats	.currLeft	{ padding-right: 2px; }
+.console .versionDisplay .slotSessionStats	.currRight	{ padding-left: 2px; }
+
+
+
+/* properties independent of the mode */
+.console .controlButton { 
+	position: relative;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	cursor: pointer;
+}
+.console .controlButton.justShow {
+	cursor: default;
+}
+.console .clickArea { 
+	cursor: pointer; 
+}
+
+.console .controlButton.inactive,
+.console .clickArea.inactive {
+	cursor: default; color: #666963;
+}
+
+.console .userInfoContainer	{
+	position: relative;
+	overflow: hidden;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.console .userInfoContainer .infoText, .console .value_actWin, .console .controlButtonFeatureCountdown { color: #fff600; }
+.console.freeRoundMode .userInfoContainer .infoText, .console.freeRoundMode .value_actWin  { color: #00d61d; }
+.console .userInfoContainer.freegameMode .infoText, .console .freegameMode .value_actWin  { color: #fff600; }
+.inJackpotMode.firepot .console .userInfoContainer .info_countdownFreegames,
+.inJackpotMode.firepot .console .userInfoContainer .info_pleasePressSpin,
+.inJackpotMode.firepot .console .userInfoContainer .info_jackpotBonus,
+.inJackpotMode.firepot .console .userInfoContainer .info_jackpotWin,
+.inJackpotMode.firepot .console .controlButtonFeatureCountdown { color: #ff8401; }
+.inJackpotMode.goldennights .console .userInfoContainer .info_countdownFreegames,
+.inJackpotMode.goldennights .console .userInfoContainer .info_pleasePressSpin,
+.inJackpotMode.goldennights .console .userInfoContainer .info_jackpotBonus,
+.inJackpotMode.goldennights .console .userInfoContainer .info_jackpotWin,
+.inJackpotMode.goldennights .console .controlButtonFeatureCountdown { color: #2f6dfa; }
+.inJackpotMode .console .userInfoContainer.freegameMode .value_actWin { color: #646000; }
+.inJackpotMode .console.freeRoundMode .value_actWin  { color: #10520c; }
+
+/* web mode */
+.webConsole .controlButton {
+	width: 98px;
+	height: 69px;
+	margin-left: 2px;
+	padding: 36px 3px 2px 1px;
+	border-radius: 3px;
+	font-size: 28px;
+}
+.webConsole .controlButton.tiny			{ width:  50px; }
+.webConsole .controlButton.small		{ width:  70px; }
+.webConsole .controlButton.big			{ width: 148px; }
+.webConsole .controlButton.huge			{ width: 252px; }
+.webConsole .controlButton_ladderstep	{ width: 146px; }
+
+.webConsole .mainBox {
+	position: relative;
+}
+.webConsole .actionButtons {
+	position: absolute;
+	top: 0px;
+	right: 4px;
+}
+
+.webConsole .controlButton_paytable {
+	width: 52px;
+	margin-left: 6px;
+}
+
+.webConsole .controlButton_maxiplay {
+	position: relative;
+	top: -6px;
+	left: 2px;
+	width: 105px;
+	height: 77px;
+}
+
+.webConsole .controlButton_jackpot.firepot {
+	position: relative;
+	top: -3px;
+	left: 8px;
+	width: 115px;
+	height: 78px;
+}
+
+.webConsole .controlButton_jackpot.goldennights {
+	position: relative;
+	top: -9px;
+	left: 1px;
+	width: 111px;
+	height: 81px;
+}
+
+.webConsole .controlButton.twolined {
+	height: 84px;
+	padding-top: 21px;
+	line-height: 32px;
+}
+
+.webConsole .controlButton_stopautospin .infoValue {
+	font-size: 34px;
+}
+.webConsole .controlButton_stopautospin .infoLabel {
+	font-size: 20px;
+}
+
+.webConsole .autospinPopup {
+	position: absolute;
+	bottom: 96px;
+	right: 160px;
+	width: 100px;
+	height: 322px;
+}
+
+.webConsole .autospinPopup .toggleOptions {
+	position: absolute;
+	top: 0px;
+	left: -31px;
+	z-index: -1;
+	width: 34px;
+	height: 322px;
+}
+.webConsole .autospinPopup .toggleOptions.full {
+	left: -577px;
+}
+.webConsole .autospinPopup .toggleOptions .clickArea {
+	background-position: 0px -89px;
+	margin-top: 89px;
+	height: 126px;
+	cursor: pointer;
+}
+
+.webConsole .autospinPopup .basic {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index:10;
+	width: 80px;
+	height: 300px;
+	padding-top: 2px;
+	padding-bottom: 20px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.webConsole .autospinPopup .basic .navButton {
+	position: absolute;
+	right: 3px;
+	width: 95px;
+	height: 46px;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+.webConsole .autospinPopup .basic .prevEntry { top: 3px; }
+.webConsole .autospinPopup .basic .nextEntry { bottom: 20px; }
+.webConsole .autospinPopup .basic .choicesBox {
+	position: absolute;
+	width: 95px;
+	right: 3px;
+	top: 49px;
+	bottom: 66px;
+	overflow: hidden;
+}
+.webConsole .autospinPopup .basic .choicesBox.noNavButtons {
+	top: 2px;
+	bottom: 19px;
+}
+.webConsole .autospinPopup .basic .choicesBox .autospinChoiceEntry {
+	width: 95px;
+	height: 49px;
+	padding-top: 20px;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	cursor: pointer;
+}
+.webConsole .autospinPopup .basic .choicesBox.entriesCount-3 .autospinChoiceEntry { margin-top: 23px; }
+.webConsole .autospinPopup .basic .choicesBox.entriesCount-2 .autospinChoiceEntry { margin-top: 55px; }
+.webConsole .autospinPopup .basic .choicesBox.entriesCount-1 .autospinChoiceEntry { margin-top: 118px; }
+
+.webConsole .autospinPopup .advanced {
+	position: absolute;
+	top: 0px;
+	right: 78px;
+	z-index: 5;
+	width: 22px;
+	height: 300px;
+	padding-top: 2px;
+	padding-bottom: 20px;
+	background-repeat: no-repeat;
+	background-position: left;
+	overflow: hidden;
+}
+.webConsole .autospinPopup .advanced.full {
+	width: 568px;
+}
+.webConsole .autospinPopup .advanced .content {
+	width: 496px;
+	margin-top: 10px;
+	margin-left: 34px;
+	font-size: 24px;
+	color: white;
+}
+.webConsole.currThreeLetters .autospinPopup .advanced .content {
+  width: 512px;
+  margin-left: 24px;
+}
+.webConsole .autospinPopup .advanced .content .title {
+	text-align: center;
+	font-size: 30px;
+}
+.webConsole .autospinPopup .advanced .content .subtitle {
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 6px;
+}
+.webConsole .autospinPopup .advanced .content .option {
+	margin-top: 10px;
+}
+.webConsole .autospinPopup .advanced .content .option + .option {
+	margin-top: 18px;
+}
+.webConsole .autospinPopup .advanced .content .option .checkbox {
+	position: relative;
+	width: 26px;
+	height: 26px;
+	border: 2px solid white;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.webConsole .autospinPopup .advanced .content .option.inactive .checkbox,
+.webConsole .autospinPopup .advanced .content .option.fixed .checkbox {
+	border-color: #4a4a4a;
+	cursor: default;
+}
+.webConsole .autospinPopup .advanced .content .option.checked .checkbox:after {
+	content: url('../../picts/game/1280/console/web/autospin-popup-check.png');
+	position: absolute;
+	top: -8px;
+	left: 2px;
+}
+.webConsole .autospinPopup .advanced .content .option.checked.fixed .checkbox:after {
+	content: url('../../picts/game/1280/console/web/autospin-popup-check-grey.png');
+}
+.webConsole .autospinPopup .advanced .content .option .info {
+	width: 300px;
+	margin-top: 3px;
+	margin-left: 18px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.webConsole .autospinPopup .advanced .content .option.inactive .info {
+	color: #4a4a4a;
+	cursor: default
+}
+.webConsole .autospinPopup .advanced .content #option-winFreegames .info {
+	width: 354px;
+}
+.webConsole .autospinPopup .advanced .content .option input {
+	width: 100px;
+	height: 22px;
+	margin-left: 6px;
+	padding: 2px 6px;
+	border: 2px solid white;
+	border-radius: 8px;
+	background: transparent;
+	font-family: 'Roboto Condensed', Arial;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: right;
+	color: white;
+	outline: none;
+}
+.webConsole .autospinPopup .advanced .content .option.invalid input				{ border-color: transparent; }
+.webConsole .autospinPopup .advanced .content .option.invalid.highlight input	{ border-color: #ffe000; }
+
+.webConsole .userInfoContainer	{
+	height: 107px;
+	margin-left: 2px;
+}
+.webConsole .userInfoContainer .controlButtonFeatureCountdown {
+	position: absolute;
+	top: 4px;
+	right: 8px;
+	width: 100px;
+	height: 36px;
+	padding: 9px 0px 0px 0px;
+	font-size: 24px;
+}
+.webConsole .userInfoContainer .row1,
+.webConsole .userInfoContainer .row1 .userInfoBox {
+	position: relative;
+	height: 66px;
+}
+.webConsole .userInfoContainer .row1 .userInfoBox { 
+	padding-top: 14px;
+	font-size: 38px;
+	font-weight: bold;
+}
+.webConsole .userInfoContainer.userInfo .row1 .userInfoBox { 
+	width: 570px;
+	left: 14px;
+}
+.webConsole .userInfoContainer.userInfo .row1 .userInfoBox div.info_win,
+.webConsole .userInfoContainer.userInfo .row1 .userInfoBox div.info_jackpotWin, 
+.webConsole .userInfoContainer.userInfo .row1 .userInfoBox div.info_jackpotBonus { 
+	position: relative;
+	top: -10px;
+	font-size: 50px;
+}
+.webConsole .userInfoContainer .row2,
+.webConsole .userInfoContainer .row2 .userInfoBox {
+	height: 44px; 
+}
+.webConsole .userInfoContainer .row2 .userInfoBox .infoLabel {
+	font-size: 16px;
+}
+
+.webConsole .userInfoContainer.orangeButtonsActWinContainer {
+	width: 150px;
+}
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .actWinBox {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 150px;
+	height: 107px;
+}
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .actWinBox .row1 .actWinValueBox {
+	position: absolute;
+	bottom: 22px;
+	left: 0px;
+	width: 150px;
+}
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .actWinBox .row1 .actWinValueBox .value .currLeft 	{ padding-right: 6px; }
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .actWinBox .row1 .actWinValueBox .value .currRight 	{ padding-left: 6px; }
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .actWinBox .userInfoBox .infoLabel {
+	position: relative;
+	top: 11px;
+}
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .orangeButtonsBox .controlButtonOrange {
+	width: 70px;
+	margin: 0px;
+	cursor: default;
+}
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .orangeButtonsBox .controlButtonOrange .clickArea { 
+	position: absolute;
+	left: 6px;
+	width: 61px;
+	height: 23px; 
+	cursor: pointer; 
+}
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .orangeButtonsBox .controlButtonOrange .clickArea.controlButton_linesplus,
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .orangeButtonsBox .controlButtonOrange .clickArea.controlButton_linebetplus {
+	top: 2px;
+}
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .orangeButtonsBox .controlButtonOrange .clickArea.controlButton_linesminus,
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .orangeButtonsBox .controlButtonOrange .clickArea.controlButton_linebetminus {
+	top: 79px;
+}
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .orangeButtonsBox .controlButtonOrange .clickArea.inactive { 
+	cursor: default; 
+}
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .orangeButtonsBox .controlButtonOrange .infoArea {
+	position: relative;
+	width: 70px;
+	height: 52px; 
+	margin-top: -8px;
+}
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .orangeButtonsBox .controlButtonOrange .infoArea .infoValue {
+	position: absolute;
+	left: 0px;
+	bottom: 22px;
+	width: 70px;
+	height: 34px;
+	overflow: hidden;
+	font-size: 28px;
+}
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .orangeButtonsBox .controlButtonOrange .infoArea .infoValue.length_5 { font-size: 24px; height: 31px; }
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .orangeButtonsBox .controlButtonOrange .infoArea .infoValue.length_6 { font-size: 20px; height: 29px; }
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .orangeButtonsBox .controlButtonOrange .infoArea .infoValue.length_7 { font-size: 16px; height: 26px; }
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .orangeButtonsBox .controlButtonOrange .infoArea .infoValue.length_8 { font-size: 14px; height: 25px; }
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .orangeButtonsBox .controlButtonOrange .infoArea .infoValue.length_9 { font-size: 13px; height: 24px; }
+.webConsole .userInfoContainer.orangeButtonsActWinContainer .orangeButtonsBox .controlButtonOrange .infoArea .infoLabel {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 70px;
+	height: 20px;
+	font-size: 16px;
+}
+
+.webConsole .userInfoContainer.userInfo {
+	width: 598px;
+} 
+.webConsole .userInfoContainer .row2 {
+	position: relative;
+}
+.webConsole .userInfoContainer.userInfo .row2 .userInfoBox.leftBox {
+	position: absolute;
+	left: 14px; 
+	text-align: left;
+}
+.webConsole .userInfoContainer.userInfo .row2 .userInfoBox.rightBox {
+	position: absolute;
+	right: 14px;
+	text-align: right;
+}
+.webConsole .userInfoContainer.userInfo .row2 .userInfoBox.value_money .infoLabel.moneyLabel { 
+	display: inline;
+}
+.webConsole .userInfoContainer.userInfo .row2 .userInfoBox.value_money .infoLabel.totalmoneyLabel { 
+	display: none;
+}
+.webConsole .userInfoContainer.userInfo .row2 .userInfoBox .infoValue { 
+	padding-left: 8px;
+	font-size: 28px;
+}
+.webConsole .userInfoContainer.userInfo .row2 .userInfoBox .fontsizeFaker {
+	font-size: 28px;
+}
+.webConsole .userInfoContainer.userInfo .row2 .userInfoBox .infoValue .currLeft 	{ padding-right: 3px; }
+.webConsole .userInfoContainer.userInfo .row2 .userInfoBox .infoValue .currRight	{ padding-left: 3px; }
+
+.webConsole .userInfoContainer.userInfo .row2 .userInfoBox.value_totalbet.highlightJackpotBet > span  { 
+	display: inline-block;
+}
+.webConsole .userInfoContainer.userInfo .row2 .userInfoBox.value_totalbet.highlightJackpotBet .infoValue .value,
+.webConsole .userInfoContainer.userInfo .row2 .userInfoBox.value_totalbet.highlightJackpotBet .infoValue .jackpotBet { 
+	position: relative;
+	left: 15px;
+	top: -18px;
+	font-size: 21px;
+}
+.webConsole .userInfoContainer.userInfo .row2 .userInfoBox.value_totalbet.highlightJackpotBet .infoValue .jackpotBet {
+	left: 0px;
+	top: 5px;
+	color: #fff600;
+}
+
+.webConsole .userInfoContainer.userInfo .row2 .balanceBox.withTotalmoneyDisplay:hover .value_money {
+	display: none;
+}
+.webConsole .userInfoContainer.userInfo .row2 .balanceBox.withTotalmoneyDisplay:hover .value_totalmoney {
+	display: block;
+}
+.webConsole .userInfoContainer.userInfo .row2 .balanceBox.withTotalmoneyDisplay .value_money .moneyLabel { 
+	display: none;
+}
+.webConsole .userInfoContainer.userInfo .row2 .balanceBox.withTotalmoneyDisplay .value_money .totalmoneyLabel { 
+	display: inline;
+}
+
+.webConsole .userInfoContainer.userInfo .userInfoBox .info_win .value .currLeft			{ padding-right: 5px; }
+.webConsole .userInfoContainer.userInfo .userInfoBox .info_win .value .currRight		{ padding-left: 5px; }
+.webConsole .userInfoContainer.userInfo .userInfoBox .info_lastWin .value .currLeft		{ padding-right: 4px; }
+.webConsole .userInfoContainer.userInfo .userInfoBox .info_lastWin .value .currRight	{ padding-left: 4px; }
+
+.webConsole .headlineButtons {
+	position: absolute;
+	top: -702px;
+	left: -18px;
+}
+.webConsole .headlineButtons .controlButton {
+	width: 34px;
+	height: 32px;
+	padding: 0px;
+	margin: 0px;
+}
+.webConsole .headlineButtons .controlButton + .controlButton {
+	margin-left: 5px;
+}
+.webConsole .headlineButtons .controlButton_home img {
+	width: 34px;
+	height: 32px;
+}
+.webConsole .headlineButtons .controlButton_responsibleGaming {
+	width: 68px;
+	line-height: 32px;
+}
+.webConsole .headlineButtons .controlButton_responsibleGaming img {
+	max-width: 68px;
+	max-height: 32px;
+}
+
+.webConsole .controlButton_closeinfosite {
+	position: absolute;
+	right: 12px;
+	top: -580px;
+	z-index: 10;
+	width: 45px;
+	height: 46px;
+	padding: 0px;
+}
+
+
+.webConsole .controlButton_history,
+.webConsole .controlButton_rules {
+	position: absolute;
+	top: -74px;
+	left: -6px;
+	z-index: 10;
+	width: 90px;
+	height:68px;
+	padding: 0px;
+	margin: 0px;
+}
+.webConsole .controlButton_rules.hasHistoryButton {
+	top: -148px;
+}
+
+.webConsole .reelClickBox {
+	position: absolute;
+	left: 57px;
+	bottom: 130px;
+	width: 1066px;
+	height: 576px;
+	padding: 0px;
+}
+
+
+/* mobile landscape mode */
+.landscapeConsole {
+	font-weight: bold;
+}
+
+.landscapeConsole .infoLabel {
+	font-size: 16px;
+}
+
+.landscapeConsole .controlButton {
+	background-repeat: no-repeat;
+}
+
+.landscapeConsole .controlButtonRound {
+	width: 142px;
+	height: 142px;
+	border-radius: 72px;
+}
+.landscapeConsole .controlButtonRoundSmall {
+	width: 92px;
+	height: 92px;
+	border-radius: 46px;
+}
+.landscapeConsole .controlButtonRoundBig {
+	width: 170px;
+	height: 170px;
+	border-radius: 86px;
+}
+
+.landscapeConsole .controlButton_home,
+.landscapeConsole .controlButton_closeinfosite {
+	position: absolute;
+	top: -542px;
+	width: 72px;
+	height: 72px;
+	background-position: center;
+}
+.landscapeConsole .controlButton_home img {
+	width: 72px;
+	height: 72px;
+}
+.landscapeConsole .controlButton_sound {
+	position: absolute;
+	top: -132px;
+	width: 65px;
+	height: 64px;
+}
+.landscapeConsole .controlButton_responsibleGaming {
+	position: absolute;
+	top: -46px;
+	width: 68px;
+	height: 30px;
+	padding: 6px 11px;
+	background-color: rgba(0,0,0,0.7);
+	text-align: center;
+	line-height: 30px;
+}
+.landscapeConsole .controlButton_responsibleGaming img {
+	max-width: 68px;
+	max-height: 30px;
+}
+.landscapeConsole .controlButton_closeinfosite {
+	top: -542px;
+	z-index: 10;
+}
+.landscapeConsole.rightHandMode .controlButton_home,
+.landscapeConsole.rightHandMode .controlButton_sound				{ left: 10px; }
+.landscapeConsole.rightHandMode .controlButton_responsibleGaming	{ left:  6px; }
+.landscapeConsole.rightHandMode .controlButton_closeinfosite		{ right: 8px; }
+.landscapeConsole.leftHandMode .controlButton_home,
+.landscapeConsole.leftHandMode .controlButton_sound					{ right: 10px; }
+.landscapeConsole.rightHandMode .controlButton_responsibleGaming	{ right:  6px; }
+.landscapeConsole.leftHandMode .controlButton_closeinfosite			{ left: 8px; }
+
+
+.landscapeConsole .topRightButton {
+	position: absolute;
+	top: -498px;
+	z-index: 5;
+}
+.landscapeConsole.rightHandMode .topRightButton	{ right: 29px; }
+.landscapeConsole.leftHandMode .topRightButton	{ left: 29px; }
+/* .container.extraWide .landscapeConsole.rightHandMode .topRightButton	{ right: -124px; } */
+/* .container.extraWide .landscapeConsole.leftHandMode .topRightButton	{ left: -124px; } */
+
+.landscapeConsole .spinButton {
+	position: absolute;
+	top: -378px;
+	z-index: 5;
+}
+.landscapeConsole .spinButton.right	{ right: 4px; }
+.landscapeConsole .spinButton.left	{ left: 4px; }
+/* .container.extraWide .landscapeConsole .spinButton.right	{ right: -148px; } */
+/* .container.extraWide .landscapeConsole .spinButton.left	{ left: -148px; } */
+
+.landscapeConsole .controlButton_splitwin,
+.landscapeConsole .controlButton_gamblecard {
+	position: absolute;
+	top: -216px;
+	z-index: 5;
+}
+.landscapeConsole .controlButton_gambleladder {
+	position: absolute;
+	top: -110px;
+	z-index: 5;
+}
+.landscapeConsole .controlButton_gamblecard.singleGambleButton,
+.landscapeConsole .controlButton_gambleladder.singleGambleButton {
+	top: -206px;
+}
+.landscapeConsole.rightHandMode .controlButton_splitwin,
+.landscapeConsole.rightHandMode .controlButton_gamblecard,
+.landscapeConsole.rightHandMode .controlButton_gambleladder	{ right: 29px; }
+.landscapeConsole.leftHandMode .controlButton_splitwin,
+.landscapeConsole.leftHandMode .controlButton_gamblecard,
+.landscapeConsole.leftHandMode .controlButton_gambleladder	{ left: 29px; }
+/* .container.extraWide .landscapeConsole.rightHandMode .controlButton_splitwin, */
+/* .container.extraWide .landscapeConsole.rightHandMode .controlButton_gamblecard, */
+/* .container.extraWide .landscapeConsole.rightHandMode .controlButton_gambleladder	{ right: -124px; } */
+/* .container.extraWide .landscapeConsole.leftHandMode .controlButton_splitwin, */
+/* .container.extraWide .landscapeConsole.leftHandMode .controlButton_gamblecard, */
+/* .container.extraWide .landscapeConsole.leftHandMode .controlButton_gambleladder	{ left: -124px; } */
+
+.landscapeConsole .gambleChoice {
+	width: 142px;
+	height: 142px;
+	position: absolute;
+	right: 186px;
+}
+.landscapeConsole .gambleChoice.controlButton_red						{ top: -476px; }
+.landscapeConsole .gambleChoice.controlButton_black						{ top: -286px; }
+.landscapeConsole.rightHandMode .gambleChoice.controlButton_red,
+.landscapeConsole.rightHandMode .gambleChoice.controlButton_black		{ right: 186px; }
+.landscapeConsole.leftHandMode .gambleChoice.controlButton_red,
+.landscapeConsole.leftHandMode .gambleChoice.controlButton_black		{ left: 186px; }
+/* .container.extraWide .landscapeConsole.rightHandMode .gambleChoice.controlButton_red, */
+/* .container.extraWide .landscapeConsole.rightHandMode .gambleChoice.controlButton_black	{ right: 4px; } */
+/* .container.extraWide .landscapeConsole.leftHandMode .gambleChoice.controlButton_red, */
+/* .container.extraWide .landscapeConsole.leftHandMode .gambleChoice.controlButton_black	{ left: 4px; } */
+
+.landscapeConsole .gambleChoice.controlButton_ladderstep 				{ top: -378px; }
+.landscapeConsole.rightHandMode .gambleChoice.controlButton_ladderstep 	{ right: 4px; }
+.landscapeConsole.leftHandMode .gambleChoice.controlButton_ladderstep 	{ left: 4px; }
+
+.landscapeConsole .controlButton_maxiplay  {
+	position: absolute;
+	top: -212px;
+	width: 109px;
+	height: 115px;
+}
+.landscapeConsole.rightHandMode .controlButton_maxiplay	{ right: 22px; }
+.landscapeConsole.leftHandMode .controlButton_maxiplay	{ left: 22px; }
+/* .container.extraWide .landscapeConsole.rightHandMode .controlButton_maxiplay	{ right: -132px; } */
+/* .container.extraWide .landscapeConsole.leftHandMode .controlButton_maxiplay	{ left: -132px; } */
+
+.landscapeConsole .controlButton_jackpot.firepot  {
+	position: absolute;
+	top: -212px;
+	width: 119px;
+	height: 116px;
+}
+.landscapeConsole.rightHandMode .controlButton_jackpot.firepot	{ right: 18px; }
+.landscapeConsole.leftHandMode .controlButton_jackpot.firepot	{ left: 18px; }
+/* .container.extraWide .landscapeConsole.rightHandMode .controlButton_jackpot.firepot	{ right: -136px; } */
+/* .container.extraWide .landscapeConsole.leftHandMode .controlButton_jackpot.firepot	{ left: -136px; } */
+
+.landscapeConsole .controlButton_jackpot.goldennights  {
+	position: absolute;
+	top: -220px;
+	width: 116px;
+	height: 120px;
+}
+.landscapeConsole.rightHandMode .controlButton_jackpot.goldennights	{ right: 24px; }
+.landscapeConsole.leftHandMode .controlButton_jackpot.goldennights	{ left: 24px; }
+/* .container.extraWide .landscapeConsole.rightHandMode .controlButton_jackpot.firepot	{ right: -136px; } */
+/* .container.extraWide .landscapeConsole.leftHandMode .controlButton_jackpot.firepot	{ left: -136px; } */
+
+.landscapeConsole .controlButton_stopautospin .infoValue {
+	position: relative;
+	top: 30px;
+	font-size: 28px;
+	color: black;
+}
+
+.landscapeConsole .autospinPopup {
+	position: absolute;
+	top: -589px;
+}
+.landscapeConsole .autospinPopup.rightSide	{ right: 130px; }
+.landscapeConsole .autospinPopup.leftSide	{ left: 130px; }
+
+.landscapeConsole .autospinPopup .toggleOptions {
+	position: absolute;
+	top: 0px;
+	z-index: 4;
+	width: 56px;
+	height: 562px;
+}
+.landscapeConsole .autospinPopup.rightSide .toggleOptions 	{ left: -54px; }
+.landscapeConsole .autospinPopup.leftSide .toggleOptions 	{ right: -54px; }
+.landscapeConsole .autospinPopup .toggleOptions .clickArea {
+	position: absolute;
+	top: 177px;
+	width: 96px;
+	height: 205px;
+	background-repeat: no-repeat;
+	background-position: center -177px; 
+	cursor: pointer;
+}
+.landscapeConsole .autospinPopup.rightSide .toggleOptions .clickArea 	{ left: -20px; }
+.landscapeConsole .autospinPopup.leftSide .toggleOptions .clickArea 	{ right: -20px; }
+
+.landscapeConsole .autospinPopup .basic {
+	position: relative;
+	z-index: 10;
+	width: 175px;
+	height: 558px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-repeat: no-repeat;
+}
+.landscapeConsole .autospinPopup.rightSide .basic	{ float: right; background-position: right; }
+.landscapeConsole .autospinPopup.leftSide .basic	{ float: left; background-position: left; }
+.landscapeConsole .autospinPopup .basic .navButton {
+	position: absolute;
+	width: 151px;
+	height: 84px;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+.landscapeConsole .autospinPopup.rightSide .basic .navButton	{ right: 37px; }
+.landscapeConsole .autospinPopup.leftSide .basic .navButton		{ left: 37px; }
+.landscapeConsole .autospinPopup .basic .nextEntry { top: 2px; }
+.landscapeConsole .autospinPopup .basic .prevEntry { bottom: 2px; }
+.landscapeConsole .autospinPopup .basic .choicesBox {
+	position: absolute;
+	width: 151px;
+	top: 86px;
+	bottom: 86px;
+	overflow: hidden;
+}
+.landscapeConsole .autospinPopup .basic .choicesBox.noNavButtons {
+	top: 2px;
+	bottom: 2px;
+}
+.landscapeConsole .autospinPopup.rightSide .basic .choicesBox	{ right: 37px; }
+.landscapeConsole .autospinPopup.leftSide .basic .choicesBox		{ left: 37px; }
+.landscapeConsole .autospinPopup .basic .choicesBox .autospinChoiceEntry {
+	width: 151px;
+	height: 98px;
+	padding-top: 32px;
+	text-align: center;
+	color: white;
+	font-size: 56px;
+	cursor: pointer;
+}
+.landscapeConsole .autospinPopup .basic .choicesBox.entriesCount-3 .autospinChoiceEntry { margin-top: 43px; }
+.landscapeConsole .autospinPopup .basic .choicesBox.entriesCount-2 .autospinChoiceEntry { margin-top: 100px; }
+.landscapeConsole .autospinPopup .basic .choicesBox.entriesCount-1 .autospinChoiceEntry { margin-top: 215px; }
+
+.landscapeConsole .autospinPopup .advanced {
+	position: relative;
+	z-index: 5;
+	width: 14px;
+	height: 558px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.landscapeConsole .autospinPopup.rightSide .advanced	{ float: left; background-position: left; }
+.landscapeConsole .autospinPopup.leftSide .advanced		{ float: right; background-position: right; }
+.landscapeConsole .autospinPopup .advanced.full {
+	width: 764px;
+}
+.landscapeConsole .autospinPopup .advanced .content {
+	position: absolute;
+	top: 20px;
+	width: 692px;
+	font-size: 28px;
+	color: white;
+}
+.landscapeConsole .autospinPopup.rightSide .advanced .content	{ left: 34px; }
+.landscapeConsole .autospinPopup.leftSide .advanced .content	{ right: 34px; }
+.landscapeConsole .autospinPopup .advanced .content .title {
+	text-align: center;
+	font-size: 50px;
+}
+.landscapeConsole .autospinPopup .advanced .content .subtitle {
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+.landscapeConsole .autospinPopup .advanced .content .option {
+	margin-top: 36px;
+}
+.landscapeConsole .autospinPopup .advanced .content .option + .option {
+	margin-top: 40px;
+}
+.landscapeConsole .autospinPopup .advanced .content .option.inactive {
+	color: #4a4a4a;
+}
+.landscapeConsole .autospinPopup .advanced .content .option .checkbox {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	border: 2px solid white;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.landscapeConsole .autospinPopup .advanced .content .option.inactive .checkbox,
+.landscapeConsole .autospinPopup .advanced .content .option.fixed .checkbox {
+	width: 38px;
+	height: 38px;
+	border: 3px solid #4a4a4a;
+	cursor: default
+}
+.landscapeConsole .autospinPopup .advanced .content .option.checked .checkbox:after {
+	content: url('../../picts/game/1280/console/mobile/autospin-popup-check.png');
+	position: absolute;
+	top: -10px;
+	left: 4px;
+}
+.landscapeConsole .autospinPopup .advanced .content .option.checked.fixed .checkbox:after {
+	content: url('../../picts/game/1280/console/mobile/autospin-popup-check-grey.png');
+}
+.landscapeConsole .autospinPopup .advanced .content .option .info {
+	width: 406px;
+	margin-top: 4px;
+	margin-left: 16px;
+	cursor: pointer;
+}
+.landscapeConsole .autospinPopup .advanced .content .option.inactive .info {
+	color: #4a4a4a;
+	cursor: default
+}
+.landscapeConsole .autospinPopup .advanced .content .option-winFreegames .info {
+	width: 500px;
+}
+.landscapeConsole .autospinPopup .advanced .content .option input {
+	width: 128px;
+	height: 32px;
+	margin-left: 8px;
+	padding: 4px 8px;
+	border: 2px solid white;
+	border-radius: 8px;
+	background: transparent;
+	font-family: 'Roboto Condensed', Arial;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: right;
+	color: white;
+	outline: none;
+}
+.landscapeConsole .autospinPopup .advanced .content .option.invalid input			{ border-color: transparent; }
+.landscapeConsole .autospinPopup .advanced .content .option.invalid.highlight input	{ border-color: #ffe000; }
+
+.landscapeConsole .menuBox {
+	position: absolute;
+	bottom: 116px;
+	z-index: 1;
+}
+.landscapeConsole.rightHandMode .menuBox	{ left: 0px; }
+.landscapeConsole.leftHandMode .menuBox		{ right: 0px; }
+.landscapeConsole .menuBox .buttons {
+	position: absolute;
+	bottom: 6px;
+}
+.landscapeConsole.rightHandMode .menuBox .buttons	{ left: 4px; }
+.landscapeConsole.leftHandMode .menuBox .buttons	{ right: 4px; }
+.landscapeConsole .menuBox .buttons .controlButton {
+	width: 136px;
+	height: 102px;
+}
+.landscapeConsole .menuBox .buttons .controlButton + .controlButton {
+	margin-top: 20px;
+}
+
+
+.landscapeConsole .mainBox {
+	width: 1280px;
+	height: 104px;
+}
+
+.landscapeConsole .mainBox .userInfoContainer,
+.landscapeConsole .mainBox .userInfoContainer .userInfoContent {
+	height: 104px;
+}
+.landscapeConsole .mainBox .userInfoContainer .infoLabel {
+	position: absolute;
+	top: 12px;
+	left: 0px;
+	font-size: 22px;
+}
+.landscapeConsole .mainBox .userInfoContainer .infoValue {
+	position: absolute;
+	top: 44px;
+	left: 0px;
+	font-size: 40px;
+}
+.landscapeConsole .mainBox .userInfoContainer.userInfo .infoLabel,
+.landscapeConsole .mainBox .userInfoContainer.userInfo .infoValue {
+	left: 16px;
+}
+
+.landscapeConsole .mainBox .userInfoContainer.moneyInfo,
+.landscapeConsole .mainBox .userInfoContainer.moneyInfo div {
+	width: 346px;
+}
+.landscapeConsole .mainBox .userInfoContainer.userInfo,
+.landscapeConsole .mainBox .userInfoContainer.userInfo .userInfoContent {
+	width: 570px;
+}
+.landscapeConsole .mainBox .userInfoContainer.userInfo {
+	overflow: visible;
+}
+.landscapeConsole .mainBox .userInfoContainer.userInfo .userInfoContent {
+	overflow: hidden;
+}
+.landscapeConsole .mainBox .userInfoContainer.userInfo .userInfoContent div {
+	width: 538px;
+}
+.landscapeConsole .mainBox .userInfoContainer.moneyInfo .length_13 .infoValue	{ font-size: 37px; }
+.landscapeConsole .mainBox .userInfoContainer.moneyInfo .length_14 .infoValue	{ font-size: 34px; }
+.landscapeConsole .mainBox .userInfoContainer.moneyInfo .length_15 .infoValue	{ font-size: 32px; }
+
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons,
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons div {
+	width: 172px;
+}
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons .value_totalbet {
+	height: 47px;
+	line-height: 47px;
+	overflow: hidden;
+}
+
+.landscapeConsole  .mainBox .userInfoContainer.orangeButtons .value_totalbet.highlightJackpotBet {
+	top: 36px;
+	height: 64px;
+}
+.landscapeConsole  .mainBox .userInfoContainer.orangeButtons .value_totalbet.highlightJackpotBet .value,
+.landscapeConsole  .mainBox .userInfoContainer.orangeButtons .value_totalbet.highlightJackpotBet .jackpotBet { 
+	position: relative;
+	display: block;
+	height: 30px;
+	top: -6px;
+	font-size: 28px;
+}
+.landscapeConsole  .mainBox .userInfoContainer.orangeButtons .value_totalbet.highlightJackpotBet .jackpotBet {
+	color: #fff600;
+}
+.landscapeConsole  .mainBox .userInfoContainer.orangeButtons.inactive .value_totalbet.highlightJackpotBet .jackpotBet,
+.landscapeConsole  .mainBox .userInfoContainer.orangeButtons .controlButton_linebetplus.inactive .value_totalbet.highlightJackpotBet .jackpotBet {
+	color: #646000;
+}
+
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons .value_totalbet.length_6 	{ font-size: 38px; }
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons .value_totalbet.length_7 	{ font-size: 34px; }
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons .value_totalbet.length_8 	{ font-size: 31px; }
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons .value_totalbet.length_9 	{ font-size: 27px; }
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons .value_totalbet.length_10	{ font-size: 25px; }
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons .value_totalbet.length_11	{ font-size: 23px; }
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons .value_totalbet.length_12	{ font-size: 20px; }
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons .value_totalbet.length_13	{ font-size: 18px; }
+
+.landscapeConsole.rightHandMode .mainBox .userInfoContainer.moneyInfo		{ float: left; margin-left: 4px; }
+.landscapeConsole.rightHandMode .mainBox .userInfoContainer.orangeButtons	{ float: right; margin-right: 4px; }
+.landscapeConsole.leftHandMode .mainBox .userInfoContainer.moneyInfo		{ float: right; margin-right: 4px;}
+.landscapeConsole.leftHandMode .mainBox .userInfoContainer.orangeButtons	{ float: left; margin-left: 4px; }
+
+.landscapeConsole .mainBox .userInfoContainer.moneyInfo .infoValue .value .currLeft		{ padding-right: 6px; }
+.landscapeConsole .mainBox .userInfoContainer.moneyInfo .infoValue .value .currRight	{ padding-left: 6px; }
+
+.landscapeConsole .mainBox .userInfoContainer.moneyInfo.withTotalmoneyDisplay .infoLabel,
+.landscapeConsole .mainBox .userInfoContainer.moneyInfo.withTotalmoneyDisplay .infoValue {
+	position: static;
+}
+.landscapeConsole .mainBox .userInfoContainer.moneyInfo.withTotalmoneyDisplay .value_totalmoney .infoLabel {
+	margin-top: 6px;
+	font-size: 18px;
+}
+.landscapeConsole .mainBox .userInfoContainer.moneyInfo.withTotalmoneyDisplay .value_totalmoney .infoValue {
+	margin-top: -2px;
+}
+.landscapeConsole .mainBox .userInfoContainer.moneyInfo.withTotalmoneyDisplay .value_money .infoLabel {
+	font-size: 14px;
+}
+.landscapeConsole .mainBox .userInfoContainer.moneyInfo.withTotalmoneyDisplay .value_money .infoValue {
+	padding-left: 6px;
+	font-size: 20px;
+}
+.landscapeConsole .mainBox .userInfoContainer.moneyInfo.withTotalmoneyDisplay .value_money .infoValue .value .currLeft	{ padding-right: 4px; }
+.landscapeConsole .mainBox .userInfoContainer.moneyInfo.withTotalmoneyDisplay .value_money .infoValue .value .currRight { padding-left: 4px; }
+
+.landscapeConsole .mainBox .userInfoContainer.userInfo {
+	margin-left: 4px;
+}
+.landscapeConsole .mainBox .userInfoContainer.userInfo .autospinHint span {
+	padding-left: 34px;
+	background-repeat: no-repeat;
+}
+.landscapeConsole .mainBox .userInfoContainer.userInfo .autospinHint .switchOff {
+	background-position: 0px 3px;
+}
+.landscapeConsole .mainBox .userInfoContainer.userInfo .infoValue .infoText {
+	position: relative;
+	top: -14px;
+	height: 72px;
+}
+.landscapeConsole .mainBox .userInfoContainer.userInfo .infoValue .info_choose.withAutospinHint {
+	top: 0px; 
+}
+.landscapeConsole .mainBox .userInfoContainer.userInfo .userInfoBox .info_win,
+.landscapeConsole .mainBox .userInfoContainer.userInfo .userInfoBox .info_jackpotWin,
+.landscapeConsole .mainBox .userInfoContainer.userInfo .userInfoBox .info_jackpotBonus {
+	top: -22px;
+	font-size: 54px;
+}
+.landscapeConsole .mainBox .userInfoContainer.userInfo .userInfoBox .info_win .value .currLeft		{ padding-right: 5px; }
+.landscapeConsole .mainBox .userInfoContainer.userInfo .userInfoBox .info_win .value .currRight		{ padding-left: 5px; }
+.landscapeConsole .mainBox .userInfoContainer.userInfo .userInfoBox .info_lastWin .value .currLeft	{ padding-right: 4px; }
+.landscapeConsole .mainBox .userInfoContainer.userInfo .userInfoBox .info_lastWin .value .currRight	{ padding-left: 4px; }
+
+.landscapeConsole.freeRoundMode .mainBox .userInfoContainer.userInfo .infoValue,
+.landscapeConsole .mainBox .userInfoContainer.userInfo.freegameMode .infoValue {
+	top: 26px;
+}
+.landscapeConsole .mainBox .userInfoContainer.userInfo.freegameMode .infoValue .infoText {
+	height: 50px;
+}
+.landscapeConsole .mainBox .userInfoContainer.userInfo .actWinBox {
+	position: absolute;
+	bottom: 4px;
+	left: 16px;
+}
+.landscapeConsole .mainBox .userInfoContainer.userInfo .actWinBox .actWinLabel {
+	font-size: 22px;
+}
+.landscapeConsole .mainBox .userInfoContainer.userInfo .actWinBox .actWinValue { 
+	padding-left: 8px;
+	font-size: 32px
+}
+.landscapeConsole .mainBox .userInfoContainer.userInfo .actWinBox .actWinValue .value .currLeft		{ padding-right: 6px; }
+.landscapeConsole .mainBox .userInfoContainer.userInfo .actWinBox .actWinValue .value .currRight	{ padding-left: 6px; }
+.landscapeConsole .mainBox .userInfoContainer.userInfo .controlButtonFeatureCountdown {
+	position: absolute;
+	top: 6px;
+	width: 146px;
+	height: 53px;
+	padding: 13px 0px 0px 0px;
+	font-size: 36px;
+}
+.landscapeConsole.rightHandMode .mainBox .userInfoContainer.userInfo .controlButtonFeatureCountdown	{ right: 8px; }
+.landscapeConsole.leftHandMode .mainBox .userInfoContainer.userInfo .controlButtonFeatureCountdown	{ left: 8px; }
+.landscapeConsole.rightHandMode .mainBox .userInfoContainer.userInfo .controlButtonFeatureCountdown.aboveMainBox	{ top: -76px; right: 0px; }
+.landscapeConsole.leftHandMode .mainBox .userInfoContainer.userInfo .controlButtonFeatureCountdown.aboveMainBox		{ top: -76px; left: 0px; }
+
+
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons {
+	top: 0px;
+	height: 104px;
+	background-repeat: no-repeat;
+}
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons.full {
+	top: -224px;
+	height: 328px;
+	z-index: 5;
+}
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons .controlButton,
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons .infoBox {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	height: 104px;
+}
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons .controlButton .value_totalbet .currLeft		{ padding-right: 6px; }
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons .controlButton .value_totalbet .currRight	{ padding-left: 6px; }
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons .clickArea {
+	position: absolute;
+	left: 0px;
+	height: 0px;
+}
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons.full .clickArea {
+	height: 104px;
+}
+
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons .clickArea.controlButton_linesplus,
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons .clickArea.controlButton_linebetplus {
+	top: 0px;
+}
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons .clickArea.controlButton_linesminus,
+.landscapeConsole .mainBox .userInfoContainer.orangeButtons .clickArea.controlButton_linebetminus {
+	top: 114px;
+}
+
+.landscapeConsole .controlButton_maxbet  {
+	position: absolute;
+	top: -330px;
+	height: 93px;
+	width: 172px;
+	padding-top: 14px;
+	font-size: 36px;
+}
+.landscapeConsole .controlButton_maxbet.low 			{ top: -218px; }
+.landscapeConsole.rightHandMode .controlButton_maxbet	{ right: 4px; }
+.landscapeConsole.leftHandMode .controlButton_maxbet	{ left: 4px; }
+
+.landscapeConsole .reelClickBox {
+	position: absolute;
+	left: 107px;
+	bottom: 130px;
+	width: 1066px;
+	height: 576px;
+}
+
+
+
+/* mobile portrait mode */
+.portraitConsole {
+	padding: 0px;
+}
+
+.portraitConsole .controlButton_menu {
+	width: 126px;
+	height: 126px;
+	border-radius: 64px;
+	position: absolute;
+	top: -770px;
+	z-index: 5;
+}
+.portraitConsole.rightHandMode .controlButton_menu		{ right: 6px; }
+.portraitConsole.leftHandMode .controlButton_menu		{ left: 6px; }
+
+.portraitConsole .controlButton_home,
+.portraitConsole .controlButton_menu.menuIsOpen,
+.portraitConsole .controlButton_closeinfosite {
+	position: absolute;
+	top: -755px;
+	width: 94px;
+	height: 94px;
+	z-index: 5;
+	border-radius: 0px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.portraitConsole .controlButton_home img {
+	width: 94px;
+	height: 94px;
+}
+.portraitConsole.rightHandMode .controlButton_home				{ left: 0px; }
+.portraitConsole.rightHandMode .controlButton_menu.menuIsOpen,
+.portraitConsole.rightHandMode .controlButton_closeinfosite		{ right: 0px; }
+.portraitConsole.leftHandMode .controlButton_home				{ right: 0px; }
+.portraitConsole.leftHandMode .controlButton_menu.menuIsOpen,
+.portraitConsole.leftHandMode .controlButton_closeinfosite		{ left: 0px; }
+
+.portraitConsole .menuBox {
+	position: absolute;
+	top: -832px;
+	z-index: 1;
+	width: 1078px;
+	height: 228px;
+	padding-left: 2px;
+	background-color: black;
+}
+.portraitConsole.rightHandMode .menuBox	{ left: 0px; }
+.portraitConsole.leftHandMode .menuBox	{ right: 0px; }
+.portraitConsole .menuBox .controlButton {
+	width: 160px;
+	height: 120px;
+	margin-top: 54px;
+}
+.portraitConsole.rightHandMode .menuBox .controlButton	{ float: left; margin-left: 6px; }
+.portraitConsole.leftHandMode .menuBox .controlButton	{ float: right; margin-right: 6px; }
+
+
+.portraitConsole .actionButtons {
+	position: relative;
+	width: 1068px;
+	height: 248px;
+	margin: 9px auto;
+}
+.portraitConsole .actionButtons .controlButton { 
+	position: absolute;
+	height: 248px;
+	background-repeat: no-repeat;
+}
+.portraitConsole .actionButtons .controlButton.small { 
+	height: 120px;
+}
+.portraitConsole .actionButtons .leftButton,
+.portraitConsole .actionButtons .centerButton,
+.portraitConsole .actionButtons .rightButton.topButton { 
+	top: 0px;
+}
+.portraitConsole .actionButtons .rightButton.lowButton { 
+	bottom: 0px;
+}
+
+.portraitConsole .actionButtons .leftButton,
+.portraitConsole .actionButtons .leftButton div,
+.portraitConsole .actionButtons .rightButton,
+.portraitConsole .actionButtons .rightButton div {
+	width: 324px;
+}
+.portraitConsole.rightHandMode .actionButtons .leftButton	{ left: 0px; }
+.portraitConsole.rightHandMode .actionButtons .rightButton	{ right: 0px; }
+.portraitConsole.leftHandMode .actionButtons .leftButton	{ right: 0px; }
+.portraitConsole.leftHandMode .actionButtons .rightButton	{ left: 0px; }
+
+.portraitConsole .centerButton,
+.portraitConsole .centerButton div {
+	left: 334px;
+	width: 400px;
+}
+
+.portraitConsole .controlButton_stopautospin .infoValue {
+	position: relative;
+	top: 82px;
+	font-size: 70px;
+	color: black;
+}
+
+.portraitConsole .actionButtons .controlButton_maxiplay { 
+	width: 330px;
+	height: 254px;
+}
+
+.portraitConsole .actionButtons .controlButton_jackpot.firepot {
+	top: -8px;
+	width: 353px;
+	height: 273px;
+}
+.portraitConsole.rightHandMode .actionButtons .controlButton_jackpot.firepot	{ left: -4px; }
+.portraitConsole.leftHandMode .actionButtons .controlButton_jackpot.firepot		{ right: -22px; }
+
+.portraitConsole .actionButtons .controlButton_jackpot.goldennights {
+	top: -20px;
+	width: 356px;
+	height: 284px;
+}
+.portraitConsole .actionButtons .controlButton_jackpot.goldennights .buttonLayer {
+	width: 356px;
+}
+.portraitConsole.rightHandMode .actionButtons .controlButton_jackpot.goldennights	{ left: -4px; }
+.portraitConsole.leftHandMode .actionButtons .controlButton_jackpot.goldennights	{ right: -24px; }
+
+.portraitConsole .actionButtons .controlButton_takewin.ladder,
+.portraitConsole .actionButtons .controlButton_splitwin.ladder {
+	width: 324px;
+}
+.portraitConsole.rightHandMode .actionButtons .controlButton_takewin.ladder		{ left: 0px; }
+.portraitConsole.rightHandMode .actionButtons .controlButton_splitwin.ladder	{ right: 0px; }
+.portraitConsole.leftHandMode .actionButtons .controlButton_takewin.ladder		{ right: 0px; }
+.portraitConsole.leftHandMode .actionButtons .controlButton_splitwin.ladder		{ left: 0px; }
+.portraitConsole .actionButtons .controlButton_takewin.card,
+.portraitConsole .actionButtons .controlButton_splitwin.card {
+	width: 348px;
+	height: 120px;
+}
+.portraitConsole .actionButtons .controlButton_takewin.card {
+	top: 128px;
+}
+.portraitConsole.rightHandMode .actionButtons .controlButton_takewin.card,
+.portraitConsole.rightHandMode .actionButtons .controlButton_splitwin.card	{ left: 0px; }
+.portraitConsole.leftHandMode .actionButtons .controlButton_takewin.card,
+.portraitConsole.leftHandMode .actionButtons .controlButton_splitwin.card	{ right: 0px; }
+.portraitConsole .actionButtons .controlButton_red,
+.portraitConsole .actionButtons .controlButton_black {
+	width: 354px;
+}
+.portraitConsole.rightHandMode .actionButtons .controlButton_red 	{ left: 354px; }
+.portraitConsole.rightHandMode .actionButtons .controlButton_black	{ right: 0px; }
+.portraitConsole.leftHandMode .actionButtons .controlButton_red 	{ left: 360px; }
+.portraitConsole.leftHandMode .actionButtons .controlButton_black	{ left: 0px; }
+
+.portraitConsole .actionButtons .controlButton_maxbet  {
+	height: 217px;
+	padding-top: 32px;
+	font-size: 82px;
+}
+
+.portraitConsole .actionButtons .orangeButton .infoLabel {
+	margin-top: 38px;
+	font-size: 36px;
+}
+.portraitConsole .actionButtons .orangeButton .infoValue {
+	margin-top: 28px;
+	font-size: 72px;
+}
+.portraitConsole .actionButtons .orangeButton.small .infoLabel {
+	margin-top: 8px;
+	font-size: 36px;
+}
+.portraitConsole .actionButtons .orangeButton.small .infoValue {
+	margin-top: 0px;
+	font-size: 56px;
+}
+.portraitConsole .actionButtons .orangeButton.controlButton_linebetplus .infoValue .value .currLeft		{ padding-right: 16px; }
+.portraitConsole .actionButtons .orangeButton.controlButton_linebetplus .infoValue .value .currRight	{ padding-left: 16px; }
+.portraitConsole .actionButtons .orangeButton.controlButton_linebetplus .infoValue.highlightJackpotBet .value .currLeft,
+.portraitConsole .actionButtons .orangeButton.controlButton_linebetplus .infoValue .jackpotBet .currLeft	{ padding-right: 10px; }
+.portraitConsole .actionButtons .orangeButton.controlButton_linebetplus .infoValue.highlightJackpotBet .value .currRight,
+.portraitConsole .actionButtons .orangeButton.controlButton_linebetplus .infoValue .jackpotBet .currRight	{ padding-left: 10px; }
+.portraitConsole .actionButtons .orangeButton.controlButton_linebetplus .value_totalbet {
+	position: relative;
+	top: -8px;
+	height: 85px;
+	line-height: 85px;
+	overflow: hidden;
+}
+
+.portraitConsole .actionButtons .orangeButton.controlButton_linebetplus .value_totalbet.highlightJackpotBet {
+	top: -4px;
+	height: 72px;
+}
+.portraitConsole .actionButtons .orangeButton.controlButton_linebetplus .value_totalbet.highlightJackpotBet .value,
+.portraitConsole .actionButtons .orangeButton.controlButton_linebetplus .value_totalbet.highlightJackpotBet .jackpotBet { 
+	position: relative;
+	display: block;
+	height: 46px;
+	top: -26px;
+	font-size: 36px;
+}
+.portraitConsole .actionButtons .orangeButton.controlButton_linebetplus .value_totalbet.highlightJackpotBet .jackpotBet {
+	top: -36px;
+	color: #fff600;
+}
+.portraitConsole .actionButtons .orangeButton.controlButton_linebetplus.inactive .value_totalbet.highlightJackpotBet .jackpotBet {
+	color: #646000;
+}
+
+.portraitConsole .actionButtons .orangeButton.controlButton_linebetplus .value_totalbet.length_7 	{ font-size: 64px; }
+.portraitConsole .actionButtons .orangeButton.controlButton_linebetplus .value_totalbet.length_8 	{ font-size: 58px; }
+.portraitConsole .actionButtons .orangeButton.controlButton_linebetplus .value_totalbet.length_9 	{ font-size: 50px; }
+.portraitConsole .actionButtons .orangeButton.controlButton_linebetplus .value_totalbet.length_10	{ font-size: 46px; }
+.portraitConsole .actionButtons .orangeButton.controlButton_linebetplus .value_totalbet.length_11	{ font-size: 42px; }
+.portraitConsole .actionButtons .orangeButton.controlButton_linebetplus .value_totalbet.length_12	{ font-size: 38px; }
+.portraitConsole .actionButtons .orangeButton.controlButton_linebetplus .value_totalbet.length_13	{ font-size: 34px; }
+
+.portraitConsole .autospinPopup {
+	position: absolute;
+	bottom: 370px;
+	left: 34px;
+}
+
+.portraitConsole .autospinPopup .toggleOptions {
+	position: absolute;
+	top: -73px;
+	left: 0px;
+	z-index: 4;
+	width: 1012px;
+	height: 74px;
+}
+.portraitConsole .autospinPopup .toggleOptions .clickArea {
+	position: absolute;
+	top: -30px;
+	left: 393px;
+	width: 226px;
+	height: 133px;
+	background-repeat: no-repeat;
+	background-position: -393px center;
+	cursor: pointer;
+}
+
+.portraitConsole .autospinPopup .basic {
+	position: relative;
+	z-index: 10;
+	width: 1012px;
+	height: 168px;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+.portraitConsole .autospinPopup .basic .navButton {
+	position: absolute;
+	bottom: 36px;
+	width: 160px;
+	height: 150px;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+.portraitConsole .autospinPopup .basic .prevEntry { left: 2px; }
+.portraitConsole .autospinPopup .basic .nextEntry { right: 2px; }
+.portraitConsole .autospinPopup .basic .choicesBox {
+	position: absolute;
+	height: 150px;
+	bottom: 36px;
+	left: 162px;
+	right: 162px;
+	overflow: hidden;
+}
+.portraitConsole .autospinPopup .basic .choicesBox.noNavButtons {
+	left: 2px;
+	right: 2px;
+}
+.portraitConsole .autospinPopup .basic .choicesBox .autospinChoiceEntry {
+	width: 180px;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	color: white;
+	font-size: 64px;
+	cursor: pointer;
+}
+.portraitConsole .autospinPopup .basic .choicesBox .autospinChoiceEntry + .autospinChoiceEntry {
+	margin-left: 74px;
+}
+.portraitConsole .autospinPopup .basic .choicesBox.entriesCount-3 .autospinChoiceEntry { margin-left: 117px; }
+.portraitConsole .autospinPopup .basic .choicesBox.entriesCount-2 .autospinChoiceEntry { margin-left: 216px; }
+.portraitConsole .autospinPopup .basic .choicesBox.entriesCount-1 .autospinChoiceEntry { margin-left: 409px; }
+
+.portraitConsole .autospinPopup .advanced {
+	position: relative;
+	z-index: 5;
+	width: 1012px;
+	height: 20px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.portraitConsole .autospinPopup .advanced.full {
+	height: 680px;
+}
+.portraitConsole .autospinPopup .advanced .content {
+	margin: 0px 48px;
+	padding-top: 16px;
+	font-size: 42px;
+	color: white;
+}
+.portraitConsole .autospinPopup .advanced .content .title {
+	text-align: center;
+	font-size: 64px;
+}
+.portraitConsole .autospinPopup .advanced .content .subtitle {
+	margin-top: -4px;
+	margin-bottom: 16px;
+	text-align: center;
+	font-size: 24px;
+}
+.portraitConsole .autospinPopup .advanced .content .option {
+	margin-top: 40px;
+	font-size: 38px;
+}
+.portraitConsole .autospinPopup .advanced .content .option + .option {
+	margin-top: 58px;
+}
+.portraitConsole .autospinPopup .advanced .content .option.inactive {
+	color: #4a4a4a;
+}
+.portraitConsole .autospinPopup .advanced .content .option .checkbox {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	border: 2px solid white;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.portraitConsole .autospinPopup .advanced .content .option.inactive .checkbox,
+.portraitConsole .autospinPopup .advanced .content .option.fixed .checkbox {
+	width: 49px;
+	height: 49px;
+	border: 3px solid #4a4a4a;
+	cursor: default
+}
+.portraitConsole .autospinPopup .advanced .content .option.checked .checkbox:after {
+	content: url('../../picts/game/1280/console/portrait/autospin-popup-check.png');
+	position: absolute;
+	top: -10px;
+	left: 4px;
+}
+.portraitConsole .autospinPopup .advanced .content .option.checked.fixed .checkbox:after {
+	content: url('../../picts/game/1280/console/portrait/autospin-popup-check-grey.png');
+}
+.portraitConsole .autospinPopup .advanced .content .option .info {
+	width: 552px;
+	margin-top: 4px;
+	margin-left: 28px;
+	cursor: pointer;
+}
+.portraitConsole .autospinPopup .advanced .content .option.inactive .info {
+	color: #4a4a4a;
+	cursor: default
+}
+.portraitConsole .autospinPopup .advanced .content .option-winFreegames .info {
+	width: 700px;
+}
+.portraitConsole .autospinPopup .advanced .content .option .inputfield input {
+	width: 156px;
+	height: 38px;
+	margin-left: 10px;
+	padding: 6px 10px;
+	border: 2px solid white;
+	border-radius: 8px;
+	background: transparent;
+	font-family: 'Roboto Condensed', Arial;
+	font-size: 34px;
+	font-weight: bold;
+	text-align: right;
+	color: white;
+	outline: none;
+}
+.portraitConsole .autospinPopup .advanced .content .option.invalid input			{ border-color: transparent; }
+.portraitConsole .autospinPopup .advanced .content .option.invalid.highlight input	{ border-color: #ffe000; }
+
+.portraitConsole .userInfoContainer {
+	position: relative;
+	margin: 0 auto;
+}
+.portraitConsole .userInfoContainer,
+.portraitConsole .userInfoContainer div {
+	width: 1068px;
+	height: 120px;
+}
+.portraitConsole .userInfoContainer.userInfo {
+	margin-top: 10px;
+}
+.portraitConsole .userInfoContainer.userInfo .autospinHint {
+	position: absolute;
+	top: 38px;
+	font-size: 40px;
+}
+
+.portraitConsole .userInfoContainer.userInfo .autospinHint.offsetTop {
+	top: 12px;
+}
+.portraitConsole .userInfoContainer.userInfo .autospinHint span {
+	padding-left: 64px;
+	background-repeat: no-repeat;
+}
+.portraitConsole .userInfoContainer.userInfo .autospinHint .switchOff {
+	background-position-x: 2px;
+}
+.portraitConsole .userInfoContainer.userInfo .userInfoBox .infoText {
+	position: absolute;
+	top: 38px;
+	left: 0px;
+	height: 70px;
+	font-size: 40px;
+}
+.portraitConsole .userInfoContainer.userInfo .userInfoBox .info_choose.withAutospinHint {
+	top: 60px;
+	height: 58px;
+}
+.portraitConsole .userInfoContainer.userInfo .userInfoBox .info_win,
+.portraitConsole .userInfoContainer.userInfo .userInfoBox .info_jackpotWin,
+.portraitConsole .userInfoContainer.userInfo .userInfoBox .info_jackpotBonus,
+.portraitConsole .userInfoContainer.userInfo .userInfoBox .info_countdownFreegames {
+	top: 24px;
+	font-size: 66px;
+}
+.portraitConsole .userInfoContainer.userInfo .userInfoBox .info_win .value .currLeft,
+.portraitConsole .userInfoContainer.userInfo .userInfoBox .info_lastWin .value .currLeft	{ padding-right: 8px; }
+.portraitConsole .userInfoContainer.userInfo .userInfoBox .info_win .value .currRight,
+.portraitConsole .userInfoContainer.userInfo .userInfoBox .info_lastWin .value .currRight	{ padding-left: 8px; }
+
+.portraitConsole.freeRoundMode .userInfoContainer.userInfo .userInfoBox .infoText,
+.portraitConsole .userInfoContainer.userInfo.freegameMode .userInfoBox .infoText {
+	top: 12px;
+	height: 52px;
+}
+.portraitConsole.freeRoundMode .userInfoContainer.userInfo .userInfoBox .info_win,
+.portraitConsole .userInfoContainer.userInfo.freegameMode .userInfoBox .info_win,
+.portraitConsole.freeRoundMode .userInfoContainer.userInfo .userInfoBox .info_countdownFreegames,
+.portraitConsole .userInfoContainer.userInfo.freegameMode .userInfoBox .info_countdownFreegames {
+	top: 4px;
+	font-size: 54px;
+}
+.portraitConsole .userInfoContainer.userInfo .actWinBox {
+	position: absolute;
+	top: 64px;
+	left: 0px;
+}
+.portraitConsole .userInfoContainer.userInfo .actWinBox .actWinLabel {
+	font-size: 22px;
+}
+.portraitConsole .userInfoContainer.userInfo .actWinBox .actWinValue { 
+	padding-left: 8px;
+	font-size: 32px;
+}
+.portraitConsole .userInfoContainer.userInfo .actWinBox .actWinValue .value .currLeft	{ padding-right: 6px; }
+.portraitConsole .userInfoContainer.userInfo .actWinBox .actWinValue .value .currRight	{ padding-left: 6px; }
+.portraitConsole .userInfoContainer.userInfo .controlButtonFeatureCountdown {
+	position: absolute;
+	top: 12px;
+	width: 146px;
+	height: 53px;
+	padding: 13px 0px 0px 0px;
+	font-size: 36px;
+}
+.portraitConsole.rightHandMode .userInfoContainer.userInfo .controlButtonFeatureCountdown	{ right: 10px; }
+.portraitConsole.leftHandMode .userInfoContainer.userInfo .controlButtonFeatureCountdown	{ left: 10px; }
+
+
+.portraitConsole .userInfoContainer.moneyInfo .infoLabel {
+	height: 32px;
+	padding-top: 10px;
+	font-size: 30px;
+}
+.portraitConsole .userInfoContainer.moneyInfo .infoValue {
+	height: 78px;
+	font-size: 66px;
+}
+.portraitConsole .userInfoContainer.moneyInfo .infoValue .value .currLeft	{ padding-right: 12px; }
+.portraitConsole .userInfoContainer.moneyInfo .infoValue .value .currRight	{ padding-left: 12px; }
+
+.portraitConsole .userInfoContainer.moneyInfo.withTotalmoneyDisplay .value_totalmoney {
+	height: 70px;
+	padding-top: 8px;
+}
+.portraitConsole .userInfoContainer.moneyInfo.withTotalmoneyDisplay .value_totalmoney .infoValue {
+	padding-left: 20px;
+}
+.portraitConsole .userInfoContainer.moneyInfo.withTotalmoneyDisplay .value_money {
+	height: 32px;
+}
+.portraitConsole .userInfoContainer.moneyInfo.withTotalmoneyDisplay .value_money .infoLabel {
+	padding-left: 20px;
+	font-size: 18px;
+}
+.portraitConsole .userInfoContainer.moneyInfo.withTotalmoneyDisplay .value_money .infoValue {
+	padding-left: 12px;
+	font-size: 30px;
+}
+.portraitConsole .userInfoContainer.moneyInfo.withTotalmoneyDisplay .value_money .infoValue .value .currLeft	{ padding-right: 8px; }
+.portraitConsole .userInfoContainer.moneyInfo.withTotalmoneyDisplay .value_money .infoValue .value .currRight	{ padding-left: 8px; }
+
+.portraitConsole .userInfoContainer.moneyInfo .controlButton_sound {
+	position: absolute;
+	top: 16px;
+	width: 89px;
+	height: 88px;
+}
+.portraitConsole.rightHandMode .userInfoContainer.moneyInfo .controlButton_sound	{ left: 16px; }
+.portraitConsole.leftHandMode .userInfoContainer.moneyInfo .controlButton_sound		{ right: 16px; }
+
+.portraitConsole .userInfoContainer.moneyInfo .controlButton_responsibleGaming {
+	position: absolute;
+	top: 29px;
+	width: 138px;
+	height: 62px;
+}
+.portraitConsole .userInfoContainer.moneyInfo .controlButton_responsibleGaming img {
+	max-width: 138px;
+	max-height: 62px;
+}
+.portraitConsole.rightHandMode .userInfoContainer.moneyInfo .controlButton_responsibleGaming	{ right: 16px; }
+.portraitConsole.leftHandMode .userInfoContainer.moneyInfo .controlButton_responsibleGaming		{ left: 16px; }
+
+.portraitConsole .reelClickBox {
+	position: absolute;
+	left: 7px;
+	bottom: 540px;
+	width: 1066px;
+	height: 576px;
+}
+
+
+
+/* layout depending on the language */
+.webConsole.da .controlButtonViolet								{ font-size: 24px; }
+
+.webConsole.es .controlButton_maxbet 							{ font-size: 24px; }
+
+.webConsole.fi .autospinPopup .advanced .content #option-balanceDecreased .info { font-size: 18px; }
+.webConsole.fi .controlButton_stopautospin .infoValueUnlimited	{ font-size:  24px; }
+.webConsole.fi .controlButton_stopautospin .infoLabel			{ font-size: 18px; line-height: 20px; padding-top: 6px; }
+.landscapeConsole.fi .autospinHint .switchOn					{ font-size:  20px; }
+
+.webConsole.fr .controlButton_stopautospin							{ font-size: 15px; }
+.webConsole.fr .controlButton_stopautospin .infoLabel				{ font-size: 15px; line-height: 16px; padding-top: 6px}
+.webConsole.fr .autospinPopup .advanced .content .option .info		{ font-size: 19px; }
+.landscapeConsole.fr .mainBox .userInfoContainer.userInfo .info_countdownFreegames { left: -50px; }
+
+.webConsole.hr .controlButton_autospin 							{ font-size: 17px; padding-top: 42px; height: 63px; }
+.webConsole.hr .controlButton_stopautospin						{ font-size: 17px; }
+.webConsole.hr .controlButton_stopautospin .infoLabel			{ font-size: 16px; line-height: 16px; padding-top: 6px}
+.webConsole.hr .controlButton_stopfeaturecountdown				{ font-size: 20px; padding-top: 10px; height: 35px; }
+.mobileConsole.hr .userInfoContainer.userInfo .controlButtonFeatureCountdown {	font-size: 30px; padding-top: 15px; }
+.landscapeConsole.hr .mainBox .userInfoContainer.userInfo .info_countdownFreegames { left: -10px; }
+
+.webConsole.hu .controlButton_stopautospin						{ width: 90px; padding-left: 5px; padding-right: 7px; }
+.webConsole.hu .autospinPopup .advanced .content .option .info	{ font-size: 18px; margin-top: 4px; }
+
+.webConsole.it .controlButton_maxbet 							{ font-size: 22px; }
+.webConsole.it .controlButton_stopautospin						{ font-size: 20px; }
+.webConsole.it .controlButton_stopautospin .infoLabel			{ font-size: 14px; }
+.webConsole.it .autospinPopup .advanced .content #option-winMoreThan .info			{ width: 250px; margin-top: -8px; }
+.webConsole.it .autospinPopup .advanced .content #option-winFreegames				{ margin-top: 10px; }
+.landscapeConsole.it .autospinPopup .advanced .content .option-winMoreThan .info	{ width: 432px;  }
+.portraitConsole.it .autospinPopup .advanced .content .option-winMoreThan .info		{ width: 590px;  }
+
+.webConsole.jp .controlButtonViolet											{ padding-top: 25px; font-size: 23px; }
+.webConsole.jp .controlButton_autospin										{ padding: 33px 3px 2px 1px; }
+.webConsole.jp .controlButton_stopautospin .infoLabel						{ font-size: 18px; }
+.webConsole.jp .userInfoContainer.orangeButtonsActWinContainer .orangeButtonsBox .controlButtonOrange .infoArea .infoLabel{ font-size: 19px; }
+.webConsole.jp .autospinPopup .advanced .content							{ margin-top: 8px; }
+.webConsole.jp .autospinPopup .advanced .content .option					{ margin-top: 9px; }
+.webConsole.jp .autospinPopup .advanced .content .option .info				{ margin-top: 2px; }
+.landscapeConsole.jp .controlButton_maxbet									{ padding-top:  4px; height: 103px; }
+.landscapeConsole.jp .autospinPopup .advanced .content .option,
+.landscapeConsole.jp .autospinPopup .advanced .content .option + .option	{ margin-top: 34px; }
+.portraitConsole.jp .controlButton_maxbet									{ padding-top: 12px; height: 237px; }
+.portraitConsole.jp .autospinPopup .advanced .content .option + .option		{ margin-top: 42px; }
+
+.webConsole.ko .controlButton_stopautospin									{ padding-top: 30px; height: 94px; }
+.webConsole.ko .autospinPopup .advanced .content .option + .option			{ margin-top: 14px; }
+
+/* .webConsole.nl .userInfoContainer.orangeButtonsActWinContainer .orangeButtonsBox .controlButtonOrange .infoArea .infoLabel { font-size: 14px; } */
+.webConsole.nl .controlButtonFeatureCountdown				{ font-size: 22px; padding-top: 10px; }
+.landscapeConsole.nl .mainBox .userInfoContainer.userInfo .controlButtonFeatureCountdown,
+.portraitConsole.nl .userInfoContainer.userInfo .controlButtonFeatureCountdown	{ font-size: 32px; padding-top: 14px; }
+
+.webConsole.no .controlButtonViolet								{ font-size: 26px; }
+
+.webConsole.pl .controlButton_maxbet 											{ font-size: 26px; }
+.webConsole.pl .controlButton_stopautospin										{ font-size: 24px; }
+.webConsole.pl .controlButton_stopautospin .infoLabel							{ font-size: 15px; }
+.webConsole.pl .autospinPopup .advanced .content .option						{ margin-top: 16px; }
+.webConsole.pl .autospinPopup .advanced .content .option + .option				{ margin-top: 14px; }
+.webConsole.pl .autospinPopup .advanced .content #option-winMoreThan .info		{ margin-top: -8px; }
+.webConsole.pl .autospinPopup .advanced .content #option-winFreegames			{ margin-top: 10px; }
+.landscapeConsole.pl .userInfoContainer .infoLabel 								{ font-size: 18px; padding-top: 1px; }
+.landscapeConsole.pl .userInfoContainer .autospinHint span 						{ padding-top: 2px; }
+.landscapeConsole.pl .autospinPopup .advanced .content .option-winMoreThan .info		{ width: 450px; }
+.portraitConsole.pl .userInfoContainer .autospinHint 							{ font-size: 36px; padding-top: 1px; }
+.portraitConsole.pl .userInfoContainer .autospinHint span 						{ padding-top: 4px; }
+.portraitConsole.pl .autospinPopup .advanced .content .option-winMoreThan .info		{ width: 610px; }
+
+.webConsole.pt .controlButtonViolet								{ font-size: 26px; }
+.webConsole.pt .controlButton_stopautospin .infoLabel			{ font-size: 18px; line-height: 20px; padding-top: 6px; }
+.webConsole.pt .controlButton_stopautospin .infoValueUnlimited	{ font-size: 20px; }
+
+.webConsole.ro .controlButton_stopautospin .infoLabel			{ font-size: 18px; }
+
+.webConsole.ru .controlButton_maxbet 											{ font-size: 24px; }
+.webConsole.ru .controlButton_stopautospin .infoLabel							{ font-size: 15px; }
+.webConsole.ru .userInfoContainer .row2 .userInfoBox .infoLabel					{ font-size: 14px; }
+.webConsole.ru .autospinPopup .advanced .content .option						{ margin-top: 16px; }
+.webConsole.ru .autospinPopup .advanced .content .option + .option				{ margin-top: 14px; }
+.webConsole.ru .autospinPopup .advanced .content #option-winMoreThan .info		{ margin-top: -8px; }
+.webConsole.ru .autospinPopup .advanced .content #option-winFreegames			{ margin-top: 10px; }
+.landscapeConsole.ru .userInfoContainer .infoLabel 								{ font-size: 20px; padding-top: 1px; }
+.landscapeConsole.ru .mainBox .userInfoContainer.userInfo .info_countdownFreegames { left: -20px; }
+.landscapeConsole.ru .mainBox .userInfoContainer.userInfo .controlButtonFeatureCountdown {
+	width: 131px;
+	height: 48px;
+	padding: 11px 0px 0px 0px;
+	font-size: 34px;
+	background-size: 100%;
+}
+.landscapeConsole.ru .autospinPopup .advanced .content .option-winMoreThan .info	{ margin-top: -10px; }
+.landscapeConsole.ru .autospinPopup .advanced .content .option-winFreegames			{ margin-top: 30px; }
+.portraitConsole.ru .autospinPopup .advanced .content .option-winMoreThan .info		{ margin-top: -14px; }
+.portraitConsole.ru .autospinPopup .advanced .content .option-winFreegames			{ margin-top: 38px; }
+
+.webConsole.sr .controlButton_maxbet 													{ font-size: 17px; }
+.webConsole.sr .controlButton_stopautospin .infoLabel									{ font-size: 18px; }
+.webConsole.sr .controlButton_stopfeaturecountdown										{ font-size: 20px; padding-top: 10px; height: 35px; }
+.webConsole.sr .autospinPopup .advanced .content #option-balanceDecreased .info,
+.webConsole.sr .autospinPopup .advanced .content #option-balanceIncreased .info			{ width: 304px; margin-top: 2px; }
+.mobileConsole.sr .userInfoContainer.userInfo .controlButtonFeatureCountdown 			{ font-size: 30px; padding-top: 15px; }
+.landscapeConsole.sr .mainBox .userInfoContainer.userInfo .info_countdownFreegames 		{ left: -50px; }
+.landscapeConsole.sr .controlButton_maxbet  											{ font-size: 28px; padding-top: 22px; height: 85px; }
+.landscapeConsole.sr .autospinPopup .advanced .content .option-balanceDecreased .info,
+.landscapeConsole.sr .autospinPopup .advanced .content .option-balanceIncreased .info	{ margin-top: -10px; }
+.portraitConsole.sr .actionButtons .controlButton_maxbet  								{ font-size: 64px; padding-top: 54px; height: 195px; }
+.portraitConsole.sr .autospinPopup .advanced .content .option-balanceDecreased .info,
+.portraitConsole.sr .autospinPopup .advanced .content .option-balanceIncreased .info	{ margin-top: -16px; }
+
+.console.th .autospinPopup .advanced .content .option .info					{ margin-top: -2px; }
+.webConsole.th .controlButton_autospin										{ font-size: 24px; }
+.webConsole.th .controlButton_stopautospin									{ font-size: 24px; }
+.webConsole.th .controlButton_stopautospin .infoLabel						{ line-height: 23px; padding-top: 3px; }
+.webConsole.th .autospinPopup .advanced .content .subtitle					{ margin-bottom: 0px; }
+.webConsole.th .autospinPopup .advanced .content .option + .option			{ margin-top: 16px; }
+.landscapeConsole.th .controlButton_maxbet									{ font-size: 30px; padding-top: 32px; height: 75px; }
+.portraitConsole.th .controlButton_maxbet									{ font-size: 72px; padding-top: 62px; height: 187px; }
+.portraitConsole.th .autospinPopup .advanced .content .option + .option 	{ margin-top: 50px; }
+
+.webConsole.tr .controlButton_autospin 												{ font-size: 22px; padding-top: 40px; height: 65px; }
+.webConsole.tr .controlButton_stopautospin											{ font-size: 21px; }
+.webConsole.tr .controlButton_stopautospin .infoLabel								{ font-size: 13px; }
+.webConsole.tr .autospinPopup .advanced .content .option .info						{ font-size: 18px; margin-top: 4px; }
+.landscapeConsole.tr .autospinPopup .advanced .content .option .info				{ width: 450px; font-size: 26px; margin-top: 8px; }
+.portraitConsole.tr .autospinPopup .advanced .content .option .info					{ width: 610px; font-size: 36px; margin-top: 8px; }
+
+.webConsole.vi .controlButton_autospin							{ font-size: 24px; padding-top: 24px; height: 94px; }
+.webConsole.vi .controlButton_stopautospin						{ font-size: 24px; line-height: 26px; padding-top: 16px; height: 93px; }
+.webConsole.vi .controlButton_stopautospin .infoLabel			{ line-height: 24px; padding-top: 12px; }
+.webConsole.vi .controlButtonViolet								{ font-size: 24px; line-height: 26px; padding-top: 16px; height: 93px; }
+.portraitConsole.vi .controlButton_maxbet						{ font-size: 56px; }
+.landscapeConsole.vi .controlButton_maxbet						{ font-size: 24px; }
+.landscapeConsole.vi .mainBox .userInfoContainer.userInfo .info_countdownFreegames { left: -30px; }
+
+.webConsole.zh .controlButton_autospin												{ padding-top: 30px; height: 94px; }
+.webConsole.zh .autospinPopup .advanced .content .option + .option					{ margin-top: 14px; }
+.portraitConsole.zh .autospinPopup .advanced .content .option + .option 			{ margin-top: 48px; }

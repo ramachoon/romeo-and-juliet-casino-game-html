@@ -1,0 +1,160 @@
+@CHARSET "UTF-8";
+
+/* the settings page */
+.infoPopup.mobileInfo.info2 .settingsBox .settingCheckbox					{ background-image: url('../../picts/game/1280/buttons/mobile/checkbox-off.png');}
+.infoPopup.mobileInfo.info2 .settingsBox .settingCheckbox.active 			{ background-image: url('../../picts/game/1280/buttons/mobile/checkbox-on.png'); }
+.infoPopup.mobileInfo.info2 .settingsBox .setting.inactive .settingCheckbox { background-image: url('../../picts/game/1280/buttons/mobile/checkbox-inactive.png');}
+.infoPopup.webInfo.info2 .settingsBox .setting.inactive .settingCheckbox	{ background-image: url('../../picts/game/1280/buttons/web/checkbox-inactive.png');}
+.infoContainer .mobileInfo .closeButton										{ background-image: url('../../picts/game/1280/buttons/mobile/button-close.png'); }
+
+/* the paytable */
+.webConsole .closeInfoButton.paytable										{ background-image: url('../../picts/game/1280/console/mobile/button-close.png'); }
+
+
+
+/* general layout & the settings page */
+
+.gameContainer .infoContainer .infoPopup {
+	position: relative;
+	height: 604px;
+	background-color: #000000;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.infoContainer .infoPopup.webInfo 		{ width: 1200px; margin-left:40px; }
+.infoContainer .infoPopup.mobileInfo	{ width: 1280px; background-color: black; }
+
+.infoContainer .infoPopup .closeButton,
+.infoContainer .infoPopup .settingCheckbox,
+.infoContainer .infoPopup .settingText {
+	cursor: pointer;
+}
+.infoContainer .infoPopup .setting.inactive .settingCheckbox,
+.infoContainer .infoPopup .setting.inactive .settingText {
+	cursor: default;
+}
+
+.infoContainer .infoPopup.info2 .settingsBox .settingText {
+	margin-top: 8px;
+	font-weight: bold;
+	color: white;
+}
+.infoContainer .infoPopup.info2 .settingsBox .setting.inactive .settingText {
+	color: #4a4a4a;
+}
+.infoContainer .infoPopup.webInfo.info2 .settingsBox 							{ padding-top: 170px; padding-left: 220px; }
+.infoContainer .infoPopup.webInfo.info2 .settingsBox.onlyOneCheckbox			{ padding-top: 256px; }
+.infoContainer .infoPopup.webInfo.info2 .settingsBox.onlyTwoCheckboxes			{ padding-top: 200px; }
+.infoContainer .infoPopup.webInfo.info2 .settingsBox .setting + .setting 		{ margin-top: 43px; }
+.infoContainer .infoPopup.webInfo.info2 .settingsBox .settingCheckbox 			{ width: 64px; height: 59px; background-repeat: no-repeat; }
+.infoContainer .infoPopup.webInfo.info2 .settingsBox .settingText 				{ margin-left: 7px; font-size: 40px; }
+.infoContainer .infoPopup.webInfo.info2.nl .settingsBox .settingText.setting3	{	margin-top: -12px; width: 700px; }
+
+.infoContainer .infoPopup.mobileInfo.info2 .settingsBox								{ padding-top: 110px; padding-left: 290px; }
+.infoContainer .infoPopup.mobileInfo.info2 .settingsBox.onlyOneCheckbox				{ padding-top: 256px; }
+.infoContainer .infoPopup.mobileInfo.info2 .settingsBox.onlyTwoCheckboxes			{ padding-top: 200px; }
+.infoContainer .infoPopup.mobileInfo.info2.leftHandMode .settingsBox				{ padding-left: 390px; }
+.infoContainer .infoPopup.mobileInfo.info2.portraitInfo.leftHandMode .settingsBox	{ padding-left: 290px; }
+.infoContainer .infoPopup.mobileInfo.info2 .settingsBox .setting + .setting 		{ margin-top: 24px; }
+.infoContainer .infoPopup.mobileInfo.info2 .settingsBox .settingCheckbox			{ width: 84px; height: 79px; }
+.infoContainer .infoPopup.mobileInfo.info2 .settingsBox .settingText { 
+	width: 530px;
+	margin-left: 14px;
+	padding-top: 4px; 
+	font-size: 52px;
+	line-height: 50px;
+}
+
+/* settings layout depending on the laguage */
+.infoContainer .infoPopup.webInfo.hr .setting .settingText			{ font-size: 36px; }
+.infoContainer .infoPopup.webInfo.hu .setting .settingText			{ font-size: 34px; }
+.infoContainer .infoPopup.webInfo.pl .setting .settingText			{ font-size: 34px; }
+.infoContainer .infoPopup.webInfo.ru .setting .settingText			{ font-size: 34px; }
+.infoContainer .infoPopup.webInfo.sr .setting .settingText			{ font-size: 36px; }
+
+
+
+/* the paytable */
+
+.infoContainer .infoPopup .scrollContainer {
+	width: 960px;
+	margin: 0 auto;
+	font-family: 'Roboto Condensed', Arial;
+	font-weight: bolder; 
+	color: white;
+}
+.infoContainer .infoPopup .bigHeadline {
+	margin-top: 30px;
+	font-size: 50px;
+	text-align: center;
+}
+.infoContainer .infoPopup .headline {
+	margin: 24px 0px;
+	padding-top: 2px;
+	font-size: 36px;
+	color: #000000;
+	text-align: center;
+}
+.infoContainer .infoPopup .headline ~ .headline {
+	margin-top: 54px;
+}
+.infoContainer .infoPopup .description {
+	margin: 16px 0px;
+	font-size: 30px;
+	font-weight: normal; 
+}
+.infoContainer .infoPopup .paylines {
+	height: 230px;
+	background-size: 100%;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.infoContainer .infoPopup .centerColumn {
+	margin: 0 auto;
+}
+.infoContainer .infoPopup .paytableValues {
+	width: 920px;
+}
+.infoContainer .infoPopup .winValueBox {
+	width: 412px;
+}
+/* winValues the 2nd, 3rd... line should have some distance to the line before */
+.infoContainer .infoPopup .winValueBox.fr ~ .winValueBox {
+	margin-top: 10px;
+}
+.infoContainer .infoPopup .winValue {
+	position: relative;
+	width: 230px;
+	font-size: 30px;
+	text-align: left;
+}
+.infoContainer .infoPopup .winValueBox .winValue .multiplicator {
+	padding-right: 18px;
+	color: #f2890c;
+}
+.infoContainer .infoPopup .winValueBox .symbolImg {
+	width: 160px;
+	height: 160px;
+	margin-right: 20px;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.infoContainer .infoPopup .winValueBox .values {
+	padding-top: 28px;
+}
+.infoContainer .infoPopup .winValueBox .values.fourLines {
+	padding-top: 10px;
+}
+.infoContainer .infoPopup .winValueBox .values.oneLine {
+	padding-top: 62px;
+}
+
+.webConsole .controlButton_closeinfosite.paytable {
+	right: 22px;
+	top: -574px;
+	width: 28px;
+	height: 28px;
+	background-size: 100%;
+}

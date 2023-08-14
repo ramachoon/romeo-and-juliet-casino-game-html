@@ -1,0 +1,260 @@
+@CHARSET "UTF-8";
+
+/* gamble card mode: background images for buttons */
+.gambleBox.gambleCard.webGamble							{ background-image: url('../../picts/game/1280/gamble/background-32.jpg'); }
+.gambleBox.gambleCard.mobileGamble						{ background-image: url('../../picts/game/1280/gamble/background-169.jpg'); }
+
+.gambleBox.gambleCard .gambleWinSign					{ background-image: url('../../picts/game/1280/gamble/card/win_active.png'); }
+.gambleBox.gambleCard .gambleWinSignBig					{ background-image: url('../../picts/game/1280/gamble/card/win_big.png'); }
+.gambleBox.gambleCard .gambleCardBack					{ background-image: url('../../picts/game/1280/gamble/card/card_back_black.png'); }
+.gambleBox.gambleCard .gambleCardBack.backBlack			{ background-image: url('../../picts/game/1280/gamble/card/card_back_black.png'); }
+.gambleBox.gambleCard .gambleCardBack.backRed			{ background-image: url('../../picts/game/1280/gamble/card/card_back_red.png'); }
+.gambleBox.gambleCard .gambleCardFront.heart			{ background-image: url('../../picts/game/1280/gamble/card/card_heart.png'); }
+.gambleBox.gambleCard .gambleCardFront.club				{ background-image: url('../../picts/game/1280/gamble/card/card_club.png'); }
+.gambleBox.gambleCard .historyCard.heart				{ background-image: url('../../picts/game/1280/gamble/card/card_heart_small.png'); }
+.gambleBox.gambleCard .historyCard.club					{ background-image: url('../../picts/game/1280/gamble/card/card_club_small.png'); }
+
+
+/* gamble ladder mode: background images for buttons */
+.gambleBox.gambleLadder.webGamble						{ background-image: url('../../picts/game/1280/gamble/ladder/risk_background-web.jpg'); }
+.gambleBox.gambleLadder.mobileGamble					{ background-image: url('../../picts/game/1280/gamble/ladder/risk_background-mobile.jpg'); }
+
+.gambleBox.gambleLadder #ladderStep-0					{ background-image: url('../../picts/game/1280/gamble/ladder/steps/risk_lvl_0.png'); }
+.gambleBox.gambleLadder #ladderStep-1					{ background-image: url('../../picts/game/1280/gamble/ladder/steps/risk_lvl_1.png'); }
+.gambleBox.gambleLadder #ladderStep-2					{ background-image: url('../../picts/game/1280/gamble/ladder/steps/risk_lvl_2.png'); }
+.gambleBox.gambleLadder #ladderStep-3					{ background-image: url('../../picts/game/1280/gamble/ladder/steps/risk_lvl_3.png'); }
+.gambleBox.gambleLadder #ladderStep-4					{ background-image: url('../../picts/game/1280/gamble/ladder/steps/risk_lvl_4.png'); }
+.gambleBox.gambleLadder #ladderStep-5					{ background-image: url('../../picts/game/1280/gamble/ladder/drawOut/drawOut_lvl_0.png'); }
+.gambleBox.gambleLadder #ladderStep-5.party				{ background-image: url('../../picts/game/1280/gamble/ladder/drawOut/drawOut_lvl_0_yellow_white.png'); }
+.gambleBox.gambleLadder #ladderStep-6					{ background-image: url('../../picts/game/1280/gamble/ladder/steps/risk_lvl_5.png'); }
+.gambleBox.gambleLadder #ladderStep-7					{ background-image: url('../../picts/game/1280/gamble/ladder/steps/risk_lvl_6.png'); }
+.gambleBox.gambleLadder #ladderStep-8					{ background-image: url('../../picts/game/1280/gamble/ladder/steps/risk_lvl_7.png'); }
+.gambleBox.gambleLadder #ladderStep-9					{ background-image: url('../../picts/game/1280/gamble/ladder/steps/risk_lvl_8.png'); }
+.gambleBox.gambleLadder #ladderStep-10					{ background-image: url('../../picts/game/1280/gamble/ladder/steps/risk_lvl_9.png'); }
+.gambleBox.gambleLadder #ladderStep-11					{ background-image: url('../../picts/game/1280/gamble/ladder/drawOut/drawOut_lvl_1.png'); }
+.gambleBox.gambleLadder #ladderStep-11.party			{ background-image: url('../../picts/game/1280/gamble/ladder/drawOut/drawOut_lvl_1_yellow_white.png'); }
+.gambleBox.gambleLadder #ladderStep-12					{ background-image: url('../../picts/game/1280/gamble/ladder/steps/risk_lvl_10.png'); }
+.gambleBox.gambleLadder #ladderStep-13					{ background-image: url('../../picts/game/1280/gamble/ladder/steps/risk_lvl_11.png'); }
+.gambleBox.gambleLadder #ladderStep-14					{ background-image: url('../../picts/game/1280/gamble/ladder/steps/risk_lvl_12.png'); }
+
+.gambleBox.gambleLadder .drawOutSign			{ background-image: url('../../picts/game/1280/gamble/ladder/drawOut/arrows_white.png'); }
+
+
+.gambleBox	{
+	position: absolute; 
+	top: 0px; 
+	height: 604px; 
+	z-index: 100; 
+	color: white; 
+	font-family: 'Roboto Condensed', Arial; 
+	font-weight: bold;	
+}
+.gambleBox.webGamble	{	left: 40px; width: 1200px;	}
+.gambleBox.mobileGamble	{ 	left: 0px; width: 1280px;	}
+
+.gambleBox .resultsBox {
+	position: absolute;
+	left: 0px;
+	width: 1200px;
+	height: 604px;
+}
+.gambleBox.mobileGamble .resultsBox	{ left: 40px; }
+
+.gambleBox .moneyContainer {
+	position: absolute;
+	top: 93px;
+	width: 310px;
+	height: 430px;
+}
+.gambleBox.webGamble .moneyContainer, .gambleBox.mobileGamble.rightHandMode .moneyContainer {
+	left: 66px;
+}
+.gambleBox.mobileGamble.leftHandMode .moneyContainer {
+	right: 66px;
+}
+
+.gambleBox .moneyBox,
+.gambleBox .gambleHistoryBox {
+	position: relative;
+	width: 174px;
+	padding: 0px 8px;
+	margin: 0px auto 32px;
+	border: 2px solid #8689CC;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	font-weight: bold;
+}
+.gambleBox .gambleWinBox		{ height:  84px; position: relative; }
+.gambleBox .gambleHistoryBox 	{ height:  84px; }
+.gambleBox .gambleStatusBox		{ height: 150px; }
+.gambleBox .gambleBetBox		{ height:  76px; position: relative; }
+.gambleBox .gambleCollectBox 	{ height:  60px; position: relative; }
+
+.gambleBox .gambleWinBox .label,
+.gambleBox .gambleHistoryBox .label,
+.gambleBox .gambleBetBox .label				{ font-size: 19px; padding-top: 5px; }
+.gambleBox .gambleCollectBox .label			{ font-size: 16px; margin-top: 8px; }
+
+.gambleBox .moneyBoxValue { 
+	position: absolute; 
+	left: 0px; 
+	bottom: 0px;
+	min-width: 174px;
+	max-width: 290px; 
+	overflow: hidden; 
+	color: #fff600; 
+} 
+.gambleBox .moneyBoxValue .moneyText .value .currLeft				{ padding-right: 10px; }
+.gambleBox .moneyBoxValue .moneyText .value .currRight				{ padding-left: 10px; } 
+.gambleBox .gambleWinBox .moneyBoxValue								{ font-size: 40px; bottom: 8px; }
+.gambleBox .gambleBetBox .moneyBoxValue								{ font-size: 40px; }
+.gambleBox .gambleCollectBox .moneyBoxValue							{ font-size: 32px; }
+.gambleBox .gambleWinBox .moneyBoxValue.smallFont,
+.gambleBox .gambleBetBox .moneyBoxValue.smallFont					{ font-size: 36px; }
+.gambleBox .gambleCollectBox .moneyBoxValue.smallFont				{ font-size: 29px; }
+.gambleBox .moneyBoxValue.smallFont .moneyText .value .currLeft		{ padding-right: 6px; } 
+.gambleBox .moneyBoxValue.smallFont .moneyText .value .currRight	{ padding-left: 6px; } 
+
+
+
+/* gamble card mode */
+
+.gambleBox.gambleCard .gambleCardBox {
+	position: absolute;
+	left: 462px;
+	top: 84px;
+	width: 283px;
+	height: 436px;
+}
+.gambleBox.gambleCard .gambleCardBox .gambleCardBack,
+.gambleBox.gambleCard .gambleCardBox .gambleCardFront {
+	width: 283px;
+	height: 436px;
+}
+.gambleBox.gambleCard .gambleCardBox .gambleCardBack.backRed {
+	position: absolute;
+	top: 0px;
+	z-index: 5;
+}
+.gambleBox.gambleCard .gambleCardBox .gambleCardFront {
+	position: absolute;
+	top: 0px;
+	z-index:10;
+}
+.gambleBox.gambleCard .gambleCardBox .gambleWinSign {
+	position: absolute;
+	top: 115px;
+	z-index: 20;
+	left: -72px;
+	width: 420px;
+	height: 200px;
+}
+.gambleBox.gambleCard .gambleCardBox .gambleWinSignBig {
+	position: absolute;
+	top: 115px;
+	z-index: 21;
+	left: -71px;
+	width: 420px;
+	height: 200px;
+}
+
+.gambleBox.gambleCard .gambleHistoryBox .historyCardBox {
+	width: 156px;
+	margin: 6px auto 0px;
+}
+.gambleBox.gambleCard .gambleHistoryBox .historyCard {
+	width: 28px;
+	height: 44px;
+}
+.gambleBox.gambleCard .gambleHistoryBox .historyCard + .historyCard 	{ margin-left: 4px; }
+
+.gambleBox.gambleCard .gambleInfo {
+	position: absolute;
+	left: 462px; 
+	top: 534px;
+	width: 283px;
+	height: 25px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #1e51f7;
+}
+.gambleBox.gambleCard .gambleInfo .value .currLeft	{ padding-right: 2px; }
+.gambleBox.gambleCard .gambleInfo .value .currRight	{ padding-left: 2px; }
+
+
+
+/* gamble ladder mode */
+
+.gambleBox.gambleLadder .gambleWinBox .drawOutSign		{ 
+	position: absolute; 
+	height: 22px; 
+	top: 42px;
+	left: 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.gambleBox.gambleLadder .ladderStepsBox {
+	position: absolute;
+	top: 20px;
+	left: 425px;
+	width: 349px;
+	height: 568px;
+}
+.gambleBox.gambleLadder .ladderStepsBox .darkText { color: black; }
+.gambleBox.gambleLadder .ladderStepsBox > div { 
+	text-align: center; 
+	font-size: 34px;
+	background-position: bottom;
+}
+
+.gambleBox.gambleLadder .ladderStepsBox > div + div { margin: -1px auto 0; }
+.gambleBox.gambleLadder .ladderStepsBox > div.flashing 	{ background-position: top; }
+.gambleBox.gambleLadder .ladderStepsBox > div.shining 	{ background-position: center; }
+.gambleBox.gambleLadder .ladderStepsBox #ladderStep-0 { width: 155px; height: 37px; }
+.gambleBox.gambleLadder .ladderStepsBox #ladderStep-1 { width: 158px; height: 38px; }
+.gambleBox.gambleLadder .ladderStepsBox #ladderStep-2 { width: 161px; height: 39px; }
+.gambleBox.gambleLadder .ladderStepsBox #ladderStep-3 { width: 167px; height: 36px; }
+.gambleBox.gambleLadder .ladderStepsBox #ladderStep-4 { width: 173px; height: 38px; }
+.gambleBox.gambleLadder .ladderStepsBox #ladderStep-5 { width: 239px; height: 38px; }
+.gambleBox.gambleLadder .ladderStepsBox #ladderStep-6 { width: 190px; height: 37px; }
+.gambleBox.gambleLadder .ladderStepsBox #ladderStep-7 { width: 199px; height: 39px; }
+.gambleBox.gambleLadder .ladderStepsBox #ladderStep-8 { width: 209px; height: 38px; }
+.gambleBox.gambleLadder .ladderStepsBox #ladderStep-9 { width: 221px; height: 37px; }
+.gambleBox.gambleLadder .ladderStepsBox #ladderStep-10 { width: 235px; height: 38px; }
+.gambleBox.gambleLadder .ladderStepsBox #ladderStep-11 { width: 299px; height: 37px; }
+.gambleBox.gambleLadder .ladderStepsBox #ladderStep-12 { width: 265px; height: 38px; }
+.gambleBox.gambleLadder .ladderStepsBox #ladderStep-13 { width: 285px; height: 38px; padding-top: 2px; }
+.gambleBox.gambleLadder .ladderStepsBox #ladderStep-14 { width: 349px; height: 43px; padding-top: 10px; }
+
+
+
+
+/* layout depending on the laguage */
+.gambleBox.fi .moneyContainer .gambleBetBox .label		{ font-size: 16px; }
+
+.gambleBox.hu .moneyContainer .label		{ font-size: 16px; }
+
+.gambleBox.jp .gambleWinBox .label,
+.gambleBox.jp .gambleHistoryBox .label,
+.gambleBox.jp .gambleBetBox .label				{ font-size: 18px; padding-top: 4px; }
+
+.gambleBox.pl .gambleWinBox .label,
+.gambleBox.pl .gambleHistoryBox .label,
+.gambleBox.pl .gambleBetBox .label			{ font-size: 18px; }
+
+.gambleBox.ru .gambleWinBox .label,
+.gambleBox.ru .gambleHistoryBox .label,
+.gambleBox.ru .gambleBetBox .label			{ font-size: 17px; }
+
+.gambleBox.sr .moneyContainer .label		{ font-size: 14px; }
+
+.gambleBox.th .gambleWinBox .label,
+.gambleBox.th .gambleHistoryBox .label,
+.gambleBox.th .gambleBetBox .label				{ font-size: 18px; padding-top: 4px; }
+
+.gambleBox.zh .gambleWinBox .label,
+.gambleBox.zh .gambleHistoryBox .label,
+.gambleBox.zh .gambleBetBox .label				{ font-size: 18px; padding-top: 4px; }

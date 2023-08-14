@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+
+@font-face {
+  font-family: 'Antonio-Bold';
+  src: url('../../other/fonts/Antonio-Bold.eot');
+  src: url('../../other/fonts/Antonio-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../../other/fonts/Antonio-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Antonio-Regular';
+  src: url('../../other/fonts/Antonio-Regular.eot');
+  src: url('../../other/fonts/Antonio-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../../other/fonts/Antonio-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Antonio-Light';
+  src: url('../../other/fonts/Antonio-Light.eot');
+  src: url('../../other/fonts/Antonio-Light.eot?#iefix') format('embedded-opentype'),
+       url('../../other/fonts/Antonio-Light.ttf') format('truetype');
+}
+
+html 	{ height:100%; }
+
+body {
+	font-family: Arial, Sans-serif;
+	font-size: 12px;
+	color: #444;
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+}
+
+img 		{ border:0; }
+form, input, select, div	{ margin:0; padding:0; }
+
+a 		{ text-decoration: none; color:white; }
+a:hover 	{ text-decoration: underline; }
+
+.fl		{ float: left; }
+.fr		{ float: right; }
+.clear 	{ clear: both; }
+
+.hidden	{ display: none; }
+.visible	{ display: block; }
+
+/* form validator */
+.error, .ok { padding: 4px 8px; margin: 5px 0; }
+.error {
+	background-color:#fee8e8;
+	border:1px solid #e71a0a;
+	color:#e71a0a;
+}
+.ok {
+	background-color:#e5f9db;
+	border:1px solid #088008;
+	color:#088008;
+}
+
+input.input_error, textarea.input_error { background-color: #fdd; }
+select.input_error { background-color: #fdd; }
+div.input_error_box  {
+	display:inline-block;
+	padding:2px;
+	background-color:#fdd;
+}
+div.input_error_box input.input_error { background-color:white; }

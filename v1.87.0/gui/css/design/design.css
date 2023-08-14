@@ -1,0 +1,20 @@
+.button  	{ 
+	border: 1px solid #565756;
+	background: -webkit-linear-gradient( top,  #ffffff 0%, #565756 100% );
+	background: -moz-linear-gradient( top,  #ffffff 0%, #565756 100% );
+	background: -o-linear-gradient( top,  #ffffff 0%, #565756 100% );
+	background: linear-gradient( to bottom,  #ffffff 0%, #565756 100% );
+	border-radius: 5px;
+	font-size: 17px;
+	text-align: center;
+	width: 120px;
+/* 	margin-top: 10px; */
+	height: 20px;
+	line-height: 20px; 
+}
+
+.button .link{ 	vertical-align:middle; }
+.button a:link { color:black; }
+.button a:visited { color:black; }
+.button a:hover { color:black; text-decoration: none; } 
+

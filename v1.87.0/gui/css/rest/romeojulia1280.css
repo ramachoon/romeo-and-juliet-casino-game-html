@@ -1,0 +1,186 @@
+@CHARSET "UTF-8";
+	
+/* background images */
+#loading													{ background-image: url('../../picts/rest/romeojulia/1280/loading_screen_l32.jpg'); }
+.container.l169 #loading									{ background-image: url('../../picts/rest/romeojulia/1280/loading_screen_l169.jpg'); }
+
+.loaded .gameContainer, .offline .gameContainer				{ background-image: url('../../picts/rest/romeojulia/1280/bg_middle.jpg'); }
+.loaded .headlineContainer, .offline .headlineContainer 	{ background-image: url('../../picts/rest/romeojulia/1280/bg_top.jpg'); }
+.loaded .mainControlBoxBG, .offline .mainControlBoxBG		{ background-image: url('../../picts/rest/romeojulia/1280/bg_bottom.jpg'); }
+.freegame .gameContainer									{ background-image: url('../../picts/rest/romeojulia/1280/bg_middle-fg.jpg'); }
+.freegame .headlineContainer								{ background-image: url('../../picts/rest/romeojulia/1280/bg_top-fg.jpg'); }
+.freegame .headlineContainer.plain							{ background-image: url('../../picts/rest/romeojulia/1280/bg_top-fg2.jpg'); }
+.freegame .mainControlBoxBG									{ background-image: url('../../picts/rest/romeojulia/1280/bg_bottom-fg.jpg'); }
+.mainControlBox .webConsole									{ background-image: url('../../picts/rest/romeojulia/1280/console_web_bg.png'); }
+.mainControlBox .mobileConsole								{ background-image: url('../../picts/rest/romeojulia/1280/console_mobile_bg.png'); }
+.mainControlBox .portraitConsole							{ background-image: url('../../picts/rest/romeojulia/1280/console_portrait_bg.png'); }
+.freegame .mainControlBox .webConsole						{ background-image: url('../../picts/rest/romeojulia/1280/console_web_bg-fg.png'); }
+.freegame .mainControlBox .mobileConsole					{ background-image: url('../../picts/rest/romeojulia/1280/console_mobile_bg-fg.png'); }
+.freegame .mainControlBox .portraitConsole					{ background-image: url('../../picts/rest/romeojulia/1280/console_portrait_bg-fg.png'); }
+.container.portrait.loaded .portraitHeadlineContainer 						{ background-image: url('../../picts/rest/romeojulia/1280/portrait_top.jpg'); }
+.container.portrait.freegame.loaded .portraitHeadlineContainer 				{ background-image: url('../../picts/rest/romeojulia/1280/portrait_top-fg.jpg'); }
+.container.portrait.smallHeader.loaded .portraitHeadlineContainer 			{ background-image: url('../../picts/rest/romeojulia/1280/portrait_top_small.jpg'); }
+.container.portrait.freegame.smallHeader.loaded .portraitHeadlineContainer 	{ background-image: url('../../picts/rest/romeojulia/1280/portrait_top_small-fg.jpg'); }
+.container.portrait.loaded .portraitBottomContainer 						{ background-image: url('../../picts/rest/romeojulia/1280/portrait_bottom_l32.jpg'); }
+.container.portrait.freegame.loaded .portraitBottomContainer 				{ background-image: url('../../picts/rest/romeojulia/1280/portrait_bottom_l32-fg.jpg'); }
+.container.l169.portrait.loaded .portraitBottomContainer 					{ background-image: url('../../picts/rest/romeojulia/1280/portrait_bottom_l169.jpg'); }
+.container.l169.portrait.freegame.loaded .portraitBottomContainer 			{ background-image: url('../../picts/rest/romeojulia/1280/portrait_bottom_l169-fg.jpg'); }
+ 
+.loaded #animFadeoutLayer									{ background-image: url('../../picts/rest/romeojulia/1280/fadeout.png'); }
+.freegame #animFadeoutLayer									{ background-image: url('../../picts/rest/romeojulia/1280/fadeout-fg.png'); }
+
+/* freegame blending */
+#freegame_container.intro,
+#freegame_container.outro		{ background-image: url('../../picts/rest/romeojulia/1280/freegame/fgsign-1.jpg'); }
+#freegame_container.retrigger	{ background-image: url('../../picts/rest/romeojulia/1280/freegame/fgsign-2.png'); }
+
+#freegame_container #bookBGLayer		{ background-image: url('../../picts/rest/romeojulia/1280/bg_middle-fg2.jpg'); }
+
+
+/* info pages */
+.infoPopup.webInfo														{ background-image: url('../../picts/rest/romeojulia/1280/infoSites/web/background.png'); } 
+.infoPopup.webInfo.info2 .settingsBox .settingCheckbox					{ background-image: url('../../picts/rest/romeojulia/1280/infoSites/web/checkbox-off.png');	}
+.infoPopup.webInfo.info2 .settingsBox .settingCheckbox.active			{ background-image: url('../../picts/rest/romeojulia/1280/infoSites/web/checkbox-on.png');  	}
+.webConsole .closeInfoButton	 										{ background-image: url('../../picts/rest/romeojulia/1280/infoSites/web/button-close.png'); 	}
+.infoPopup.webInfo.info1							{ background-image: none; }
+.infoPopup.info1 .paylines							{ background-image: url('../../picts/rest/romeojulia/1280/infoSites/lines.png'); }
+.infoPopup.info1 .symbolImg-10						{ background-image: url('../../picts/rest/romeojulia/1280/infoSites/scatter.png'); }
+.infoPopup.info1 .symbolImg-9						{ background-image: url('../../picts/rest/romeojulia/1280/infoSites/julia.png'); }
+.infoPopup.info1 .symbolImg-8						{ background-image: url('../../picts/rest/romeojulia/1280/infoSites/romeo.png'); }
+.infoPopup.info1 .symbolImg-7						{ background-image: url('../../picts/rest/romeojulia/1280/infoSites/dolch.png'); }
+.infoPopup.info1 .symbolImg-6						{ background-image: url('../../picts/rest/romeojulia/1280/infoSites/brief.png'); }
+.infoPopup.info1 .symbolImg-5						{ background-image: url('../../picts/rest/romeojulia/1280/infoSites/a.png'); }
+.infoPopup.info1 .symbolImg-4						{ background-image: url('../../picts/rest/romeojulia/1280/infoSites/k.png'); }
+.infoPopup.info1 .symbolImg-3						{ background-image: url('../../picts/rest/romeojulia/1280/infoSites/q.png'); }
+.infoPopup.info1 .symbolImg-2						{ background-image: url('../../picts/rest/romeojulia/1280/infoSites/j.png'); }
+.infoPopup.info1 .symbolImg-1						{ background-image: url('../../picts/rest/romeojulia/1280/infoSites/10.png'); }
+.infoPopup.info1 .bonusSymbolBox					{ background-image: url('../../picts/rest/romeojulia/1280/infoSites/book.png'); }
+.infoPopup.info1 .bonusSymbolBox .symbolImg.s9		{ background-image: url('../../picts/rest/romeojulia/1280/symbols/symbol-s-julia.jpg'); }
+.infoPopup.info1 .bonusSymbolBox .symbolImg.s8		{ background-image: url('../../picts/rest/romeojulia/1280/symbols/symbol-s-romeo.jpg'); }
+.infoPopup.info1 .bonusSymbolBox .symbolImg.s7		{ background-image: url('../../picts/rest/romeojulia/1280/symbols/symbol-s-dagger.jpg'); }
+.infoPopup.info1 .bonusSymbolBox .symbolImg.s6		{ background-image: url('../../picts/rest/romeojulia/1280/symbols/symbol-s-letter.jpg'); }
+.infoPopup.info1 .bonusSymbolBox .symbolImg.s5		{ background-image: url('../../picts/rest/romeojulia/1280/symbols/symbol-s-a.jpg'); }
+.infoPopup.info1 .bonusSymbolBox .symbolImg.s4		{ background-image: url('../../picts/rest/romeojulia/1280/symbols/symbol-s-k.jpg'); }
+.infoPopup.info1 .bonusSymbolBox .symbolImg.s3		{ background-image: url('../../picts/rest/romeojulia/1280/symbols/symbol-s-q.jpg'); }
+.infoPopup.info1 .bonusSymbolBox .symbolImg.s2		{ background-image: url('../../picts/rest/romeojulia/1280/symbols/symbol-s-j.jpg'); }
+.infoPopup.info1 .bonusSymbolBox .symbolImg.s1		{ background-image: url('../../picts/rest/romeojulia/1280/symbols/symbol-s-10.jpg'); }
+.infoContainer .infoPopup .bonusSymbolBox {
+	position: relative;
+	width: 360px;
+	height: 232px;
+	background-size: 100%;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+.infoContainer .infoPopup .bonusSymbolBox .symbolImg {
+	position: absolute;
+	left: 60px;
+	top: 62px;
+	width: 98px;
+	height: 150px;
+	background-size: 100%;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.infoPopup.info1 .specialFeature					{ background-image: url('../../picts/rest/romeojulia/1280/infoSites/book.png'); }
+
+.infoContainer .infoPopup .headline {
+	background-color: #dc9426;
+}
+.infoContainer .infoPopup .winValueBox .winValue .multiplicator {
+	color: #dc9426;
+}
+.infoContainer .infoPopup .winValueBox.winValues-10 .symbolImg {
+	height: 260px;
+}
+.infoContainer .infoPopup .winValueBox.winValues-10 .values {
+	padding-top: 70px;
+}
+
+.infoContainer .infoPopup .paylines {
+	height: 238px;
+}
+.infoContainer .infoPopup .paylines.lines-5 {
+	height: 114px;
+	margin-bottom: 20px;
+}
+ 
+		
+/* freegame popups */
+#freegame_container #fgRenderBox {
+	position: absolute;
+	top: 30px;
+	left: 170px;
+	width: 940px;
+	height: 544px;
+}
+#freegame_container #fgRenderBox.retrigger {
+	left: 300px;
+	width: 680px;
+}
+
+#freegamePoints  { 
+	position:absolute; 
+	top: 300px; 
+	width: 1280px; 
+	text-align: center;
+	font-family: "Noto Serif", "Times New Roman", serif; 
+	font-size: 70px; 
+	color: #6D0909; 
+	font-weight: bold; 
+}
+#freegamePoints .currLeft	{ padding-right: 18px; }
+#freegamePoints .currRight	{ padding-left: 18px; }
+#bookAnimLayer, #bookBGLayer { position:absolute; width:1280px; height:604px; } 
+#bookEndPict { position:absolute; top:110px; left:260px; width:767px; height:369px; }
+
+/* optimal slot */
+#bookPictLayer {
+	position: absolute;
+	top: 130px;
+	left: 268px;
+	width: 750px;
+	height: 376px;	
+}
+#chosenBonusSymbol {
+	position: absolute;
+	top: 64px;
+	left: 96px;
+	width: 260px;
+	height: 238px;
+}
+ 
+.headlineContainer.plain .fgBonusSymbol, .headlineContainer.plain .fgPayTable { opacity: 0; }
+.headlineContainer .fgBonusSymbol		{ position:absolute; left:914px; top:26px;  }
+.headlineContainer .fgBonusSymbol > img	{ width:73px; height:67px; }
+
+.headlineContainer .fgPayTable 				{ position:absolute; left:1010px; top:28px; width: 86px; }
+.headlineContainer .fgPayTable.values4 		{ top:23px; }
+.headlineContainer .fgPayTable .fgWinValue + .fgWinValue 	{ margin-top: -4px; }
+
+/* preload fonts */
+#loading div.preloadFont .font3 { font-family: "Noto Serif", "Times New Roman", serif; font-weight: bold; }
+#loading div.preloadFont .font4 { font-family: "Noto Serif", "Times New Roman", serif; font-weight: bold; font-style: italic; }
+
+
+
+/* for pixi animations (freegame signs) */
+/*
+#pixi_container {
+	background-image: url('../../picts/rest/romeojulia/1280/freegame/fgsign-4.jpg');
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	overflow: hidden;
+	width: 1280px;
+	height: 604px;
+	z-index: 15;
+}
+#freegame_container.pixi					{ background-image: url('../../picts/rest/romeojulia/1280/freegame/fgsign-4.jpg'); }
+.headlineContainer .freegame_blending.pixi	{ background-image: url('../../picts/rest/romeojulia/1280/bg_top-fg-4.jpg'); }
+.mainControlBox .freegame_blending.pixi		{ background-image: url('../../picts/rest/romeojulia/1280/bg_bottom-fg-4.jpg'); }
+#freegame_container #bookBGLayer			{ background-image: url('../../picts/rest/romeojulia/1280/freegame/fgsign-4.jpg'); }
+.headlineContainer .freegame_blending 		{ z-index: 10; }
+*/

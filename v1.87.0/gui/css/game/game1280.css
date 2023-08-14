@@ -1,0 +1,855 @@
+@charset "utf-8";
+
+
+/* background images for buttons */
+.linemarkersBox .linemarker.small						{ background-image: url('../../picts/game/1280/linemarker/line-number-grey.jpg'); }
+.linemarkersBox .linemarker.small.lines1.activeLines	{ background-image: url('../../picts/game/1280/linemarker/line-number-1.jpg'); }
+.linemarkersBox .linemarker.small.lines2.activeLines	{ background-image: url('../../picts/game/1280/linemarker/line-number-2.jpg'); }
+.linemarkersBox .linemarker.small.lines3.activeLines	{ background-image: url('../../picts/game/1280/linemarker/line-number-3.jpg'); }
+.linemarkersBox .linemarker.small.lines4.activeLines	{ background-image: url('../../picts/game/1280/linemarker/line-number-4.jpg'); }
+.linemarkersBox .linemarker.small.lines5.activeLines	{ background-image: url('../../picts/game/1280/linemarker/line-number-5.jpg'); }
+.linemarkersBox .linemarker.small.lines6.activeLines	{ background-image: url('../../picts/game/1280/linemarker/line-number-6.jpg'); }
+.linemarkersBox .linemarker.small.lines7.activeLines	{ background-image: url('../../picts/game/1280/linemarker/line-number-7.jpg'); }
+.linemarkersBox .linemarker.small.lines8.activeLines	{ background-image: url('../../picts/game/1280/linemarker/line-number-8.jpg'); }
+.linemarkersBox .linemarker.small.lines9.activeLines	{ background-image: url('../../picts/game/1280/linemarker/line-number-9.jpg'); }
+.linemarkersBox .linemarker.small.lines10.activeLines	{ background-image: url('../../picts/game/1280/linemarker/line-number-10.jpg'); }
+.linemarkersBox .linemarker.small.deactivated			{ background: none; }
+.linemarkersBox .linemarker.small .dimmer				{ background-image: url('../../picts/game/1280/linemarker/line-number-dimm.png'); }
+
+.errorPopup .closeButton 				{ background-image: url('../../picts/game/1280/buttons/button-error-close.png'); 	 }
+.errorPopup.history .closeButton 		{ background-image: url('../../picts/game/1280/console/mobile/button-close.png'); }
+.errorPopup .reconnectButton 			{ background-image: url('../../picts/game/1280/buttons/button-reconnect.png'); 		 }
+.errorPopup .reconnectButton:hover		{ background-image: url('../../picts/game/1280/buttons/button-reconnect-mo.png'); 	 }
+.errorPopup .reconnectButton:active		{ background-image: url('../../picts/game/1280/buttons/button-reconnect-press.png'); }
+
+.errorPopup.twoMainButtons .reconnectButton 		{ background-image: url('../../picts/game/1280/buttons/button-continue.png');		}
+.errorPopup.twoMainButtons .reconnectButton:hover	{ background-image: url('../../picts/game/1280/buttons/button-continue-mo.png'); 	}
+.errorPopup.twoMainButtons .reconnectButton:active	{ background-image: url('../../picts/game/1280/buttons/button-continue-press.png'); }
+.errorPopup.twoMainButtons .closeButton 			{ background-image: url('../../picts/game/1280/buttons/button-logout.png'); 		}
+.errorPopup.twoMainButtons .closeButton:hover		{ background-image: url('../../picts/game/1280/buttons/button-logout-mo.png'); 		}
+.errorPopup.twoMainButtons .closeButton:active		{ background-image: url('../../picts/game/1280/buttons/button-logout-press.png');	}
+
+.errorPopup.turbospin .errorText .text-2 								{ background-image: url('../../picts/game/1280/turbospin-popup-gear.png'); }
+.container.portrait .errorPopup.turbospin .errorText .text-2,
+.container.landscape .errorPopup.turbospin .errorText .text-2 			{ background-image: url('../../picts/game/1280/turbospin-popup-settings.png'); }
+
+.waitingForServer.web		{ background-image: url('../../picts/game/1280/buttons/web/loading.png'); }
+.waitingForServer.mobile,
+.waitingForServer.portrait	{ background-image: url('../../picts/game/1280/buttons/mobile/loading.png'); }
+
+.freeRoundsdSign #buttonContinue 				{ background-image: url('../../picts/game/1280/freerounds/button-continue.png'); }
+.freeRoundsdSign #buttonContinue:hover			{ background-image: url('../../picts/game/1280/freerounds/button-continue-mo.png'); }
+.freeRoundsdSign #buttonContinue:active			{ background-image: url('../../picts/game/1280/freerounds/button-continue-press.png'); }
+.freeRoundsdSign .freeRoundsBG					{ background-image: url('../../picts/game/1280/winlines/darkening.png'); }
+.freeRoundsdSign .freeRoundsContent.intro		{ background-image: url('../../picts/game/1280/freerounds/freerounds-sign-1.png'); }
+.freeRoundsdSign .freeRoundsContent.outro		{ background-image: url('../../picts/game/1280/freerounds/freerounds-sign-2.png'); }
+
+#rulesContainer #closeRules 	{ background-image: url('../../picts/game/1280/console/mobile/button-close.png'); }
+
+
+/** common **/
+.container { position: relative; width: 1280px; margin: 0px auto; overflow: hidden; }
+.container.extraWide { overflow: visible; }
+.container.l23 { height:853px; }
+.container.l169 { height:720px; }
+
+/* portrait mode */
+.container.portrait { width: 1080px; height: 1950px; }
+.container.l23.portrait { height: 1630px; }
+.container.portrait.smallHeader { height: 1784px; }
+.container.portrait > div { left:-100px; }
+.container.portrait #loading { left:-100px; }
+.container.portrait .portraitHeadlineContainer,
+.container.portrait .portraitBottomContainer   {
+	position: relative;
+	width: 1280px;
+	height: 390px;
+	z-index: 1;
+	background-repeat: no-repeat;
+	background-position: 100px top;
+}
+.container.portrait.smallHeader .portraitHeadlineContainer	{ height: 224px; }
+.container.portrait .portraitBottomContainer   				{ height: 410px; }
+.container.l23.portrait .portraitBottomContainer   			{ height: 110px; }
+
+.headlineContainer {
+	position: relative;
+	width: 1280px;
+	height: 133px;
+	z-index: 1;
+}
+
+.gameContainer {
+	position: relative;
+	width: 1280px;
+	height: 604px;
+	z-index: 1;
+	background-repeat: no-repeat;
+}
+
+.gameContainer .animationBox {
+	position: relative;
+	width: 1280px;
+	height: 604px;
+	overflow: hidden;
+}
+.gameContainer .animationBox .reelBox {
+	position: absolute; 
+	left: 107px; 
+	top: 14px; 
+	overflow: hidden; 
+	width: 1066px; 
+	height: 576px; 
+	z-index: 11;
+}
+.gameContainer .animationBox .reelBox > div { 
+	width: 210px;  
+}
+
+/* christmas editions or other edition overlay stuff */
+.loaded #editionOverlay	{ 
+	height: 853px;
+	width: 1280px;
+	position: absolute;
+	top: -133px;
+	left: 0px;
+	z-index: 15;
+}
+
+
+/*div.scatter { height: 248px !important; margin-top: -38px !important; z-index: 100 !important; }*/
+
+.gameContainer .infoContainer { 
+	position:absolute;
+	left:0px; 
+	top:0px; 
+	z-index:101;
+}
+#animFadeoutLayer {
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 10;
+	width: 1280px;
+	height: 604px;
+}
+.mainControlBox, .mainControlBoxBG {
+	position: relative;
+	width: 1280px;
+	height: 116px;
+	z-index: 3;
+}
+
+.loaded .mainControlBox.portrait { height: 526px; }
+.loaded .mainControlBox.portrait .mainControlBoxBG { height: 526px; background-image: none; }
+.popupContainer,
+.freeRoundsdSign {
+	position:absolute;
+	left:0px; 
+	top:0px; 
+	z-index:256;	
+}
+.freeRoundsdSign { z-index:255;	}
+
+.waitingForServer.web		{ width:64px; height:64px; position:absolute; top:270px; left:608px; z-index:90; }
+.waitingForServer.mobile,
+.waitingForServer.portrait	{ width:108px; height:108px; position:absolute; top:248px; left:586px; z-index:90; }
+
+/* demo mode sign */
+.container .demoModeSign {
+	position: absolute;
+	z-index: 200;
+	padding: 100px;
+	background-color: #f21d01;
+	color: #ffffff;
+	font-weight: normal;
+	-webkit-transform: rotateZ(45deg);
+	transform: rotateZ(45deg);
+	box-shadow: 0px 4px 10px #000000;
+	pointer-events: none;
+}
+body.accel3D .container .demoModeSign {
+	-webkit-transform: rotateZ(45deg) translateZ(0);
+	transform: rotateZ(45deg) translateZ(0);
+}
+.container.l23 .demoModeSign  						{ top: -62px; right: -136px; padding-bottom: 2px; font-size: 30px; }
+.container.l169 .demoModeSign 						{ top: -60px; right: -142px; padding-bottom: 0px; font-size: 34px; }
+.container.portrait .demoModeSign 					{ top: -48px; right: -144px; padding-bottom: 2px; font-size: 52px; left: auto; }
+.container.portrait.smallHeader .demoModeSign 		{ top: -48px; right: -144px; padding-bottom: 0px; font-size: 46px; }
+.container.l23.portrait .demoModeSign				{ top: 100px; right: -146px; padding-bottom: 0px; font-size: 46px; }
+.container.l23.portrait.smallHeader .demoModeSign	{ top: -48px; right: -144px; padding-bottom: 0px; font-size: 38px; }
+
+
+/* debug layer */
+.backBox { position: absolute; top: 580px; left: 108px; width: 1063px; height: 22px; z-index: 100; }
+.backBox select { height:18px; border:0; }
+
+.selectBoxes .fr + .fr { margin-right: 10px; }
+/* .selectBoxes .fr.hidden + .fr { margin-right: 0px; } */
+.selectBoxes.mozillaBugfix { position: absolute; top: 715px; left: 1250px; z-index: 101; }
+.selectBoxes.mozillaBugfix select { height:18px; border:0; }
+
+
+/* marker for active "lines" choice */
+.linesChoiceBox {
+	position: absolute;
+	left: 55px;
+	top: 14px;
+	width: 1170px;
+	height: 576px;
+}
+.linemarkersBox, .linemarkerClickareasBox {
+	position: absolute;
+	width:  1170px;
+	height: 576px;
+/* 	background-color: rgba(0,0,0,0.7); */
+}
+.linemarkersBox .linemarker.small {
+	position: relative;
+	width: 48px;
+	height: 41px;
+	text-align: center;
+	padding-top: 13px;
+	color: black;
+	font-size: 26px;
+	font-weight: bold;
+}
+.linemarkersBox .linemarker.small + .linemarker.small { margin-top: 4px; }
+.linemarkersBox .linemarker.extraPosition { top: 28px; }
+.linemarkersBox .linemarker.small .dimmer {
+	position: absolute;
+	width: 48px;
+	height: 54px;
+	top: 0px;
+	left: 0px;
+	opacity: 0.73;
+}
+.linemarkersBox .linemarker.small.deactivated .linemarkerValue { display: none; }
+.linemarkersBox .linemarker.big, .linemarkersBox .linemarker.large {
+	width: 48px;
+	height: 108px;
+	padding-top: 84px;
+	text-align: center;
+	color: white;
+	font-family: 'Roboto Condensed', Arial;
+	font-size: 22px;
+	text-shadow: 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
+}
+.linemarkersBox .linemarker.large {
+	height: 154px;
+	padding-top: 134px;
+}
+.linemarkersBox .linemarker.big.activeLines, .linemarkersBox .linemarker.large.activeLines {
+	text-shadow: 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black, 0 0 7px black, 0 0 7px black, 0 0 7px black, 0 0 7px black;	
+	line-height: 20px;
+	height: 116px;
+	padding-top: 76px;
+}
+.linemarkersBox .linemarker.large.activeLines {
+	height: 162px;
+	padding-top: 126px;
+}
+.linemarkersBox .linemarker.big .linemarkerLabel, .linemarkersBox .linemarker.large .linemarkerLabel { 
+	font-size: 14px;
+	margin-top: 2px;
+}
+html[lang='hu'] .linemarkersBox .linemarker.big .linemarkerLabel, html[lang='hu'] .linemarkersBox .linemarker.large .linemarkerLabel { 
+	font-size: 11px;
+}
+html[lang='tr'] .linemarkersBox .linemarker.big .linemarkerLabel, html[lang='tr'] .linemarkersBox .linemarker.large .linemarkerLabel { 
+	font-size: 12px;
+}
+
+.linemarkerClickareasBox { z-index: 40; }
+.linemarkerClickareasBox .linemarkerClickarea.small {
+	position: relative;
+	width: 48px;
+	height: 54px;
+/* 	background-color: rgba(128,128,128,.73); */
+}
+.linemarkerClickareasBox .linemarkerClickarea.small + .linemarkerClickarea.small { margin-top: 4px; }
+.linemarkerClickareasBox .linemarkerClickarea.big {
+	width: 48px;
+	height: 192px;
+/* 	background-color: rgba(128,128,128,.42); */
+}
+.linemarkerClickareasBox .linemarkerClickarea.large {
+	width: 48px;
+	height: 288px;
+/* 	background-color: rgba(128,128,128,.42); */
+}
+.linesChoiceBox .linemarkerClickareasBox .linemarkerClickarea.active { cursor: pointer; }
+.linemarkerClickareasBox .linemarkerClickarea.deactivated { background: none; z-index: -1; cursor: default; }
+
+
+/* maxiplay info sign */
+#maxiplay_container	{ 
+	position:absolute;
+	top: 14px;
+	left: 107px;
+	z-index: 42;
+	overflow: hidden;
+	width: 1066px;
+	height: 576px;
+}
+#maxiplay_container	.close {
+	position: absolute;
+	top: 72px;
+	right: 242px;
+	width: 42px;
+	height: 38px;
+	cursor: pointer;
+}
+
+/* zindex helper */
+.zindex29{ z-index: 29 !important; }
+.zindex28{ z-index: 28 !important; }
+.zindex27{ z-index: 27 !important; }
+.zindex26{ z-index: 26 !important; }
+.zindex25{ z-index: 25 !important; }
+.zindex24{ z-index: 24 !important; }
+.zindex23{ z-index: 23 !important; }
+.zindex22{ z-index: 22 !important; }
+.zindex21{ z-index: 21 !important; }
+.zindex20{ z-index: 20 !important; }
+.zindex19{ z-index: 19 !important; }
+.zindex18{ z-index: 18 !important; }
+.zindex17{ z-index: 17 !important; }
+.zindex16{ z-index: 16 !important; }
+.zindex15{ z-index: 15 !important; }
+.zindex14{ z-index: 14 !important; }
+.zindex13{ z-index: 13 !important; }
+.zindex12{ z-index: 12 !important; }
+.zindex11{ z-index: 11 !important; }
+.zindex10{ z-index: 10 !important; }
+.zindex9{ z-index: 9 !important; }
+.zindex8{ z-index: 8 !important; }
+.zindex7{ z-index: 7 !important; }
+.zindex6{ z-index: 6 !important; }
+.zindex5{ z-index: 5 !important; }
+.zindex4{ z-index: 4 !important; }
+.zindex3{ z-index: 3 !important; }
+.zindex2{ z-index: 2 !important; }
+.zindex1{ z-index: 1 !important; }
+
+/* loading screen */
+#loading { position:absolute; left: 0px; top: 0px; width:1280px; height:853px; background-color:black; z-index:255; }
+.container.l169 #loading { width:1280px; height:720px; }
+#loading .progress {
+	position:absolute;
+	width:100px;
+	left:592px; 
+	text-align:center;
+	bottom: 58px;
+	line-height:72px;
+	height:72px;
+	vertical-align:middle;
+	color: #84fdb1;
+	font-size:24px;
+	font-weight:bold; 
+}
+.container.l169 #loading .progress { left:593px; bottom:44px; }
+
+#loading .state {
+	position:absolute;
+	width:1258px;
+	left:0;
+	bottom:10px;
+	text-align:center;
+	font-family: 'Roboto Condensed', Arial;
+	color:white;
+	font-size:24px; 
+	margin-left:22px;
+}
+.container.l169 #loading .state { font-size:22px; bottom:6px; }
+
+/* error popup */
+.errorContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.errorPopupBG {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1280px;
+	background-color:black;
+	opacity: 0.4;
+}
+.errorContainer  + .errorContainer .errorPopupBG {
+	background-color: transparent;
+}
+.container.l23 .popupContainer .errorPopupBG  					{ height:  853px; }
+.container.l169 .popupContainer .errorPopupBG 					{ height:  720px; }
+.container.portrait .popupContainer .errorPopupBG 				{ height: 1950px; }
+.container.l23.portrait .popupContainer .errorPopupBG			{ height: 1630px; }
+.container.portrait.smallHeader .popupContainer .errorPopupBG	{ height: 1784px; }
+
+.errorPopup {
+	position:relative;
+	width:900px;
+	height:452px;
+	left:186px;
+	color:white;
+	text-align:center;
+	border: 4px solid #494949; 
+	font-family: 'Roboto Condensed', Arial;
+	background-color: black;
+}
+.container.l23 .errorPopup 						{ top: 206px; }
+.container.l169 .errorPopup						{ top:  72px; }
+.container.portrait .errorPopup					{ top: 462px; }
+.container.portrait.smallHeader .errorPopup		{ top: 296px; }
+
+.errorPopup .closeButton {
+	position: absolute;
+	right: -2px;
+	top: 2px;
+	width: 74px;
+	height: 74px;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.errorPopup .reconnectButton{
+	position: relative;
+	margin: 75px auto 0;
+	width: 340px;
+	height: 94px;
+	cursor: pointer;
+}
+.errorPopup.sessionError .reconnectButton{ margin-top: 64px; }
+.errorPopup.preloadError .reconnectButton{ margin-top: 40px; }
+html[lang="en"] .errorPopup.preloadError .reconnectButton{ margin-top: 72px; }
+html[lang='jp'] .errorPopup .reconnectButton { margin-top: 60px; }
+.errorPopup .reconnectButton .buttonText{
+	width: 337px;
+	height: 77px;
+	font-size: 44px;
+	padding-top: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+html[lang='es'] .errorPopup .reconnectButton .buttonText { font-size: 40px; padding-top: 22px; }
+html[lang='fi'] .errorPopup .reconnectButton .buttonText { font-size: 36px; padding-top: 26px; }
+html[lang='hr'] .errorPopup .reconnectButton .buttonText { font-size: 42px; padding-top: 22px; }
+html[lang='nl'] .errorPopup .reconnectButton .buttonText { font-size: 34px; padding-top: 26px; }
+html[lang='no'] .errorPopup .reconnectButton .buttonText { font-size: 38px; padding-top: 22px; }
+html[lang='pl'] .errorPopup .reconnectButton .buttonText { font-size: 36px; padding-top: 26px; }
+html[lang='sr'] .errorPopup .reconnectButton .buttonText { font-size: 33px; padding-top: 27px; }
+html[lang='zh'] .errorPopup .reconnectButton .buttonText { padding-left:20px; }
+.errorPopup .goToGameButton{
+	position: absolute;
+	bottom: 18px;
+	right: 25px;
+	cursor: pointer;
+}
+.errorPopup .goToGameButtonText{
+	font-size: 34px;
+	font-weight: bold;
+}
+.errorPopup .errorText{
+	position: relative;
+	margin: 82px auto 0;
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 60px;
+} 
+.errorPopup.sessionError .errorText{ margin-top: 104px; }
+html[lang='dk'] .errorPopup.preloadError .errorText { padding-top: 38px; }
+html[lang="en"] .errorPopup.preloadError .errorText{ margin-top: 108px; }
+html[lang='fi'] .errorPopup.preloadError .errorText { padding-top: 38px; }
+html[lang='jp'] .errorPopup.preloadError .errorText { font-size: 45px; padding-top: 38px; }
+html[lang='no'] .errorPopup.preloadError .errorText { padding-top: 38px; }
+html[lang='ro'] .errorPopup .errorText 				{ font-size: 46px; }
+html[lang='se'] .errorPopup.preloadError .errorText { padding-top: 38px; }
+html[lang='vi'] .errorPopup.preloadError .errorText { font-size: 48px; }
+
+.errorPopup .errorHeadline {
+	font-size: 50px;
+	font-weight: bold;
+	color: #02A319;
+	margin-top: 16px;
+}
+
+/* statistic popup */
+.errorPopup.playStatistic .reconnectButton,
+.errorPopup.playStatistic .closeButton {
+	position: absolute;
+	width: 259px;
+	height: 74px;
+	top: 362px;
+}
+.errorPopup.playStatistic .reconnectButton 	{ left: 160px; margin: 0px; }
+.errorPopup.playStatistic .closeButton 		{ right: 160px; }
+.errorPopup.playStatistic .reconnectButton .buttonText,
+.errorPopup.playStatistic .closeButton .buttonText	{
+	width: auto;
+	height: auto;
+	font-size: 32px;
+	padding-top: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+html[lang='es'] .errorPopup.playStatistic .reconnectButton .buttonText,
+html[lang='fi'] .errorPopup.playStatistic .reconnectButton .buttonText,
+html[lang='hr'] .errorPopup.playStatistic .reconnectButton .buttonText,
+html[lang='nl'] .errorPopup.playStatistic .reconnectButton .buttonText,
+html[lang='no'] .errorPopup.playStatistic .reconnectButton .buttonText,
+html[lang='pl'] .errorPopup.playStatistic .reconnectButton .buttonText	{ font-size: 36px; padding-top: 16px; }
+html[lang='ro'] .errorPopup.playStatistic .errorText 					{ font-size: 36px; }
+html[lang='sr'] .errorPopup.playStatistic .reconnectButton .buttonText	{ font-size: 32px; padding-top: 18px; }
+html[lang='th'] .errorPopup.playStatistic .errorText 					{ font-size: 34px; }
+html[lang='th'] .errorPopup.playStatistic .retry						{ top: 350px; }
+html[lang='jp'] .errorPopup.playStatistic .reconnectButton				{ margin-top: 0px; }
+html[lang='zh'] .errorPopup.playStatistic .reconnectButton .buttonText	{ padding-left: 0px; }
+html[lang='jp'] .errorPopup.playStatistic .retry .buttonText,
+html[lang='th'] .errorPopup.playStatistic .retry .buttonText,
+html[lang='zh'] .errorPopup.playStatistic .retry .buttonText 			{ padding-top: 14px; }
+
+.errorPopup.playStatistic .errorText,
+html[lang='ro'] .errorPopup.playStatistic .errorText { 
+	font-size: 36px;
+	line-height: 40px;
+	padding: 0 20px;
+	margin-top: 20px;
+}
+.errorPopup.playStatistic .errorText div + div	{ margin-top: 26px; }
+
+/* turbospin popup */
+.errorPopup.turbospin .errorHeadline {
+	font-size: 48px;
+	margin-top: 14px;
+}
+
+.errorPopup.turbospin .errorText,
+html[lang='ro'] .errorPopup.turbospin .errorText { 
+	font-size: 32px;
+	line-height: 40px;
+	padding: 0 20px;
+	margin-top: 10px;
+}
+.errorPopup.turbospin.tightLayout .errorText {
+	margin-top: 6px;
+}
+.errorPopup.turbospin .errorText .text-2 {
+	background-repeat: no-repeat;
+	background-position: center right;
+	margin: 14px auto 20px;
+	padding-right: 48px;
+}
+.errorPopup.turbospin.tightLayout .errorText .text-2 {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.errorPopup.turbospin .errorText .option .label {
+	font-size: 36px;
+	cursor: pointer;
+}
+.errorPopup.turbospin .errorText .option .checkbox {
+	display: inline-block;
+	position: relative;
+	top: 8px;
+	width: 36px;
+	height: 36px;
+	margin-right: 14px;
+	border: 3px solid white;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.errorPopup.turbospin .errorText .option.checked .checkbox:after {
+	content: url('../../picts/game/1280/turbospin-popup-check.png');
+	position: absolute;
+	top: -13px;
+	left: 5px;
+}
+
+.errorPopup.errorPopup.turbospin .reconnectButton {
+	margin-top: 36px;
+}
+.errorPopup.turbospin.tightLayout .reconnectButton {
+	margin-top: 26px;
+}
+
+/* in-game history */
+.errorPopup.history {
+	width: 1040px;
+	height: 598px;
+	left: 116px;
+}
+.container.l23 .errorPopup.history 						{ top:  80px; }
+.container.l169 .errorPopup.history						{ top:  24px; }
+.container.portrait .errorPopup.history					{ top: 376px; }
+.container.portrait.smallHeader .errorPopup.history		{ top: 210px; }
+
+.errorPopup.history .closeButton {
+	right: 5px;
+	top: 3px;
+	background-size: 28px;
+}
+
+.errorPopup.history .errorHeadline {
+	color: #ffffff;
+	margin-bottom: 0.4%;
+}
+
+.errorPopup.history .errorInfo {
+	margin: 0 auto;
+	padding: 0 2%;
+	font-size: 20px;
+	color: #464646;
+} 
+
+.errorPopup.history .errorText,
+html[lang='ro'] .errorPopup.history .errorText {
+		margin: 2% auto 0;
+	padding: 0 3%;
+	font-size: 20px;
+	line-height: normal;
+} 
+.errorPopup.history.inDemoMode .errorText,
+html[lang='ro'] .errorPopup.history.inDemoMode .errorText {
+	margin: 12% auto 0;
+	padding: 0 8%;
+	font-size: 32px;
+} 
+.errorPopup.history .errorText table {
+	width: 100%;
+	border-spacing: 0px;
+} 
+.errorPopup.history .errorText table th,
+.errorPopup.history .errorText table td {
+	border: 1px solid #272727;
+	padding: 0.5% 0;
+} 
+.errorPopup.history .errorText table th {
+	background: #3a3a3a;
+} 
+
+.errorPopup.history .pagination {
+	position: absolute;
+	width: 14%;
+	left: 43%;
+	bottom: 3.5%;
+	text-align: center;
+} 
+.errorPopup.history .pagination .errorInfo {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+} 
+.errorPopup.history .pagination .gotoButton {
+	position: relative;
+	z-index: 2;
+	width: 0px;
+	height: 0px;
+	border-top: 12px solid transparent;
+	border-bottom: 12px solid transparent;
+	cursor: pointer;
+} 
+.errorPopup.history .pagination .gotoButton.inactive {
+	cursor: default;
+} 
+.errorPopup.history .pagination .gotoButton.next 			{ border-left: 12px solid #ffffff; }
+.errorPopup.history .pagination .gotoButton.next.inactive	{ border-left: 12px solid #464646; }
+.errorPopup.history .pagination .gotoButton.prev 			{ border-right: 12px solid #ffffff; }
+.errorPopup.history .pagination .gotoButton.prev.inactive	{ border-right: 12px solid #464646; }
+
+
+
+
+/* freegame stuff */
+#freegame_container	{ 
+	position:absolute;
+	top:0px;
+	left:0px;
+	overflow:hidden;
+	width:1280px;
+	height:604px;
+	z-index:15;
+}
+.headlineContainer .freegame_blending {
+	position: absolute;
+	top: 0px;
+	width: 1280px;
+	height: 133px;
+}
+.mainControlBox .freegame_blending {
+	position: relative;
+	width: 1280px;
+	height: 116px;
+}
+/* for new freegame sign layout */
+#freegame_container { position:absolute; top:0px; left:0px; overflow:hidden; width:1280px; height:604px; z-index:14; }
+#freegamePoints { position:absolute; top:300px; width:1280px; text-align:center; font-size:70px; color:white; font-weight:bold; font-family: "Noto Serif", "Times New Roman" , serif; }
+#freegamePoints .currLeft	{ padding-right: 18px; }
+#freegamePoints .currRight	{ padding-left: 18px; }
+#pixi_container {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	overflow: hidden;
+	width: 1280px;
+	height: 604px;
+	z-index: 15;
+}
+
+
+/* action = offline */
+.offlinePopup {
+	position: absolute;
+	left: 365px;
+	top: 292px;
+	width: 550px;
+	height: 285px;
+	background-color: white;
+	text-align: center;
+}
+.offlinePopup .showLink { margin-top: 136px; }
+.offlinePopup .showLink > a { color: black; }
+
+/* optimal slot 2 frame animation layer */
+.symbolAnimLayer, .symbolAnimLayer2 {
+	position: absolute; 
+	left: 4px; 
+	top: 0px; 
+	width: 1066px; 
+	height: 576px;
+	overflow: hidden;
+}
+.symbolAnimLayer .animSymbol, .symbolAnimLayer2 .animSymbol {
+	position: absolute;
+	width: 210px; 
+	height: 192px;
+}
+
+/* free rounds signs */
+.freeRoundsdSign .freeRoundsBG {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	width: 1280px;
+	height: 853px;
+}
+.container.l169 .freeRoundsdSign .freeRoundsBG					{ height:  720px; }
+.container.portrait .freeRoundsdSign .freeRoundsBG 				{ height: 1950px; }
+.container.l23.portrait .freeRoundsdSign .freeRoundsBG			{ height: 1630px; }
+.container.portrait.smallHeader .freeRoundsdSign .freeRoundsBG	{ height: 1784px; }
+
+.freeRoundsdSign .freeRoundsContent {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	width: 1280px;
+	height: 604px;
+	font-family: 'Roboto Condensed', Arial;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	color: #fefc56; 
+}
+.container.l23 .freeRoundsdSign .freeRoundsContent 						{ top: 133px; }
+.container.portrait .freeRoundsdSign .freeRoundsContent					{ top: 390px; }
+.container.portrait.smallHeader .freeRoundsdSign .freeRoundsContent		{ top: 224px; }
+
+.freeRoundsdSign .freeRoundsContent #buttonContinue {
+	position: absolute;
+	top: 416px;
+	left: 518px;
+	z-index: 2;
+	width: 259px;
+	height: 74px;
+	line-height: 74px;
+	color: white;
+	cursor: pointer;
+}
+html[lang='da'] .freeRoundsdSign .freeRoundsContent #buttonContinue { font-size: 26px; }
+html[lang='fi'] .freeRoundsdSign .freeRoundsContent #buttonContinue { font-size: 30px; }
+html[lang='jp'] .freeRoundsdSign .freeRoundsContent #buttonContinue { font-size: 26px; }
+html[lang='nl'] .freeRoundsdSign .freeRoundsContent #buttonContinue { font-size: 27px; }
+html[lang='zh'] .freeRoundsdSign .freeRoundsContent.intro #buttonContinue { padding-left: 20px; width: 239px; }
+
+.freeRoundsdSign .freeRoundsContent.withWin #buttonContinue.extraOffsetTop {
+	top: 436px;
+}
+
+.freeRoundsdSign .freeRoundsContent.intro .freeRoundsDesc			{ padding: 0px 310px; }
+.freeRoundsdSign .freeRoundsContent.intro .desc-1 					{ margin-top: 226px; font-size: 54px; }
+.freeRoundsdSign .freeRoundsContent.intro .desc-2 					{ margin-top: 20px; font-size: 46px; color: #00d61d; }
+.freeRoundsdSign .freeRoundsContent.intro .desc2Has2Lines .desc-1	{ margin-top: 196px; }
+.freeRoundsdSign .freeRoundsContent.intro .desc2Has2Lines .desc-2 	{ margin-top: 24px; line-height: 44px; }
+.freeRoundsdSign .freeRoundsContent.intro .currLeft					{ margin-right: 6px; }
+.freeRoundsdSign .freeRoundsContent.intro .currRight				{ margin-left: 6px; }
+
+html[lang='zh'] .freeRoundsdSign .freeRoundsContent.intro .freeRoundsDesc .desc-1	{ padding-left: 50px; }
+html[lang='zh'] .freeRoundsdSign .freeRoundsContent.intro .freeRoundsDesc .desc-2	{ padding-left: 40px; }
+
+.freeRoundsdSign .freeRoundsContent.outro .freeRoundsDesc			{ padding: 234px 256px 0px; }
+.freeRoundsdSign .freeRoundsContent.outro.withWin .freeRoundsDesc	{ padding: 176px 286px 0px; }
+.freeRoundsdSign .freeRoundsContent.outro .desc-1 					{ font-size: 54px; }
+.freeRoundsdSign .freeRoundsContent.outro .winAmount				{ margin-top: -4px; font-size: 64px; }
+.freeRoundsdSign .freeRoundsContent.outro .winAmount .currLeft		{ margin-right: 12px; }
+.freeRoundsdSign .freeRoundsContent.outro .winAmount .currRight		{ margin-left: 12px; }
+.freeRoundsdSign .freeRoundsContent.outro .desc-2					{ font-size: 32px; }
+.freeRoundsdSign .freeRoundsContent.outro.withWin .desc-2			{ margin-top: 10px; line-height: 38px; }
+.freeRoundsdSign .freeRoundsContent.outro.withWin .desc2Has3Lines .desc-2	{ margin-top: 0px; padding: 0px 30px; line-height: 30px; font-size: 30px; }
+
+html[lang='zh'] .freeRoundsdSign .freeRoundsContent.outro .desc-2	{ padding-left: 34px; }
+
+/* hype container */
+#winanimopt_hype_container {
+	transform: scale(2);
+	-webkit-transform: scale(2);
+	-moz-transform: scale(2);
+	-ms-transform: scale(2);
+	-o-transform: scale(2);
+	margin-left:320px;
+	margin-top:151px;
+}
+
+
+/* infosites loaded inside the client */
+#rulesContainer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 250;
+	width: 1280px;
+	height: 853px;
+}
+.container.l169 #rulesContainer					{ height:  720px; }
+.container.portrait #rulesContainer 			{ height: 1950px; width: 1080px; }
+.container.l23.portrait #rulesContainer			{ height: 1630px; }
+.container.portrait.smallHeader #rulesContainer	{ height: 1784px; }
+
+#rulesContainer iframe {
+	width: 100%;
+	height: 100%;
+	border: none;
+	margin: 0px;
+}
+#rulesContainer #closeRules {
+	position: absolute;
+	right: 10px;
+	top: 65px;
+	width: 68px;
+	height: 66px;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+.container.portrait #rulesContainer #closeRules 			{ top: 253px; right: 13px; }
+.container.portrait.smallHeader #rulesContainer #closeRules { top:  87px; }
+#rulesContainer.web #closeRules {
+	background-size: 28px;
+	right: 20px;
+}

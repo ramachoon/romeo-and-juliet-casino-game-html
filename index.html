@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>			
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>RomeoJulia</title>
+	
+	<meta name="robots" content="noindex,nofollow" />
+	<meta name="viewport" content="user-scalable=no, width=1280, minimal-ui" /> 
+	<link href="v1.87.0/gui/other/googlefonts/Roboto-Condensed-400.css" rel="stylesheet" type="text/css" /> 
+	<link href="v1.87.0/gui/other/googlefonts/Roboto-Condensed-700.css" rel="stylesheet" type="text/css" /> 
+	<link href="v1.87.0/gui/other/googlefonts/Noto-Serif-700.css" rel="stylesheet" type="text/css" /> 
+	<link href="v1.87.0/gui/other/googlefonts/Noto-Serif-700italic.css" rel="stylesheet" type="text/css" /> 
+	<link href="v1.87.0/gui/other/googlefonts/Noto-Sans-700.css" rel="stylesheet" type="text/css" /> 
+	<link rel="apple-touch-icon" href="v1.87.0/gui/picts/rest/romeojulia/icons/apple_touch_icon_57x57.png" /> 
+	<link rel="apple-touch-icon" size="76x76" href="v1.87.0/gui/picts/rest/romeojulia/icons/apple_touch_icon_76x76.png" /> 
+	<link rel="apple-touch-icon" size="120x120" href="v1.87.0/gui/picts/rest/romeojulia/icons/apple_touch_icon_120x120.png" /> 
+	<link rel="apple-touch-icon" size="152x152" href="v1.87.0/gui/picts/rest/romeojulia/icons/apple_touch_icon_152x152.png" /> 
+	<link rel="apple-touch-icon" size="180x180" href="v1.87.0/gui/picts/rest/romeojulia/icons/apple_touch_icon_180x180.png" /> 
+	<meta name="apple-mobile-web-app-capable" content="yes" /> 
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" /> 
+	<meta name="format-detection" content="no" /> 
+	<meta name="msapplication-TileImage" content="v1.87.0/gui/picts/rest/romeojulia/icons/apple_touch_icon_152x152.png" /> 
+	<meta name="msapplication-TileColor" content="#950909" /> 
+	<link rel="stylesheet" type="text/css" href="v1.87.0/gui/css/common/common.css" />
+		<link rel="stylesheet" type="text/css" href="v1.87.0/gui/css/design/design.css" />
+		<link rel="stylesheet" type="text/css" href="v1.87.0/gui/css/game/console1280.css" />
+		<link rel="stylesheet" type="text/css" href="v1.87.0/gui/css/game/infoSites1280.css" />
+		<link rel="stylesheet" type="text/css" href="v1.87.0/gui/css/game/gamble1280.css" />
+		<link rel="stylesheet" type="text/css" href="v1.87.0/gui/css/game/winLines1280.css" />
+		<link rel="stylesheet" type="text/css" href="v1.87.0/gui/css/game/game.css" />
+		<link rel="stylesheet" type="text/css" href="v1.87.0/gui/css/game/game1280.css" />
+		<link rel="stylesheet" type="text/css" href="v1.87.0/gui/css/rest/romeojulia1280.css" />
+	   	<script type="text/javascript" src="v1.87.0/gui/js/extern/jquery.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/core/core.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/hypeManager.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/pixiManager.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/extern/pixi/pixi.min.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/extern/bowser.min.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/extern/howler.min.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/soundManager.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/soundFaker.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/gameLoader.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/clientSettings.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/winAnimator.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/winLines.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/slotMachineAnim.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/balanceManager.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/slotmachineController.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/slotMachineLLoader.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/translator.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/smRestHandler.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/reelEngine.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/reelSymbolFaker.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/animManager.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/gambleController.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/consoleWeb.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/symbolAnimation.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/common/deviceIdentifier.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/deviceConfig.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/slotConfig.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/resizer/stdResizer.min.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/communicatorWithoutCookie.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/anim/1280/winanim_hype_generated_script.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/anim/640/winanimopt_hype_generated_script.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/freeGame.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/preload/common.min.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/preload/romeojulia.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/anim/1280/brjfreegame_hype_generated_script.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/extern/raphael-min.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/extern/fraphael.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/common/common.min.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/core/unserialize.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/core/timer.min.class.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/core/core.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/game/lang/en.js"></script>
+   	<script type="text/javascript" src="v1.87.0/gui/js/rest/romeojulia.min.js"></script>
+
+    <script type="text/javascript">   
+	//<![CDATA[	   	
+		function getAllUrlParams(url) {
+
+
+  var queryString = url ? url.split('?')[1] : window.location.search.slice(1);
+
+
+  var obj = {};
+
+
+  if (queryString) {
+
+
+    queryString = queryString.split('#')[0];
+
+   
+    var arr = queryString.split('&');
+
+    for (var i=0; i<arr.length; i++) {
+   
+      var a = arr[i].split('=');
+
+
+      var paramNum = undefined;
+      var paramName = a[0].replace(/\[\d*\]/, function(v) {
+        paramNum = v.slice(1,-1);
+        return '';
+      });
+
+   
+      var paramValue = typeof(a[1])==='undefined' ? true : a[1];
+
+
+      paramName = paramName.toLowerCase();
+ 
+
+ 
+      if (obj[paramName]) {
+
+        if (typeof obj[paramName] === 'string') {
+          obj[paramName] = [obj[paramName]];
+        }
+
+        if (typeof paramNum === 'undefined') {
+
+          obj[paramName].push(paramValue);
+        }
+
+        else {
+ 
+          obj[paramName][paramNum] = paramValue;
+        }
+      }
+
+      else {
+        obj[paramName] = paramValue;
+      }
+    }
+  }
+
+  return obj;
+}
+	
+	var qstr=getAllUrlParams();
+	
+	
+	
+	
+	
+var gameName=qstr.game;
+var jv_useDecimPoints = true;
+var jv_currency = qstr.curr;var jv_layout169 = false;var jv_resolution = 1280;var jv_showExtraJackpotBet = false;var jv_showInfoDuringJackpotChance = false;var jv_baseURL = "v1.87.0/";var jv_iframeHelp = true;var jv_serverConfig = {showClock:true,hasBetChangeLoops:true};var jv_hypeVersion = "HYPE344";var jv_isSoundSettable = true;var jv_hypeScriptPath = "v1.87.0/gui/js/extern/";var jv_sMode = "1en00001";var jv_reelTiming = "normal";var jv_rulesURL = "";var jv_hypeResourceWinAnim = "v1.87.0/gui/picts/anim/1280/winanim";var jv_hypeResourceWinAnimOpt = "v1.87.0/gui/picts/anim/640/winanimopt";var jv_pixiResources = "v1.87.0/gui/other/anim/1280/";var jv_winanim = "winanim";var jv_version = "l1.87.1";var jv_sessionID = "j9u0bpk8qpvr2mc0uieiflo925";var jv_animationData = "{\"sTen\":{\"folder\":\"gui\/picts\/rest\/romeojulia\/1280\/symanim\",\"mask\":0,\"fps\":8,\"mode\":1,\"ePict\":false,\"frames\":24,\"symbolsX\":4,\"symbolsY\":6,\"width\":210,\"height\":192,\"maps\":1},\"sAce\":{\"folder\":\"gui\/picts\/rest\/romeojulia\/1280\/symanim\",\"mask\":0,\"fps\":8,\"mode\":1,\"ePict\":false,\"frames\":24,\"symbolsX\":4,\"symbolsY\":6,\"width\":210,\"height\":192,\"maps\":1},\"sLetter\":{\"folder\":\"gui\/picts\/rest\/romeojulia\/1280\/symanim\",\"mask\":0,\"fps\":8,\"mode\":1,\"ePict\":false,\"frames\":24,\"symbolsX\":4,\"symbolsY\":6,\"width\":210,\"height\":192,\"maps\":1},\"sDagger\":{\"folder\":\"gui\/picts\/rest\/romeojulia\/1280\/symanim\",\"mask\":0,\"fps\":8,\"mode\":1,\"ePict\":false,\"frames\":24,\"symbolsX\":4,\"symbolsY\":6,\"width\":210,\"height\":192,\"maps\":1},\"sJack\":{\"folder\":\"gui\/picts\/rest\/romeojulia\/1280\/symanim\",\"mask\":0,\"fps\":8,\"mode\":1,\"ePict\":false,\"frames\":24,\"symbolsX\":4,\"symbolsY\":6,\"width\":210,\"height\":192,\"maps\":1},\"sJulia\":{\"folder\":\"gui\/picts\/rest\/romeojulia\/1280\/symanim\",\"mask\":0,\"fps\":8,\"mode\":1,\"ePict\":false,\"frames\":24,\"symbolsX\":4,\"symbolsY\":6,\"width\":210,\"height\":192,\"maps\":1},\"sKing\":{\"folder\":\"gui\/picts\/rest\/romeojulia\/1280\/symanim\",\"mask\":0,\"fps\":8,\"mode\":1,\"ePict\":false,\"frames\":24,\"symbolsX\":4,\"symbolsY\":6,\"width\":210,\"height\":192,\"maps\":1},\"sQueen\":{\"folder\":\"gui\/picts\/rest\/romeojulia\/1280\/symanim\",\"mask\":0,\"fps\":8,\"mode\":1,\"ePict\":false,\"frames\":24,\"symbolsX\":4,\"symbolsY\":6,\"width\":210,\"height\":192,\"maps\":1},\"sRomeo\":{\"folder\":\"gui\/picts\/rest\/romeojulia\/1280\/symanim\",\"mask\":0,\"fps\":8,\"mode\":1,\"ePict\":false,\"frames\":24,\"symbolsX\":4,\"symbolsY\":6,\"width\":210,\"height\":192,\"maps\":1},\"scatterBonus\":{\"folder\":\"gui\/picts\/rest\/romeojulia\/1280\/symanim\",\"mask\":1,\"fps\":15,\"mode\":1,\"ePict\":true,\"offsetY\":-82,\"frames\":105,\"symbolsX\":6,\"width\":210,\"height\":364,\"maps\":3},\"scatterWild\":{\"folder\":\"gui\/picts\/rest\/romeojulia\/1280\/symanim\",\"mask\":1,\"fps\":15,\"mode\":1,\"ePict\":false,\"offsetY\":-82,\"frames\":30,\"symbolsX\":6,\"width\":210,\"height\":364,\"maps\":1},\"symbolTeaser10\":{\"folder\":\"gui\/picts\/rest\/romeojulia\/1280\/symanim\",\"mask\":1,\"fps\":15,\"mode\":2,\"ePict\":true,\"offsetY\":-82,\"frames\":8,\"symbolsX\":4,\"symbolsY\":2,\"width\":210,\"height\":364,\"maps\":1},\"julia\":{\"folder\":\"gui\/picts\/rest\/romeojulia\/1280\/symanim\",\"mask\":0,\"fps\":10,\"mode\":1,\"ePict\":false,\"frames\":30,\"symbolsX\":6,\"width\":210,\"height\":192,\"maps\":1}}";var jv_hypeResourceFreeGame = "v1.87.0/gui/picts/anim/1280/brjfreegame";var jv_hypeResourceFreeGameOpt = "v1.87.0/gui/picts/anim/1280/brjoptfreegame";var jv_hypeSymbolPath = "v1.87.0/gui/picts/rest/romeojulia/1280/symbols";var jv_usedLang = "en";var jv_soundFileVersion = 14;var jv_soundfiles = {bg:{map:{fgBackIntro:{start:28,dur:819},fgBackLoop:{start:29,dur:38401},introVoice:{start:0,dur:12078},reelsound1:{start:13,dur:2010},reelsound2:{start:16,dur:2010},reelsound3:{start:19,dur:2010},reelsound4:{start:22,dur:2010},reelsound5:{start:25,dur:2010}},type:"bg",format:"normal"},fgA:{map:{autospinOff:{start:16,dur:1000},bonusping10:{start:44,dur:775},bonusping2:{start:40,dur:777},bonusping4:{start:41,dur:785},bonusping6:{start:42,dur:792},bonusping8:{start:43,dur:787},bookOpen:{start:6,dur:5444},bookResult:{start:12,dur:2208},buttonClick:{start:15,dur:80},gambleLadderStarted:{start:30,dur:2000},gambleStarted:{start:28,dur:1998},gambleTeaser:{start:19,dur:8728},lineping10:{start:39,dur:501},lineping2:{start:35,dur:501},lineping4:{start:36,dur:501},lineping6:{start:37,dur:501},lineping8:{start:38,dur:501},maxReached:{start:18,dur:576},reelstop:{start:0,dur:221},reelstop1:{start:1,dur:221},reelstop2:{start:2,dur:221},reelstop3:{start:3,dur:221},reelstop4:{start:4,dur:221},reelstop5:{start:5,dur:221},symbolTeaser10x2:{start:45,dur:999},symbolTeaser10x3:{start:46,dur:1000},symbolTeaser10x4:{start:48,dur:1001},symbolTeaser10x5:{start:50,dur:998},takeWin:{start:33,dur:1385}},type:"fg1",format:"normal"},fgB:{map:{"5ofAKind":{start:157,dur:3033},attentionSpin:{start:0,dur:4986},autospinOff:{start:11,dur:1000},autospinOn:{start:9,dur:1002},bonusping1:{start:197,dur:793},bonusping3:{start:198,dur:778},bonusping5:{start:199,dur:786},bonusping7:{start:200,dur:784},bonusping9:{start:201,dur:783},book:{start:233,dur:750},buttonClick:{start:5,dur:80},fanfare:{start:13,dur:2735},fgEnd:{start:23,dur:6222},fgTrigger:{start:16,dur:6080},gamFlip:{start:166,dur:266},gamLoose:{start:165,dur:833},gamWin:{start:167,dur:1301},ladderBigWinEnd:{start:190,dur:1661},ladderBigWinLoop:{start:183,dur:6227},ladderDrawOutBig:{start:178,dur:3306},ladderDrawOutSmall:{start:174,dur:3306},ladderFallDown:{start:182,dur:602},ladderPingA:{start:172,dur:250},ladderPingB:{start:173,dur:250},lineping1:{start:192,dur:501},lineping3:{start:193,dur:501},lineping5:{start:194,dur:501},lineping7:{start:195,dur:501},lineping9:{start:196,dur:501},maxBetClick:{start:6,dur:1047},maxReached:{start:8,dur:576},splitWin:{start:171,dur:928},stamp:{start:204,dur:152},symbolTeaser10x1:{start:202,dur:1001},takeWin:{start:169,dur:1385},topWinx25:{start:161,dur:3508},win0:{start:30,dur:1493},win1:{start:32,dur:1867},win10:{start:40,dur:3598},win100:{start:85,dur:18053},win15:{start:44,dur:4534},win20:{start:49,dur:4534},win200:{start:104,dur:23046},win25:{start:54,dur:12800},win3:{start:34,dur:2267},win50:{start:67,dur:17924},win500:{start:128,dur:28838},win6:{start:37,dur:2996},winBon2:{start:205,dur:3336},winBon3:{start:209,dur:5347},winBon4:{start:215,dur:7160},winBon5:{start:223,dur:9259}},type:"fg2",format:"normal"},bgS:{map:{fgBackIntro:{start:15,dur:819},fgBackLoop:{start:16,dur:38401},reelsound1:{start:0,dur:2010},reelsound2:{start:3,dur:2010},reelsound3:{start:6,dur:2010},reelsound4:{start:9,dur:2010},reelsound5:{start:12,dur:2010}},type:"bg",format:{"0":"optimal","1":"plus"}},fgAS:{map:{autospinOff:{start:5,dur:1000},bonusping10:{start:33,dur:775},bonusping2:{start:29,dur:777},bonusping4:{start:30,dur:785},bonusping6:{start:31,dur:792},bonusping8:{start:32,dur:787},bookResult:{start:1,dur:2208},buttonClick:{start:4,dur:80},gambleLadderStarted:{start:19,dur:2000},gambleStarted:{start:17,dur:1998},gambleTeaser:{start:8,dur:8728},lineping10:{start:28,dur:501},lineping2:{start:24,dur:501},lineping4:{start:25,dur:501},lineping6:{start:26,dur:501},lineping8:{start:27,dur:501},maxReached:{start:7,dur:576},reelstop:{start:0,dur:221},symbolTeaser10x2:{start:34,dur:999},symbolTeaser10x3:{start:35,dur:1000},symbolTeaser10x4:{start:37,dur:1001},symbolTeaser10x5:{start:39,dur:998},takeWin:{start:22,dur:1385}},type:"fg1",format:{"0":"optimal","1":"plus"}},fgBS:{map:{attentionSpin:{start:0,dur:4986},autospinOff:{start:11,dur:1000},autospinOn:{start:9,dur:1002},bonusping1:{start:99,dur:793},bonusping3:{start:100,dur:778},bonusping5:{start:101,dur:786},bonusping7:{start:102,dur:784},bonusping9:{start:103,dur:783},buttonClick:{start:5,dur:80},fanfare:{start:13,dur:2735},fgEnd:{start:23,dur:6222},fgTrigger:{start:16,dur:6080},gamFlip:{start:68,dur:266},gamLoose:{start:67,dur:833},gamWin:{start:69,dur:1301},ladderBigWinEnd:{start:92,dur:1661},ladderBigWinLoop:{start:85,dur:6227},ladderDrawOutBig:{start:80,dur:3306},ladderDrawOutSmall:{start:76,dur:3306},ladderFallDown:{start:84,dur:602},ladderPingA:{start:74,dur:250},ladderPingB:{start:75,dur:250},lineping1:{start:94,dur:501},lineping3:{start:95,dur:501},lineping5:{start:96,dur:501},lineping7:{start:97,dur:501},lineping9:{start:98,dur:501},maxBetClick:{start:6,dur:1047},maxReached:{start:8,dur:576},splitWin:{start:73,dur:928},stamp:{start:106,dur:152},symbolTeaser10x1:{start:104,dur:1001},takeWin:{start:71,dur:1385},win0:{start:30,dur:1493},win1:{start:32,dur:1867},win10:{start:40,dur:3598},win15:{start:44,dur:4534},win20:{start:49,dur:4534},win25:{start:54,dur:12800},win3:{start:34,dur:2267},win6:{start:37,dur:2996},winBon2:{start:107,dur:3336},winBon3:{start:111,dur:5347},winBon4:{start:117,dur:7160},winBon5:{start:125,dur:9259}},type:"fg2",format:"optimal"},fgBP:{map:{"5ofAKind":{start:96,dur:3033},attentionSpin:{start:0,dur:4986},autospinOff:{start:11,dur:1000},autospinOn:{start:9,dur:1002},bonusping1:{start:138,dur:793},bonusping3:{start:139,dur:778},bonusping5:{start:140,dur:786},bonusping7:{start:141,dur:784},bonusping9:{start:142,dur:783},buttonClick:{start:5,dur:80},fanfare:{start:13,dur:2735},fgEnd:{start:23,dur:6222},fgTrigger:{start:16,dur:6080},gamFlip:{start:101,dur:266},gamLoose:{start:100,dur:833},gamWin:{start:102,dur:1301},ladderBigWinEnd:{start:131,dur:1661},ladderBigWinLoop:{start:124,dur:6227},ladderDrawOutBig:{start:119,dur:3306},ladderDrawOutSmall:{start:115,dur:3306},ladderFallDown:{start:123,dur:602},ladderPingA:{start:113,dur:250},ladderPingB:{start:114,dur:250},ladderStep:{start:107,dur:2000},ladderTopStep:{start:110,dur:2000},lineping1:{start:133,dur:501},lineping3:{start:134,dur:501},lineping5:{start:135,dur:501},lineping7:{start:136,dur:501},lineping9:{start:137,dur:501},maxBetClick:{start:6,dur:1047},maxReached:{start:8,dur:576},sign1:{start:84,dur:1494},sign2:{start:86,dur:2600},sign3:{start:89,dur:2301},sign4:{start:92,dur:3801},splitWin:{start:106,dur:928},stamp:{start:145,dur:152},symbolTeaser10x1:{start:143,dur:1001},takeWin:{start:104,dur:1385},win0:{start:30,dur:1493},win1:{start:32,dur:1867},win10:{start:40,dur:3598},win15:{start:44,dur:4534},win20:{start:49,dur:4534},win25:{start:54,dur:12800},win3:{start:34,dur:2267},win50:{start:67,dur:16723},win6:{start:37,dur:2996},winBon2:{start:146,dur:3336},winBon3:{start:150,dur:5347},winBon4:{start:156,dur:7160},winBon5:{start:164,dur:9259}},type:"fg2",format:"plus"}};var jv_soundURL = "v1.87.0/gui/other/sounds/romeojulia/";var jv_actions = {"0":"show"};var jv_urlAjaxResponder = "/game/"+gameName+"/server?cmd=ajaxStart&caller=PCALLER&func=PFUNC";var jv_debug = 0;var jv_jshybrid = 0;var jv_rparam = "cmd";var jv_internalError = "Es ist ein interner Verabreitungsfehler aufgetreten, bitte versuche es erneut. Falls der Fehler wiederhohlt auftritt, wende dich bitte an den Support.";
+		
+			
+	//]]>
+	</script>
+</head>
+
+
+<body style="position:fixed;">
+	
+
+<div class="container show l23">
+			
+	<div class="headlineContainer">
+		<div class="freegame_blending"></div>
+			</div>
+
+
+<div class="gameContainer">
+	<div class="animationBox hidden">
+	<div id="reel_hype_container" class="reelBox"></div>
+	<div id="winlines_container"><div class="_wlid_darkening _wl_hideElem"></div>
+<div class="_wlid_winline _wl_hideElem"></div>
+
+<div class="_wlid_winsymbols _wl_hideElem">
+	<div class="_wlid_winsymbol1 _wl_symbol"></div>
+	<div class="_wlid_winsymbol2 _wl_symbol"></div>
+	<div class="_wlid_winsymbol3 _wl_symbol"></div>
+	<div class="_wlid_winsymbol4 _wl_symbol"></div>
+	<div class="_wlid_winsymbol5 _wl_symbol"></div>	
+</div>
+
+<div class="_wlid_animBox"></div>
+
+<div class="_wlid_frames _wl_hideElem">
+	<div class="_wlid_frame1 _wl_symbol"></div>
+	<div class="_wlid_frame2 _wl_symbol"></div>
+	<div class="_wlid_frame3 _wl_symbol"></div>
+	<div class="_wlid_frame4 _wl_symbol"></div>
+	<div class="_wlid_frame5 _wl_symbol"></div>
+</div>
+
+<div class="_wlid_gloss _wl_hideElem">
+	<div class="_wlid_gloss1 _wl_symbol"></div>
+	<div class="_wlid_gloss2 _wl_symbol"></div>
+	<div class="_wlid_gloss3 _wl_symbol"></div>
+	<div class="_wlid_gloss4 _wl_symbol"></div>
+	<div class="_wlid_gloss5 _wl_symbol"></div>
+</div>
+
+	<div class="_wlid_attentions">
+		<div class="_wlid_attention">
+			<div class="hide">
+				<div class="wAtt wAtt1"></div>
+				<div class="wAtt wAtt2 wAtt2a"></div>
+				<div class="wAtt wAtt2 wAtt2b"></div>
+				<div class="wAtt wAtt3"></div>
+				<div class="wAtt wAtt4 wAtt4a"></div>
+				<div class="wAtt wAtt4 wAtt4b"></div>
+			</div>
+			<div class="boxSparkle boxSparkle1"></div>
+			<div class="boxSparkle boxSparkle2"></div>
+			<div class="boxSparkle boxSparkle3"></div>
+			<div class="boxSparkle boxSparkle4"></div>
+		</div>
+	</div>
+</div>
+	<div id="winanim_hype_container" style="position:absolute; top:0px; left:0px; overflow:hidden; width:1280px; height:604px; z-index:13;"></div>
+	<div id="winanimopt_hype_container"></div>
+	<div id="freegame_container" class="en hidden"></div>
+	<div id="pixi_container"></div>
+	<div id="brjfreegame_hype_container" style="position:absolute; top:0px; left:0px; overflow:hidden; width:1280px; height:604px; z-index:15;"></div>
+	<div id="animFadeoutLayer"></div>
+</div>
+
+<div class="linesChoiceBox"></div>
+<div class="gambleContainer"><div class="gambleBox en gambleCard webGamble hidden"><div class="resultsBox">
+	
+	<div class="moneyContainer">
+		<div class="moneyBox">
+			<div class="gambleWinBox">
+				<div class="label">GAMBLE WIN</div>
+				<div class="moneyBoxValue value_gambleWin">
+					<span class="moneyText"><span class="value">0.00</span></span>
+					<span class="emptyText hidden"><span class="value">&mdash;</span></span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="moneyBox gambleStatusBox">
+			<div class="gambleBetBox">
+				<div class="label">GAMBLE AMOUNT</div>
+				<div class="moneyBoxValue value_gambleBet">
+					<span class="moneyText"><span class="value">0.00</span></span>
+					<span class="emptyText hidden"><span class="value">&mdash;</span></span>
+				</div>
+			</div>
+			<div class="gambleCollectBox">
+				<div class="label">COLLECTED</div>
+				<div class="moneyBoxValue value_gambleCollect">
+					<span class="moneyText"><span class="value">0.00</span></span>
+					<span class="emptyText hidden"><span class="value">&mdash;</span></span>
+				</div>
+			</div>
+		</div>
+	
+		<div class="gambleHistoryBox">
+			<div class="label">HISTORY</div>
+			<div class="historyCardBox">
+				<div class="fl historyCard" id="historyCard_0"></div>
+				<div class="fl historyCard" id="historyCard_1"></div>
+				<div class="fl historyCard" id="historyCard_2"></div>
+				<div class="fl historyCard" id="historyCard_3"></div>
+				<div class="fl historyCard" id="historyCard_4"></div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="gambleCardBox">
+		<div class="gambleCardBack backBlack"></div>
+		<div class="gambleCardBack backRed hidden"></div>
+		<div class="gambleWinSign hidden"></div>
+		<div class="gambleWinSignBig hidden"></div>
+		<div class="gambleCardFront hidden"></div>
+	</div>
+	<div class="gambleInfo maxGambles">Gamble up to 5x</div>
+	<div class="gambleInfo maxWin hidden">Gamble up to <span class="value"></span></div>
+</div>
+
+</div>
+<div class="gambleBox en gambleLadder webGamble hidden"><div class="resultsBox">
+
+	<div class="moneyContainer">
+		<div class="moneyBox">
+			<div class="gambleWinBox">
+				<div class="label">GAMBLE WIN</div>
+				<div class="moneyBoxValue drawOutSign hidden"></div>
+				<div class="moneyBoxValue value_gambleWin">
+					<span class="moneyText"><span class="value">0.00</span></span>
+					<span class="emptyText hidden"><span class="value">&mdash;</span></span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="moneyBox gambleStatusBox">
+			<div class="gambleBetBox">
+				<div class="label">GAMBLE AMOUNT</div>
+				<div class="moneyBoxValue value_gambleBet">
+					<span class="moneyText"><span class="value">0.00</span></span>
+					<span class="emptyText hidden"><span class="value">&mdash;</span></span>
+				</div>
+			</div>
+			<div class="gambleCollectBox">
+				<div class="label">COLLECTED</div>
+				<div class="moneyBoxValue value_gambleCollect">
+					<span class="moneyText"><span class="value">0.00</span></span>
+					<span class="emptyText hidden"><span class="value">&mdash;</span></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="ladderStepsBox">
+		<div id="ladderStep-14"></div>
+		<div id="ladderStep-13"></div>
+		<div id="ladderStep-12"></div>
+		<div id="ladderStep-11"></div>
+		<div id="ladderStep-10"></div>
+		<div id="ladderStep-9"></div>
+		<div id="ladderStep-8"></div>
+		<div id="ladderStep-7"></div>
+		<div id="ladderStep-6"></div>
+		<div id="ladderStep-5"></div>
+		<div id="ladderStep-4"></div>
+		<div id="ladderStep-3"></div>
+		<div id="ladderStep-2"></div>
+		<div id="ladderStep-1"></div>
+		<div id="ladderStep-0"></div>
+	</div>
+</div>
+</div>
+</div>
+<div class="waitingForServer hidden web"></div>
+<div class="infoContainer"></div>	</div>
+
+
+<div class="jackpotContainer hidden">
+	<div class="jackpotFeatureContainer fullSize">
+	<div class="bgAnim"></div>
+	<div class="bgHeadline hidden"></div>
+	<div class="bgControlBox"></div>
+	<div class="bgDarkening fullSize"></div>
+	<div class="content">
+		<div class="jpChance fullSize">
+			<div class="chanceItemBG" id="chanceItemBG-0"></div>
+			<div class="chanceItemBG" id="chanceItemBG-1"></div>
+			<div class="chanceItemBG" id="chanceItemBG-2"></div>
+			<div class="chanceItem" id="chanceItem-0"></div>
+			<div class="chanceItem" id="chanceItem-1"></div>
+			<div class="chanceItem" id="chanceItem-2"></div>
+			<div class="chanceItemSuccessSign" id="chanceItem-0-sign"></div>
+			<div class="chanceItemSuccessSign" id="chanceItem-1-sign"></div>
+			<div class="chanceItemSuccessSign" id="chanceItem-2-sign"></div>
+			<div class="chanceAnim fullSize"></div>
+		</div>
+		<div class="jpPlayout fullSize hidden">
+			<div class="thermometer">
+				<div class="filling"></div>
+			</div>
+			<div class="bgPlayout fullSize"></div>
+			<div id="playoutTextBox"></div>
+			<div id="jackpot_reel_container"></div>
+			<div class="reelSymbolAnim">
+									<div class="teaserAnim fl" id="teaserAnim-0">
+						<div class="teaserAnimPart-0"></div>
+						<div class="teaserAnimPart-1"></div>
+						<div class="teaserAnimPart-2"></div>
+					</div>
+									<div class="teaserAnim fl" id="teaserAnim-1">
+						<div class="teaserAnimPart-0"></div>
+						<div class="teaserAnimPart-1"></div>
+						<div class="teaserAnimPart-2"></div>
+					</div>
+									<div class="teaserAnim fl" id="teaserAnim-2">
+						<div class="teaserAnimPart-0"></div>
+						<div class="teaserAnimPart-1"></div>
+						<div class="teaserAnimPart-2"></div>
+					</div>
+									<div class="teaserAnim fl" id="teaserAnim-3">
+						<div class="teaserAnimPart-0"></div>
+						<div class="teaserAnimPart-1"></div>
+						<div class="teaserAnimPart-2"></div>
+					</div>
+									<div class="teaserAnim fl" id="teaserAnim-4">
+						<div class="teaserAnimPart-0"></div>
+						<div class="teaserAnimPart-1"></div>
+						<div class="teaserAnimPart-2"></div>
+					</div>
+								<div class="clear"></div>
+			</div>
+							<div class="endSymbol" id="endSymbol-0">
+					<div class="transformedSymbol"></div>
+					<div class="flySymbol"></div>
+				</div>
+							<div class="endSymbol" id="endSymbol-1">
+					<div class="transformedSymbol"></div>
+					<div class="flySymbol"></div>
+				</div>
+							<div class="endSymbol" id="endSymbol-2">
+					<div class="transformedSymbol"></div>
+					<div class="flySymbol"></div>
+				</div>
+							<div class="endSymbol" id="endSymbol-3">
+					<div class="transformedSymbol"></div>
+					<div class="flySymbol"></div>
+				</div>
+							<div class="endSymbol" id="endSymbol-4">
+					<div class="transformedSymbol"></div>
+					<div class="flySymbol"></div>
+				</div>
+					</div>
+		<div class="jpSign fullSize">
+			<div class="jpOutroSignText needsToBeLoaded" id="jpOutroSignWinLevel"></div>
+			<div class="jpOutroSignText" id="jpOutroSignWinValue"></div>
+			<div class="fullSize" id="jpSignAnim"></div>
+			<div class="fullSize" id="jpSignAnimHighlight"></div>
+		</div>
+	</div>
+	<div class="winAnimContainer fullSize"></div>
+	<div class="featureAnim fullSize"></div>
+</div>
+
+<div class="jackpotInfoContainer fullSize hidden">
+	<div class="bgDarkening fullSize"></div>
+	<div class="bgInfo"></div>
+	<div class="content">
+		<div class="jpIntro">
+			<div class="jpWelcomeBox">
+				<div class="jackpotInfoBox fl">
+					<div class="jackpotText-0"></div>
+					<div class="jackpotText-1"></div>
+					<div class="jackpotText-2"></div>
+					<div class="jackpotButtonBox"></div>
+				</div>
+				<div class="jackpotThermometer fl"></div>
+				<div class="clear"></div>
+			</div>
+			<div class="jackpotSetting">
+				<span class="settingCheckbox"></span>
+			</div>
+			<div class="confirmButton">
+				<div class="buttonText"></div>
+			</div>
+		</div>
+		<div class="jpBetInfo needsToBeLoaded">
+			<div class="jackpotBet">
+				<span class="label"></span><span class="value"></span>
+			</div>
+			<div class="jackpotBetLevel">
+				<span class="value"></span><span class="label"></span>
+			</div>
+			<div class="jackpotWin">
+				<div id="jackpotWinMetal"></div>
+				<div class="value"></div>
+			</div>
+			<div class="jackpotBonus">
+				<span class="label"></span><span class="value"></span>
+			</div>
+			<div class="jackpotInfo">
+				<span class="text"></span>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="hidden" id="jackpotBonusFlySymbol"></div>
+
+<div class="mainControlBox hidden">
+	<div class="fullscreenWorkaround"></div>
+	<div class="mainControlBoxBG">	
+		<div class="console webConsole en">
+	
+	<div class="mainBox">
+		<div>
+			<div class="fl controlButton controlButton_paytable"></div>
+			<div class="fl userInfoContainer orangeButtonsActWinContainer">
+				<div class="orangeButtonsBox">
+					<div class="fl controlButton small controlButtonOrange controlButton_lines">
+						<div class="clickArea plus controlButton_linesplus"></div>
+						<div class="clickArea minus controlButton_linesminus"></div>
+						<div class="twolined infoArea">
+							<div class="infoValue value_lines"><span class="value">&nbsp;</span></div>
+							<div class="infoLabel">LINES</div>
+						</div>
+					</div>
+					<div class="fr controlButton small controlButtonOrange controlButton_linebet">
+						<div class="clickArea plus controlButton_linebetplus"></div>
+						<div class="clickArea minus controlButton_linebetminus"></div>
+						<div class="twolined infoArea">
+							<div class="infoValue value_linebet length_0"><span class="value">&nbsp;</span></div>
+							<div class="infoLabel">BET</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="actWinBox hidden value_actWin">
+					<div class="row1">
+						<div class="userInfoBox">
+							<div class="actWinValueBox">
+								<span class="actWinValueText"><span class="value"></span></span>
+							</div>
+						</div>
+					</div>
+					<div class="row2">
+						<div class="userInfoBox"><span class="infoLabel">TOTAL WIN</span></div>
+					</div>
+				</div>
+			</div>
+			<div class="fl userInfoContainer userInfo">
+				<div class="row1">
+					<div class="userInfoBox"> 
+						<div class="infoText info_none hidden"></div>
+						<div class="infoText info_choose">Choose your BET</div>
+						<div class="infoText info_pleasePressSpin hidden">Please press SPIN</div>
+						<div class="infoText info_win hidden">WIN <span class="value"></span></div>
+						<div class="infoText info_lastWin hidden">Last WIN <span class="value"></span></div>
+						<div class="infoText info_winFreegames hidden">WIN: <span class="value"></span> FREE GAMES</div>
+						<div class="infoText info_jackpotWin hidden">POINTS <span class="value"></span></div>
+						<div class="infoText info_jackpotBonus hidden">POINT BONUS +<span class="value"></span></div>
+						<div class="infoText info_countdownFreegames hidden">START in <span class="value"></span></div>
+						<div class="infoText info_freegame hidden">FREE GAME <span class="value"></span> of <span class="maxFreegames"></span></div>
+						<div class="infoText info_freeround hidden">FREE ROUND <span class="value"></span> of <span class="maxFreeRounds"></span></div>
+						<div class="infoText info_freerounds hidden">FREE ROUNDS</div>
+						<div class="infoText info_endFreegames hidden">End of FREE GAMES</div>
+						<div class="infoText info_notEnoughCoins hidden">Not enough BALANCE </div>
+					</div>
+				</div>
+				<div class="row2">
+					<div class="leftBox userInfoBox value_totalbet">
+						<span class="infoLabel">TOTAL BET</span>
+						<span class="infoValue"><span class="value"></span><span class="jackpotBet"></span></span>
+						<span class="fontsizeFaker"></span>
+					</div>
+					<div class="rightBox userInfoBox balanceBox">
+						<div class="value_money">
+							<span class="infoLabel moneyLabel">BALANCE</span>
+							<span class="infoLabel totalmoneyLabel hidden">LIMIT</span>
+							<span class="infoValue"><span class="value"></span></span>
+							<span class="fontsizeFaker"></span>
+						</div>
+						<div class="value_totalmoney hidden">
+							<span class="infoLabel">BALANCE</span>
+							<span class="infoValue"><span class="value"></span></span>
+							<span class="fontsizeFaker"></span>
+						</div>
+					</div>
+				</div>
+				<div class="controlButton controlButtonFeatureCountdown hidden controlButton_stopfeaturecountdown">
+					STOP
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="actionButtons">
+			<div class="fr controlButton big reactsToPressSpace spinButton controlButton_spin"></div>
+			<div class="fr controlButton big reactsToPressSpace spinButton hidden controlButton_stopspin"></div>
+			<div class="fr controlButton big reactsToPressSpace spinButton hidden controlButton_abortwinanim"></div>
+			<div class="fr controlButton big reactsToPressSpace spinButton hidden controlButton_nogamble-spin"></div>
+			<div class="fr controlButton big reactsToPressSpace hidden controlButton_takewin"></div>
+		
+			<div class="fr controlButton hidden controlButton_gamblecard"></div>
+			<div class="fr controlButton small gambleChoice hidden controlButton_black"></div>
+		
+			<div class="fr controlButton hidden controlButton_gambleladder"></div>
+			<div class="fr controlButton gambleChoice hidden controlButton_ladderstep"></div>
+			<div class="fr controlButton small gambleChoice hidden controlButton_red"></div>
+			
+			<div class="fr controlButton controlButtonGreen controlButton_autospin">AUTO</div>
+			
+			<div class="fr controlButton controlButtonGreen twolined hidden controlButton_stopautospin">
+				<div class="twolined">
+					<div class="infoValue value_autospins hidden"><span class="value">&nbsp;</span></div>
+					<div class="infoLabel hidden">AUTO OFF</div>
+					<div class="infoValueUnlimited">AUTO OFF</div>
+				</div>
+			</div>
+			
+			<div class="fr controlButton hidden controlButton_nogamble-wait"></div>
+			<div class="fr controlButton hidden tiny controlButton_splitwin"></div>
+			<div class="fr controlButton hidden controlButtonMaxiplay controlButton_maxiplay"></div>
+			<div class="fr controlButton hidden controlButtonJackpot controlButton_jackpot">
+				<div class="buttonLayer buttonAnim">
+					<div class="animFrame animFrame-1"></div><div class="animFrame animFrame-2"></div><div class="animFrame animFrame-3"></div><div class="animFrame animFrame-4"></div>				</div>
+				<div class="buttonLayer buttonImage"></div>
+			</div>
+			<div class="fr controlButton controlButtonViolet twolined controlButton_maxbet">MAX<br />BET</div>
+			
+			<div class="clear"></div>
+		</div>
+		
+		<div class="autospinPopup hidden">
+			<div class="basic">
+				<div class="navButton prevEntry"></div>
+				<div class="choicesBox">
+					<div class="autospinChoice"></div>
+				</div>
+				<div class="navButton nextEntry"></div>
+			</div>
+			<div class="advanced">
+				<div class="content">
+					<div class="title">AUTOPLAY</div>
+					<div class="subtitle value_totalbet">YOUR BET PER SPIN IS <span class="value"></span></div>
+					<div>STOP IF</div>
+					<div class="option" id="option-balanceDecreased">
+						<div class="fl checkbox"></div>
+						<div class="fl info">BALANCE IS DECREASED BY</div>
+						<div class="fr inputfield"><input type="text" name="balanceDecreased" id="value_balanceDecreased" /></div>
+						<div class="clear"></div>
+					</div>
+					<div class="option" id="option-balanceIncreased">
+						<div class="fl checkbox"></div>
+						<div class="fl info">BALANCE IS INCREASED BY</div>
+						<div class="fr inputfield"><input type="text" name="balanceIncreased" id="value_balanceIncreased" /></div>
+						<div class="clear"></div>
+					</div>
+					<div class="option" id="option-winMoreThan">
+						<div class="fl checkbox"></div>
+						<div class="fl info">SINGLE WIN EXCEEDS</div>
+						<div class="fr inputfield"><input type="text" name="winMoreThan" id="value_winMoreThan" value="" /></div>
+						<div class="clear"></div>
+					</div>
+					<div class="option" id="option-winFreegames">
+						<div class="fl checkbox"></div>
+						<div class="fl info">FEATURE IS WON</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+			<div class="toggleOptions">
+				<div class="clickArea showAdvanced"></div>
+				<div class="clickArea hideAdvanced hidden"></div>
+			</div>
+		</div>
+			
+	</div>
+	
+	<div class="headlineButtons">
+		 <div class="fl controlButton controlButton_home" onclick="window.parent.postMessage('CloseGame','*');	"><a href=""><img src="v1.87.0/gui/picts/blank.gif" alt="" /></a></div>		
+		<div class="fl controlButton controlButton_sound soundButton setSoundSetting soundOn"></div>		<div class="fl controlButton controlButton_settings"></div>
+		<div class="fl controlButton controlButton_fullscreen"></div>		<div class="clear"></div>
+	</div>
+	
+	<div class="controlButton hidden controlButton_closeinfosite closeInfoButton"></div>
+	<div class="controlButton hidden controlButton_rules rulesButton"></div>
+	<div class="controlButton hidden controlButton_history historyButton"></div>
+	
+	<div class="reelClickBox controlButton_stopspin"></div>
+	
+</div>
+		<div class="freegame_blending"></div>
+	</div>
+</div>
+
+<div class="demoModeSign hidden"></div>
+
+<div class="popupContainer"></div>
+
+<div id="loading">
+	<div class="progress"></div>
+	<div class="state hidden">Connecting to server </div>
+	<div class="preloadFont">
+		<span class="font1">0</span>
+		<span class="font2">0</span>
+		<span class="font3">0</span>
+		<span class="font4">0</span>
+		<span class="font5">0</span>
+	</div>
+</div>
+
+<div class="hidden" id="errorPopupCode"><div class="errorContainer">
+	<div class="errorPopupBG"></div>
+	<div class="errorPopup">
+		<div class="retry closeButton"></div>
+		<div class="errorText">
+			Your connection was interrupted. <br />Please try again.
+		</div>
+		<div class="retry reconnectButton">	
+			<div class="buttonText">
+				RECONNECT
+			</div>
+		</div>
+	</div>
+</div></div>	</div>
+	</body>
+</html>
